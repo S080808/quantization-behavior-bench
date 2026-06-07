@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-2757",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "10 rows, 8 columns",
+    "n_rows": 10,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-2757",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Skipper'?",
+    "gold": "George Snow",
+    "n_rows": 10,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-2757",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'State/Country'?",
+    "gold": "USA",
+    "n_rows": 10,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-2757",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'State/Country'?",
+    "gold": "CI",
+    "n_rows": 10,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-2757",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '5' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Position'",
+    "n_rows": 10,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-2757",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '15.15' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'LOA\\n(Metres)'",
+    "n_rows": 10,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-2757",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'YC1000' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Sail Number'",
+    "n_rows": 10,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-2757",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "2\nC1\nBrindabella\nNSW\nJutson 79\n24.07\nGeorge Snow\n2:21:55:06",
+    "n_rows": 10,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-2757",
+    "task": "row_retrieval",
+    "question": "List all values in row 9, one value per line.",
+    "gold": "9\n4826\nAspect Computing\nNSW\nRadford 16.5 Sloop\n16.50\nDavid Pescud\n3:15:28:24",
+    "n_rows": 10,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-2757",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Sail Number', one value per line.",
+    "gold": "US17\nC1\nYC1000\nAUS70\nCOK1\nSM1\n6606\n9090\n4826\n8338",
+    "n_rows": 10,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-2757",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Yacht Type', one value per line.",
+    "gold": "Farr ILC Maxi\nJutson 79\nFarr 47\nFarr 50\nFarr Ketch Maxi\nElliot 56\nNelson Marek 46\nNelson Marek 43\nRadford 16.5 Sloop\nHick 35",
+    "n_rows": 10,
+    "n_cols": 8
+  }
+]

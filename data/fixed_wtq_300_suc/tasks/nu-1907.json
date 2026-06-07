@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-1907",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "22 rows, 7 columns",
+    "n_rows": 22,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1907",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column '№'?",
+    "gold": "5",
+    "n_rows": 22,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1907",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Production\\ncode'?",
+    "gold": "–",
+    "n_rows": 22,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1907",
+    "task": "cell_lookup",
+    "question": "What value is in row 11, column '№'?",
+    "gold": "11",
+    "n_rows": 22,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1907",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Jordan Budde' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Written by'",
+    "n_rows": 22,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1907",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2190004' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Production\\ncode'",
+    "n_rows": 22,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1907",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2190002' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Production\\ncode'",
+    "n_rows": 22,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1907",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "4\n4\n\"The First Time\"\nBethany Rooney\nDarren Star\nOctober 25, 1990\n2190003",
+    "n_rows": 22,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1907",
+    "task": "row_retrieval",
+    "question": "List all values in row 22, one value per line.",
+    "gold": "22\n22\n\"Home Again\"\nCharles Braverman\nAmy Spies\nMay 9, 1991\n2190021",
+    "n_rows": 22,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1907",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Original air date', one value per line.",
+    "gold": "October 4, 1990\nOctober 11, 1990\nOctober 18, 1990\nOctober 25, 1990\nNovember 1, 1990\nNovember 15, 1990\nNovember 22, 1990\nNovember 29, 1990\nDecember 6, 1990\nJanuary 3, 1991\nJanuary 10, 1991\nJanuary 24, 1991\nJanuary 31, 1991\nFebruary 14, 1991\nFebruary 21, 1991\nFebruary 28, 1991\nMarch 7, 1991\nMarch 28, 1991\nApril 11, 1991\nApril 25, 1991\nMay 2, 1991\nMay 9, 1991",
+    "n_rows": 22,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1907",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Written by', one value per line.",
+    "gold": "Darren Star\nDavid Stenn\nAmy Spies\nDarren Star\nCharles Rosin\nJordan Budde\nDarren Star\nAmy Spies\nCharles Rosin\nCharles Rosin\nJordan Budde\nAmy Spies\nDarren Star\nCharles Rosin\nJordan Budde\nCharles Rosin & Karen Rosin\nAmy Spies\nDarren Star\nSteve Wasserman & Jessica Klein\nCharles Rosin\nDarren Star\nAmy Spies",
+    "n_rows": 22,
+    "n_cols": 7
+  }
+]

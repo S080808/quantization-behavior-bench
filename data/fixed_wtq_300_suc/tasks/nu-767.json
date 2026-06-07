@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-767",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "8 rows, 6 columns",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-767",
+    "task": "cell_lookup",
+    "question": "What value is in row 7, column 'Capital'?",
+    "gold": "Port Said",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-767",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Name'?",
+    "gold": "Asyut",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-767",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Name'?",
+    "gold": "Alexandria",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-767",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '25,400' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Area (km²)'",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-767",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '4' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Nr.'",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-767",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Al-Ahly - Al Mokawloon - ENPPI - El-Jaish - El-Shorta - Itesalat' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Club(s)'",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-767",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "3\nCairo\n3,435\n7,786,640\nCairo\nAl-Ahly - Al Mokawloon - ENPPI - El-Jaish - El-Shorta - Itesalat",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-767",
+    "task": "row_retrieval",
+    "question": "List all values in row 6, one value per line.",
+    "gold": "6\nIsmailia\n1,442\n942,832\nIsmailia\nIsmaily",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-767",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Nr.', one value per line.",
+    "gold": "1\n2\n3\n4\n5\n6\n7\n6",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-767",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Capital', one value per line.",
+    "gold": "Alexandria\nAsyut\nCairo\nTanta\nGiza\nIsmailia\nPort Said\nSuez",
+    "n_rows": 8,
+    "n_cols": 6
+  }
+]

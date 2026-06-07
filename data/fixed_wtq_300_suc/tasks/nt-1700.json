@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-1700",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 9 columns",
+    "n_rows": 25,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-1700",
+    "task": "cell_lookup",
+    "question": "What value is in row 19, column 'Average population (x 1000)'?",
+    "gold": "20 910",
+    "n_rows": 25,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-1700",
+    "task": "cell_lookup",
+    "question": "What value is in row 4, column 'Average population (x 1000)'?",
+    "gold": "18 810",
+    "n_rows": 25,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-1700",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Crude death rate (per 1000)'?",
+    "gold": "29.0",
+    "n_rows": 25,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-1700",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '222 495' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 25, column 'Natural change'",
+    "n_rows": 25,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-1700",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '23.6' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Crude death rate (per 1000)'",
+    "n_rows": 25,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-1700",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '24.4' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Crude death rate (per 1000)'",
+    "n_rows": 25,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-1700",
+    "task": "row_retrieval",
+    "question": "List all values in row 8, one value per line.",
+    "gold": "1907\n19 380\n646 371\n472 007\n174 364\n33.3\n24.4\n9.0\n",
+    "n_rows": 25,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-1700",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "1904\n18 980\n649 878\n486 889\n162 989\n34.2\n25.7\n8.6\n",
+    "n_rows": 25,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-1700",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Average population (x 1000)', one value per line.",
+    "gold": "18 520\n18 610\n18 720\n18 810\n18 980\n19 110\n19 250\n19 380\n19 530\n19 670\n19 770\n19 950\n20 040\n20 170\n20 310\n20 430\n20 610\n20 740\n20 910\n21 000\n21 130\n21 270\n21 510\n21 740\n21 990",
+    "n_rows": 25,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-1700",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Fertility rates', one value per line.",
+    "gold": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4,02\n4,02\n3,92",
+    "n_rows": 25,
+    "n_cols": 9
+  }
+]

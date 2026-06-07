@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-4334",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "8 rows, 6 columns",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4334",
+    "task": "cell_lookup",
+    "question": "What value is in row 7, column 'Reporters'?",
+    "gold": "Phil Sutterfield",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4334",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Network'?",
+    "gold": "CBS",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4334",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Network'?",
+    "gold": "CBS",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4334",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1957' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Year'",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4334",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Bryan Field' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Color commentator'",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4334",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1952' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Year'",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4334",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "1957\nCBS\nFred Capossela\nBryan Field\n\n",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4334",
+    "task": "row_retrieval",
+    "question": "List all values in row 6, one value per line.",
+    "gold": "1954\nCBS\nBryan Field\nMel Allen\n\nBill Corum",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4334",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Year', one value per line.",
+    "gold": "1959\n1958\n1957\n1956\n1955\n1954\n1953\n1952",
+    "n_rows": 8,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4334",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Reporters', one value per line.",
+    "gold": "\n\n\n\n\n\nPhil Sutterfield\n",
+    "n_rows": 8,
+    "n_cols": 6
+  }
+]

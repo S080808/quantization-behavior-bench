@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-1990",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 8 columns",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1990",
+    "task": "cell_lookup",
+    "question": "What value is in row 21, column 'Constructor'?",
+    "gold": "Benetton-BMW",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1990",
+    "task": "cell_lookup",
+    "question": "What value is in row 4, column 'Laps'?",
+    "gold": "81",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1990",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Grid'?",
+    "gold": "4",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1990",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Alan Jones' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 23, column 'Driver'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1990",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Ligier-Renault' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Constructor'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1990",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '14' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Grid'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1990",
+    "task": "row_retrieval",
+    "question": "List all values in row 8, one value per line.",
+    "gold": "8\n26\nPhilippe Alliot\nLigier-Renault\n79\n+ 3 Laps\n8\n",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1990",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "5\n4\nPhilippe Streiff\nTyrrell-Renault\n80\nOut of Fuel\n10\n2",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1990",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'No', one value per line.",
+    "gold": "1\n6\n28\n3\n4\n11\n25\n26\n14\n19\n16\n5\n7\n2\n22\n8\n17\n18\n12\n23\n20\n29\n15\n24\n21",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1990",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Time/Retired', one value per line.",
+    "gold": "1:54:20.388\n+ 4.205\n+ 1 Lap\n+ 1 Lap\nOut of Fuel\n+ 2 Laps\n+ 3 Laps\n+ 3 Laps\n+ 5 Laps\n+ 5 Laps\nNot Classified\nTyre\nElectrical\nTyre\nNot Classified\nBrakes\nEngine\nEngine\nEngine\nMechanical\nEngine\nSuspension\nEngine\nAccident\nTransmission",
+    "n_rows": 25,
+    "n_cols": 8
+  }
+]

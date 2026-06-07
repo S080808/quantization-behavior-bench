@@ -1,0 +1,12 @@
+{
+  "source_snapshot_dir": "/home/kazariansa/quantization/quant_table_repro/data/fixed_wtq_300",
+  "seed": 42,
+  "n_task_rows": 3300,
+  "tasks_per_table": {
+    "size_detection": 1,
+    "cell_lookup": 3,
+    "reverse_lookup": 3,
+    "row_retrieval": 2,
+    "col_retrieval": 2
+  }
+}

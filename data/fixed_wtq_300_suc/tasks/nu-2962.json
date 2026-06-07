@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-2962",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "11 rows, 7 columns",
+    "n_rows": 11,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2962",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Outcome'?",
+    "gold": "Runner-up",
+    "n_rows": 11,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2962",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Tournament'?",
+    "gold": "Kremlin Cup, Russia",
+    "n_rows": 11,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2962",
+    "task": "cell_lookup",
+    "question": "What value is in row 6, column 'Outcome'?",
+    "gold": "Winner",
+    "n_rows": 11,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2962",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'International Tennis Championships, United States' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Tournament'",
+    "n_rows": 11,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2962",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '27 February 2011' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Date'",
+    "n_rows": 11,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2962",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '19 June 2010' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Date'",
+    "n_rows": 11,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2962",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "Runner-up\n2.\n19 June 2010\nUNICEF Open, Netherlands\nGrass\nSergiy Stakhovsky\n3–6, 0–6",
+    "n_rows": 11,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2962",
+    "task": "row_retrieval",
+    "question": "List all values in row 9, one value per line.",
+    "gold": "Winner\n3.\n15 July 2012\nStuttgart Open, Germany\nClay\nJuan Mónaco\n6–4, 5–7, 6–3",
+    "n_rows": 11,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2962",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Outcome', one value per line.",
+    "gold": "Runner-up\nRunner-up\nRunner-up\nRunner-up\nWinner\nWinner\nRunner-up\nRunner-up\nWinner\nRunner-up\nWinner",
+    "n_rows": 11,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2962",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Surface', one value per line.",
+    "gold": "Hard (i)\nGrass\nHard\nGrass\nHard (i)\nHard (i)\nHard (i)\nHard\nClay\nClay\nHard",
+    "n_rows": 11,
+    "n_cols": 7
+  }
+]

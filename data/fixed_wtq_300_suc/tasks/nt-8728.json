@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-8728",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 6 columns",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-8728",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Event'?",
+    "gold": "10,000 m",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-8728",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Year'?",
+    "gold": "2001",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-8728",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Event'?",
+    "gold": "Marathon",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-8728",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2004' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 12, column 'Year'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-8728",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'DNF' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'Notes'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-8728",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2002' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Year'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-8728",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "2010\nCentral American and Caribbean Games\nMayagüez, Puerto Rico\n1st\nMarathon\n2:21:35",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-8728",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "2001\nCentral American Games\nGuatemala City, Guatemala\n1st\n5000 m\n14:28.91 A",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-8728",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Notes', one value per line.",
+    "gold": "\n14:57.04\n30:53.52\n14:28.91 A\n30:43.86 A\n14:30.14\n30:05.31\n15:19.35\n30:16.25\nDNF\n30:26.61\n2:27:13\n30:11.54\n14:31.55\n14:27.54\n30:09.31\n14:42.08\n29:53.61\n14:33.31\n29:42.11\n2:14:27\n2:20:15\n14:55.44\n2:21:35\n32:06.26",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-8728",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Event', one value per line.",
+    "gold": "10,000 m\n5000 m\n10,000 m\n5000 m\n10,000 m\n5000 m\n10,000 m\n5000 m\n10,000 m\n5000 m\n10,000 m\nMarathon\n10,000 m\n5000 m\n5000 m\n10,000 m\n5000 m\n10,000 m\n5000 m\n10,000 m\nMarathon\nMarathon\n5000 m\nMarathon\n10,000 m",
+    "n_rows": 25,
+    "n_cols": 6
+  }
+]

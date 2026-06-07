@@ -1,0 +1,191 @@
+{
+  "id": "nu-871",
+  "question": "what is the designation of the only ship listed as being torpedoed?",
+  "answers": [
+    "PE-56"
+  ],
+  "header": [
+    "Designation",
+    "Keel Laid",
+    "Launched",
+    "Commissioned",
+    "Fate"
+  ],
+  "rows": [
+    [
+      "PE-1",
+      "7 May 1918",
+      "11 July 1918",
+      "27 October 1918",
+      "Sold 11 June 1930"
+    ],
+    [
+      "PE-2",
+      "10 May 1918",
+      "19 August 1918",
+      "11 July 1918",
+      "Sold 11 June 1930"
+    ],
+    [
+      "PE-3",
+      "16 May 1918",
+      "11 September 1918",
+      "11 November 1918",
+      "Sold 11 June 1930"
+    ],
+    [
+      "PE-4",
+      "21 May 1918",
+      "15 September 1918",
+      "14 November 1918",
+      "Sold 11 June 1930"
+    ],
+    [
+      "PE-5",
+      "28 May 1918",
+      "28 September 1918",
+      "19 November 1918",
+      "Sold 11 June 1930"
+    ],
+    [
+      "PE-6",
+      "3 June 1918",
+      "16 October 1918",
+      "21 November 1918",
+      "Expended as target 30 November 1934"
+    ],
+    [
+      "PE-7",
+      "8 June 1918",
+      "5 October 1918",
+      "24 November 1918",
+      "Expended as target 30 November 1934"
+    ],
+    [
+      "PE-8",
+      "10 June 1918",
+      "11 November 1918",
+      "31 October 1919",
+      "Sold 1 April 1931"
+    ],
+    [
+      "PE-9",
+      "17 June 1918",
+      "8 November 1918",
+      "27 October 1919",
+      "Sold 26 May 1930"
+    ],
+    [
+      "PE-10",
+      "6 July 1918",
+      "9 November 1918",
+      "31 October 1919",
+      "Destroyed 19 August 1937"
+    ],
+    [
+      "PE-11",
+      "13 July 1918",
+      "14 November 1918",
+      "29 May 1919",
+      "Sold 16 January 1935"
+    ],
+    [
+      "PE-12",
+      "13 July 1918",
+      "12 November 1918",
+      "6 November 1919",
+      "Sold 30 December 1935"
+    ],
+    [
+      "PE-13",
+      "15 July 1918",
+      "9 January 1919",
+      "2 April 1919",
+      "Sold 26 May 1930"
+    ],
+    [
+      "PE-14",
+      "20 July 1918",
+      "23 January 1919",
+      "17 June 1919",
+      "Expended as target 22 November 1934"
+    ],
+    [
+      "PE-15",
+      "21 July 1918",
+      "25 January 1919",
+      "11 June 1919",
+      "Sold 14 June 1934"
+    ],
+    [
+      "PE-16",
+      "22 July 1918",
+      "11 January 1919",
+      "5 June 1919",
+      "Transferred to USCG late 1919"
+    ],
+    [
+      "PE-17",
+      "3 August 1918",
+      "1 February 1919",
+      "3 July 1919",
+      "Wrecked off Long Island, New York 22 May 1922"
+    ],
+    [
+      "PE-18",
+      "5 August 1918",
+      "10 February 1919",
+      "7 August 1919",
+      "Sold 11 June 1930"
+    ],
+    [
+      "PE-19",
+      "6 August 1918",
+      "30 January 1919",
+      "25 June 1919",
+      "In service during WWII\\nDestroyed 6 August 1946"
+    ],
+    [
+      "PE-20",
+      "26 August 1918",
+      "15 February 1919",
+      "28 July 1919",
+      "Transferred to USCG late 1919"
+    ],
+    [
+      "PE-21",
+      "31 August 1918",
+      "15 February 1919",
+      "31 July 1919",
+      "Transferred to USCG late 1919"
+    ],
+    [
+      "PE-22",
+      "5 September 1918",
+      "10 February 1919",
+      "17 July 1919",
+      "Transferred to USCG late 1919"
+    ],
+    [
+      "PE-23",
+      "11 September 1918",
+      "20 February 1919",
+      "19 June 1919",
+      "Sold 11 June 1930"
+    ],
+    [
+      "PE-24",
+      "13 September 1918",
+      "24 February 1919",
+      "12 July 1919",
+      "Sold 11 June 1930"
+    ],
+    [
+      "PE-25",
+      "17 September 1918",
+      "19 February 1919",
+      "30 June 1919",
+      "Capsized in Delaware Bay squall 11 June 1920"
+    ]
+  ]
+}

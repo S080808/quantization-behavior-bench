@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-2166",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "14 rows, 9 columns",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2166",
+    "task": "cell_lookup",
+    "question": "What value is in row 10, column 'Year'?",
+    "gold": "1935",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2166",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Finish'?",
+    "gold": "3",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2166",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Qual'?",
+    "gold": "102.789",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2166",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Valve' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Retired'",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2166",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '20' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Start'",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2166",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Supercharger' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Retired'",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2166",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "1928\n8\n4\n117.031\n4\n10\n200\n33\nRunning",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2166",
+    "task": "row_retrieval",
+    "question": "List all values in row 12, one value per line.",
+    "gold": "1938\n17\n4\n122.499\n6\n17\n130\n0\nRod",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2166",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Car', one value per line.",
+    "gold": "31\n27\n8\n23\n9\n37\n25\n34\n8\n44\n38\n17\n62\nTotals",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2166",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Retired', one value per line.",
+    "gold": "Flagged\nRunning\nRunning\nSupercharger\nValve\nCrash T4\nFlagged\nRunning\nRod\nMagneto\nRunning\nRod\nRunning\n",
+    "n_rows": 14,
+    "n_cols": 9
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-458",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 6 columns",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-458",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Completed'?",
+    "gold": "1936",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-458",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Name'?",
+    "gold": "Saarinen House furnishings",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-458",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Completed'?",
+    "gold": "1942",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-458",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'With Eliel Saarinen and J. Robert F. Swanson' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Other Information'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-458",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Charles and Ingrid Koebel House' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Name'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-458",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Swedish Theatre' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Name'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-458",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "Christ Church Lutheran\nMinneapolis\nMinnesota\n1947\n1949\nWith Eliel Saarinen; solo addition in 1962. Designated a National Historic Landmark in 2009.",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-458",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "Hvitträsk Studio and Home\nKirkkonummi\nFinland\n1929\n1937\nRemodel",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-458",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Other Information', one value per line.",
+    "gold": "With Eliel Saarinen\n\n\nRemodel\nRemodel. With Eliel Saarinen\nWith Eliel Saarinen\nFirst building designed independently\nWith Eliel Saarinen and J. Robert F. Swanson\nWith Eliel Saarinen. Designated a National Historic Landmark in 1989\nWith Eliel Saarinen and Perkins & Will. Designated a National Historic Landmark in 1990\nTanglewood Shed in 1938 (with Eliel Saarinen and Joseph Franz), Chamber Music Shed in 1947 (with Eliel Saarinen), Edmund Haws Talbot Orchestra Canopy in 1959\nWith Eliel Saarinen and J. Robert F. Swanson. 477 housing units\n\nDemolished\nChair design for Knoll Associates\nWith Eliel Saarinen and J. Robert F. Swanson.\nWith Eliel Saarinen and J. Robert F. Swanson.\nWith Eliel Saarinen and J. Robert F. Swanson. Listed on the National Register of Historic Places in 2004\nWith Charles Eames. Saarinen also provided an original plan for House #8, but Eames completely redesigned it. Listed on the National Register of Historic Places in 2013\nChair design for Knoll Associates\nWith Eliel Saarinen and J. Robert F. Swanson\nHarvey Ingham Hall of Science, Fitch Hall of Pharmacy, Women's Dormitory & Dining Hall (all in 1945 with Eliel Saarinen and J. Robert F. Swanson), Bible School & Prayer Chapel in 1952, Women's Dormitory #4 in 1957, Jewett Union addition in 1957\nChair design for Knoll Associates\nWith Eliel Saarinen; solo addition in 1962. Designated a National Historic Landmark in 2009.\nRenovation of a Victorian house",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-458",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Completed', one value per line.",
+    "gold": "1931\n1930\n1931\n1937\n1936\n1938\n1938\n1940\n1940\n1942\n1959\n1942\n1942\n1943\n1946\n1946\n1947\n1948\n1949\n1950\n1952\n1957\n1948\n1949\n1959",
+    "n_rows": 25,
+    "n_cols": 6
+  }
+]

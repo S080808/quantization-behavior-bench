@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-13784",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 7 columns",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-13784",
+    "task": "cell_lookup",
+    "question": "What value is in row 24, column 'Sub­divisions'?",
+    "gold": "3 acts",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-13784",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Title'?",
+    "gold": "Primislao, primo re di Boemia",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-13784",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Notes'?",
+    "gold": "version of the score survives in Library of Congress, Washington",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-13784",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Apostolo Zeno' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Libretto'",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-13784",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'music lost, except some arias' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Notes'",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-13784",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1700, autumn' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Première date'",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-13784",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "Primislao, primo re di Boemia\ndramma per musica\n3 acts\nGiulio Cesare Corradi\n1697, autumn\nVenice, Teatro S Cassiano\nmusic lost",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-13784",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "La pace generosa\ndramma per musica\n3 acts\nFrancesco Silvani\n1711, autumn\nGenoa, Falcone\nmusic lost",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-13784",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Title', one value per line.",
+    "gold": "Zenobia, regina de’ Palmireni\nIl prodigio dell’innocenza\nZenone, imperator d’Oriente\nIl Tigrane, re d’Armenia\nPrimislao, primo re di Boemia\nL’ingratitudine castigata\nRadamisto\nDiomede punito da Alcide\nL’inganno innocente\nL’arte in gara con l’arte\nGriselda\nAminta\nIl più fedel tra i vassalli\nLa prosperità di Elio Sejano\nLa fede tra gl’inganni\nLa fortezza al cimento\nAstarto\nPimpinone\nEngelberta\nIl tradimento tradito\nCiro\nIl tiranno eroe\nIl Giustino\nLa pace generosa\nLe gare generose",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-13784",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Place, theatre', one value per line.",
+    "gold": "Venice, Teatro Santi Giovanni e Paolo\nVenice, Teatro Santi Giovanni e Paolo\nVenice, Teatro S Cassiano\nVenice, Teatro S Cassiano\nVenice, Teatro S Cassiano\nVenice, Teatro S Cassiano\nVenice, Teatro Sant'Angelo\nVenice, Teatro Sant'Angelo\nVenice, Teatro Sant'Angelo\nVenice, Teatro S Cassiano\nFlorence, Cocomero\nFlorence, Cocomero\nGenoa, Falcone\nGenoa, Falcone\nVenice, Teatro Sant'Angelo\nPiacenza, Ducale\nVenice, Teatro S Cassiano\nVenice, Teatro S Cassiano\nVenice, Teatro S Cassiano\nVenice, Teatro Sant'Angelo\nVenice, Teatro S Cassiano\nVenice, Teatro S Cassiano\nBologna, Formagliari\nGenoa, Falcone\nVenice, Teatro S Cassiano",
+    "n_rows": 25,
+    "n_cols": 7
+  }
+]

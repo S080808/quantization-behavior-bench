@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-4022",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 11 columns",
+    "n_rows": 25,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-4022",
+    "task": "cell_lookup",
+    "question": "What value is in row 6, column 'Date'?",
+    "gold": "July 8, 2271",
+    "n_rows": 25,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-4022",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Member'?",
+    "gold": "2",
+    "n_rows": 25,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-4022",
+    "task": "cell_lookup",
+    "question": "What value is in row 13, column 'Width\\n(km)'?",
+    "gold": "118",
+    "n_rows": 25,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-4022",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '9' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Member'",
+    "n_rows": 25,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-4022",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '-0.9574' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Gamma'",
+    "n_rows": 25,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-4022",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '-1.2139' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Gamma'",
+    "n_rows": 25,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-4022",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "160\n24\nJanuary 20, 2596\n17:22:01\nAnnular\n38.3S 67.6W\n-0.3119\n0.9862\n51\n1m 20s\n[24]",
+    "n_rows": 25,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-4022",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "160\n4\nJune 16, 2235\n11:00:36\nPartial\n66.5S 8.8E\n-1.299\n0.4502\n\n\n[4]",
+    "n_rows": 25,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-4022",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Ref', one value per line.",
+    "gold": "[1]\n[2]\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\n[13]\n[14]\n[15]\n[16]\n[17]\n[18]\n[19]\n[20]\n[21]\n[22]\n[23]\n[24]\n[25]",
+    "n_rows": 25,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-4022",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Width\\n(km)', one value per line.",
+    "gold": "\n\n\n\n\n\n\n501\n256\n186\n151\n130\n118\n110\n104\n101\n97\n94\n91\n86\n80\n72\n63\n51\n38",
+    "n_rows": 25,
+    "n_cols": 11
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-1036",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "22 rows, 5 columns",
+    "n_rows": 22,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-1036",
+    "task": "cell_lookup",
+    "question": "What value is in row 17, column 'Crystal Bicycle\\n(Best Professional Cyclist)'?",
+    "gold": "Philippe Gilbert",
+    "n_rows": 22,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-1036",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Crystal Drop of Sweat\\n(Best Helper)'?",
+    "gold": "Not Awarded",
+    "n_rows": 22,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-1036",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Best Manager'?",
+    "gold": "Not Awarded",
+    "n_rows": 22,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-1036",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Kris Boeckmans' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 18, column 'Best Young Rider'",
+    "n_rows": 22,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-1036",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Frank Vandenbroucke' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Crystal Bicycle\\n(Best Professional Cyclist)'",
+    "n_rows": 22,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-1036",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Tom Steels' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Crystal Bicycle\\n(Best Professional Cyclist)'",
+    "n_rows": 22,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-1036",
+    "task": "row_retrieval",
+    "question": "List all values in row 8, one value per line.",
+    "gold": "1999\nFrank Vandenbroucke\nKevin Hulsmans\nNot Awarded\nNot Awarded",
+    "n_rows": 22,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-1036",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "1996\nJohan Museeuw\nGlenn D'Hollander\nNot Awarded\nNot Awarded",
+    "n_rows": 22,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-1036",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Year', one value per line.",
+    "gold": "1992\n1993\n1994\n1995\n1996\n1997\n1998\n1999\n2000\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013",
+    "n_rows": 22,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-1036",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Crystal Drop of Sweat\\n(Best Helper)', one value per line.",
+    "gold": "Not Awarded\nNot Awarded\nNot Awarded\nNot Awarded\nNot Awarded\nNot Awarded\nNot Awarded\nNot Awarded\nNot Awarded\nNot Awarded\nNot Awarded\nNot Awarded\nNot Awarded\nKevin Hulsmans\nGert Steegmans\nJohan Vansummeren\nMario Aerts\nStijn Vandenbergh\nMario Aerts\nJelle Vanendert\nKevin De Weert\nStijn Vandenbergh",
+    "n_rows": 22,
+    "n_cols": 5
+  }
+]

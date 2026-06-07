@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-1961",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 8 columns",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1961",
+    "task": "cell_lookup",
+    "question": "What value is in row 21, column 'Trainer'?",
+    "gold": "H. Allen Jerkens",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1961",
+    "task": "cell_lookup",
+    "question": "What value is in row 4, column 'Owner'?",
+    "gold": "Lael Stables",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1961",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Time'?",
+    "gold": "1:50.55",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1961",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Joan G. & John W. Phillips' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 12, column 'Owner'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1961",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Indy Five Hundred' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Winner'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1961",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Jose A. Santos' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'Jockey'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1961",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "2009\nMiss World\nCornelio Velasquez\nChristophe Clement\nWaratah Thoroughbreds\n1-1/8\n1:53.55\n$180,000",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1961",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "1990\nAishah\nJose A. Santos\nFlint S. Schulhofer\nHelen K. Groves\n1\n1:35.40\n$57,690",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1961",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Winner', one value per line.",
+    "gold": "Alterlite (FR)\nSamitar\nWinter Memories\nCheck the Label\nMiss World\nBackseat Rhythm\nAlexander Tango\nMagnificent Song\nLuas Line\nLucifer's Stone\nIndy Five Hundred\nWonder Again\nVoodoo Dancer\nGaviola\nPerfect Sting\nPharatta-IR\nAuntie Mame\nTrue Flare\nPerfect Arc\nJade Flush\nSky Beauty\nNovember Snow\nDazzle Me Jolie\nAishah\nHighest Glory",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1961",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Distance\\n(Miles)', one value per line.",
+    "gold": "1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/8\n1-1/16\n1-1/16\n1-1/16\n1\n1\n1\n1\n1",
+    "n_rows": 25,
+    "n_cols": 8
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-3108",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "21 rows, 4 columns",
+    "n_rows": 21,
+    "n_cols": 4
+  },
+  {
+    "table_id": "nu-3108",
+    "task": "cell_lookup",
+    "question": "What value is in row 21, column 'Result'?",
+    "gold": "Won",
+    "n_rows": 21,
+    "n_cols": 4
+  },
+  {
+    "table_id": "nu-3108",
+    "task": "cell_lookup",
+    "question": "What value is in row 4, column 'Award'?",
+    "gold": "ALMA Award Outstanding Actor in a Television Series",
+    "n_rows": 21,
+    "n_cols": 4
+  },
+  {
+    "table_id": "nu-3108",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Film'?",
+    "gold": "Young Guns",
+    "n_rows": 21,
+    "n_cols": 4
+  },
+  {
+    "table_id": "nu-3108",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'SAG Award Outstanding Performance by a Male Actor in a Comedy Series' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Award'",
+    "n_rows": 21,
+    "n_cols": 4
+  },
+  {
+    "table_id": "nu-3108",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Two and a Half Men' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Film'",
+    "n_rows": 21,
+    "n_cols": 4
+  },
+  {
+    "table_id": "nu-3108",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Kids' Choice Awards Favorite Television Actor' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Award'",
+    "n_rows": 21,
+    "n_cols": 4
+  },
+  {
+    "table_id": "nu-3108",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "2002\nNominated\nALMA Award Outstanding Actor in a Television Series\nSpin City",
+    "n_rows": 21,
+    "n_cols": 4
+  },
+  {
+    "table_id": "nu-3108",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "2001\nNominated\nALMA Award Outstanding Actor in a Television Series\nSpin City",
+    "n_rows": 21,
+    "n_cols": 4
+  },
+  {
+    "table_id": "nu-3108",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Year', one value per line.",
+    "gold": "1989\n1999\n1999\n2001\n2002\n2002\n2002\n2005\n2005\n2006\n2006\n2006\n2007\n2007\n2007\n2008\n2008\n2008\n2008\n2010\n2012",
+    "n_rows": 21,
+    "n_cols": 4
+  },
+  {
+    "table_id": "nu-3108",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Award', one value per line.",
+    "gold": "Bronze Wrangler Theatrical Motion Picture\nSAG Award Outstanding Performance by a Cast in a Theatrical Motion Picture\nOnline Film Critics Society Award for Best Cast\nALMA Award Outstanding Actor in a Television Series\nALMA Award Outstanding Actor in a Television Series\nGolden Globe Award Best Performance by an Actor in a Television Series - Musical or Comedy\nKids' Choice Awards Favorite Television Actor\nSAG Award Outstanding Performance by a Male Actor in a Comedy Series\nGolden Globe Award for Best Actor – Television Series Musical or Comedy\nGolden Icon Award Best Actor - Comedy Series\nEmmy Award for Outstanding Lead Actor - Comedy Series\nGolden Globe Award for Best Actor – Television Series Musical or Comedy\nPeople's Choice Award Favorite Male TV Star\nTeen Choice Award Choice TV Actor: Comedy\nEmmy Award for Outstanding Lead Actor - Comedy Series\nPeople's Choice Award Favorite Male TV Star\nTeen Choice Awards Choice TV Actor: Comedy\nOutstanding Lead Actor - Comedy Series\nALMA Award Outstanding Actor in a Comedy Television Series\nSAG Award Outstanding Performance by a Male Actor in a Comedy Series\nWWE Slammy Award Top Social Media Ambassador",
+    "n_rows": 21,
+    "n_cols": 4
+  }
+]

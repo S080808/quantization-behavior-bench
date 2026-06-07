@@ -1,0 +1,295 @@
+{
+  "id": "nu-2706",
+  "question": "how many matches were \"drawn\" during the 1970's?",
+  "answers": [
+    "7"
+  ],
+  "header": [
+    "No.",
+    "Score",
+    "Player",
+    "Team",
+    "Balls",
+    "Inns.",
+    "Opposing team",
+    "Date",
+    "Result"
+  ],
+  "rows": [
+    [
+      "1",
+      "152",
+      "Clyde Walcott",
+      "West Indies",
+      "NR",
+      "1",
+      "India",
+      "10 November 1948",
+      "Drawn"
+    ],
+    [
+      "2",
+      "101",
+      "Gerry Gomez",
+      "West Indies",
+      "NR",
+      "1",
+      "India",
+      "10 November 1948",
+      "Drawn"
+    ],
+    [
+      "3",
+      "128",
+      "Everton Weekes",
+      "West Indies",
+      "NR",
+      "1",
+      "India",
+      "10 November 1948",
+      "Drawn"
+    ],
+    [
+      "4",
+      "107",
+      "Robert Christiani",
+      "West Indies",
+      "NR",
+      "1",
+      "India",
+      "10 November 1948",
+      "Drawn"
+    ],
+    [
+      "5",
+      "114*",
+      "Hemu Adhikari",
+      "India",
+      "NR",
+      "2",
+      "West Indies",
+      "10 November 1948",
+      "Drawn"
+    ],
+    [
+      "6",
+      "154",
+      "Vijay Merchant",
+      "India",
+      "NR",
+      "2",
+      "England",
+      "2 November 1951",
+      "Drawn"
+    ],
+    [
+      "7",
+      "164*",
+      "Vijay Hazare",
+      "India",
+      "NR",
+      "2",
+      "England",
+      "2 November 1951",
+      "Drawn"
+    ],
+    [
+      "8",
+      "137*",
+      "Allan Watkins",
+      "England",
+      "NR",
+      "3",
+      "India",
+      "2 November 1951",
+      "Drawn"
+    ],
+    [
+      "9",
+      "230*",
+      "Bert Sutcliffe",
+      "New Zealand",
+      "NR",
+      "1",
+      "India",
+      "16 December 1955",
+      "Drawn"
+    ],
+    [
+      "10",
+      "119*",
+      "John Reid",
+      "New Zealand",
+      "NR",
+      "1",
+      "India",
+      "16 December 1955",
+      "Drawn"
+    ],
+    [
+      "11",
+      "177",
+      "Vijay Manjrekar (1/2)",
+      "India",
+      "NR",
+      "2",
+      "New Zealand",
+      "16 December 1955",
+      "Drawn"
+    ],
+    [
+      "12",
+      "109",
+      "Chandu Borde",
+      "India",
+      "NR",
+      "1",
+      "West Indies",
+      "6 February 1959",
+      "Drawn"
+    ],
+    [
+      "13",
+      "123",
+      "John Holt",
+      "West Indies",
+      "NR",
+      "2",
+      "India",
+      "6 February 1959",
+      "Drawn"
+    ],
+    [
+      "14",
+      "100",
+      "Collie Smith",
+      "West Indies",
+      "NR",
+      "2",
+      "India",
+      "6 February 1959",
+      "Drawn"
+    ],
+    [
+      "15",
+      "100*",
+      "Joe Solomon",
+      "West Indies",
+      "NR",
+      "2",
+      "India",
+      "6 February 1959",
+      "Drawn"
+    ],
+    [
+      "16",
+      "114",
+      "Neil Harvey",
+      "Australia",
+      "NR",
+      "2",
+      "India",
+      "12 December 1959",
+      "Won"
+    ],
+    [
+      "17",
+      "112",
+      "Polly Umrigar",
+      "India",
+      "NR",
+      "1",
+      "Pakistan",
+      "8 February 1961",
+      "Drawn"
+    ],
+    [
+      "18",
+      "101",
+      "Mushtaq Mohammad",
+      "Pakistan",
+      "NR",
+      "2",
+      "India",
+      "8 February 1961",
+      "Drawn"
+    ],
+    [
+      "19",
+      "127",
+      "Motganhalli Jaisimha",
+      "India",
+      "NR",
+      "1",
+      "England",
+      "13 December 1961",
+      "Drawn"
+    ],
+    [
+      "20",
+      "189*",
+      "Vijay Manjrekar (2/2)",
+      "India",
+      "NR",
+      "1",
+      "England",
+      "13 December 1961",
+      "Drawn"
+    ],
+    [
+      "21",
+      "113*",
+      "Ken Barrington",
+      "England",
+      "NR",
+      "2",
+      "India",
+      "13 December 1961",
+      "Drawn"
+    ],
+    [
+      "22",
+      "105",
+      "Hanumant Singh",
+      "India",
+      "NR",
+      "1",
+      "England",
+      "8 February 1964",
+      "Drawn"
+    ],
+    [
+      "23",
+      "151",
+      "Colin Cowdrey",
+      "England",
+      "NR",
+      "2",
+      "India",
+      "8 February 1964",
+      "Drawn"
+    ],
+    [
+      "24",
+      "100",
+      "Budhi Kunderan",
+      "India",
+      "NR",
+      "3",
+      "England",
+      "8 February 1964",
+      "Drawn"
+    ],
+    [
+      "25",
+      "203*",
+      "Nawab of Pataudi (1/2)",
+      "India",
+      "NR",
+      "3",
+      "England",
+      "8 February 1964",
+      "Drawn"
+    ]
+  ]
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-3588",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "15 rows, 6 columns",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3588",
+    "task": "cell_lookup",
+    "question": "What value is in row 14, column 'Reg. Season'?",
+    "gold": "4th",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3588",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'League'?",
+    "gold": "ASL",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3588",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Reg. Season'?",
+    "gold": "6th",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3588",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2nd(t)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Reg. Season'",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3588",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '5th, American' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Reg. Season'",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3588",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1938/39' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Year'",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3588",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "1936/37\nN/A\nASL\n2nd, American\n1st Round\n?",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3588",
+    "task": "row_retrieval",
+    "question": "List all values in row 12, one value per line.",
+    "gold": "1945/46\nN/A\nASL\n1st\nChampion (no playoff)\n?",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3588",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Year', one value per line.",
+    "gold": "1934/35\n1935/36\n1936/37\n1937/38\n1938/39\n1939/40\n1940/41\n1941/42\n1942/43\n1943/44\n1944/45\n1945/46\n1946/47\n1947/48\n1948/49",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3588",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Playoffs', one value per line.",
+    "gold": "No playoff\nNo playoff\n1st Round\nDid not qualify\nDid not qualify\nNo playoff\nNo playoff\nNo playoff\nNo playoff\nNo playoff\nNo playoff\nChampion (no playoff)\nNo playoff\nNo playoff\nN/A",
+    "n_rows": 15,
+    "n_cols": 6
+  }
+]

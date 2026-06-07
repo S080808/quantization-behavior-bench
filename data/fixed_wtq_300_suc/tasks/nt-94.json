@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-94",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 8 columns",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-94",
+    "task": "cell_lookup",
+    "question": "What value is in row 21, column 'Date'?",
+    "gold": "October 7, 1995",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-94",
+    "task": "cell_lookup",
+    "question": "What value is in row 4, column 'Days held'?",
+    "gold": "0",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-94",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Event'?",
+    "gold": "Live event",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-94",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '70' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 13, column 'Days held'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-94",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'The Public Enemy\\n(Johnny Grunge and Rocco Rock)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 12, column 'Wrestlers'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-94",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'December 4, 1993' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Date'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-94",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "5\nThe Suicide Blondes\n2\nMay 15, 1993\n46\nPhiladelphia, PA\nHardcore TV #15\nAired 7-20-93 on TV",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-94",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "22\nThe Eliminators\\n(Kronus and Saturn)\n1\nFebruary 3, 1996\n182\nNew York, NY\nBig Apple Blizzard Blast\n",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-94",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Wrestlers', one value per line.",
+    "gold": "The Super Destroyers\\n(A.J. Petrucci and Doug Stahl)\nTony Stetson and Larry Winters\nThe Suicide Blondes\\n(Chris Candido, Johnny Hotbody, and Chris Michaels)\nThe Super Destroyers\nThe Suicide Blondes\nVacated\nThe Dark Patriot and Eddie Gilbert\nVacated\nJohnny Hotbody (3) and Tony Stetson (2)\nTommy Dreamer and Johnny Gunn\nKevin Sullivan and The Tazmaniac\nThe Public Enemy\\n(Johnny Grunge and Rocco Rock)\nCactus Jack and Mikey Whipwreck\nThe Public Enemy\nSabu and The Tazmaniac (2)\nChris Benoit and Dean Malenko\nThe Public Enemy\nRaven and Stevie Richards\nThe Pitbulls\\n(Pitbull #1 and Pitbull #2)\nRaven and Stevie Richards\nThe Public Enemy\n2 Cold Scorpio and The Sandman\nCactus Jack and Mikey Whipwreck\nThe Eliminators\\n(Kronus and Saturn)\nThe Gangstas\\n(Mustapha Saed and New Jack)",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-94",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Location', one value per line.",
+    "gold": "Philadelphia, PA\nRadnor, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nN/A\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nJim Thorpe, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nPhiladelphia, PA\nNew York, NY\nNew York, NY\nPhiladelphia, PA",
+    "n_rows": 25,
+    "n_cols": 8
+  }
+]

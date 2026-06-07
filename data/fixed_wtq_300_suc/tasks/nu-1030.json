@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-1030",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 7 columns",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1030",
+    "task": "cell_lookup",
+    "question": "What value is in row 24, column 'Incumbent\\nParty'?",
+    "gold": "Democratic",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1030",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'State\\n(linked to\\nsummaries below)'?",
+    "gold": "Florida",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1030",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Candidates'?",
+    "gold": "[Data unknown/missing. You can help!]",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1030",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2006\\n2012' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Most recent election results'",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1030",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Angus King (I) 52.9%\\nCharles E. Summers, Jr. (R) 30.7%\\nCynthia Dill (D) 13.3%' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Incumbent\\nElectoral\\nhistory'",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1030",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Maine' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'State\\n(linked to\\nsummaries below)'",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1030",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "Florida\nBill Nelson\nDemocratic\nBill Nelson (D) 55.2%\\nConnie Mack IV (R) 42.2%\n2000\\n2006\\n2012\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1030",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "Rhode Island\nSheldon Whitehouse\nDemocratic\nSheldon Whitehouse (D) 64.8%\\nBarry Hinckley (R) 35.0%\n2006\\n2012\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1030",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'State\\n(linked to\\nsummaries below)', one value per line.",
+    "gold": "Arizona\nCalifornia\nConnecticut\nDelaware\nFlorida\nHawaii\nIndiana\nMaine\nMaryland\nMassachusetts\nMichigan\nMinnesota\nMississippi\nMissouri\nMontana\nNebraska\nNevada\nNew Jersey\nNew Mexico\nNew York\nNorth Dakota\nOhio\nPennsylvania\nRhode Island\nTennessee",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1030",
+    "task": "col_retrieval",
+    "question": "List all values in the column '2018 intent', one value per line.",
+    "gold": "[Data unknown/missing. You can help!]\nRunning\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]\n[Data unknown/missing. You can help!]",
+    "n_rows": 25,
+    "n_cols": 7
+  }
+]

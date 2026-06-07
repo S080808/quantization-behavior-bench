@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-3268",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "12 rows, 5 columns",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3268",
+    "task": "cell_lookup",
+    "question": "What value is in row 9, column 'Character'?",
+    "gold": "Chemical Kid",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3268",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Home world'?",
+    "gold": "Durla",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3268",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Real name'?",
+    "gold": "Lydda Jath",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3268",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'First appeared in Adventure Comics #523 (April 2011) as a student at the Legion Academy.\\nJoined between Legion of Super-Heroes vol. 6, #16 (October 2011) and Legion of Super-Heroes vol. 7, #1 (November 2011).' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'Membership notes'",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3268",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Earth' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Home world'",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3268",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Green Lantern' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Character'",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3268",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "Green Lantern\nRond Vidar\nEarth\nPre-Crisis version first appeared in Adventure Comics #349 (October 1966); granted honorary membership in Adventure Comics #360 (September 1967).\\nLast remaining member of the Green Lantern Corps, as revealed in Final Crisis: Legion of 3 Worlds #2 (November 2008).\\nKilled in the same issue by Superboy-Prime.\nPossesses a Green Lantern power ring.",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3268",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "Karate Kid II\nMyg\nLythyl\nJoined as a replacement for Val Armorr, as revealed in Final Crisis: Legion of 3 Worlds #1 (October 2008), unlike his counterpart who did not join the original team prior to Crisis on Infinite Earths.\\nKilled by Radiation Roy in Final Crisis: Legion of 3 Worlds #3 (April 2009).\nMastery of all known martial arts.",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3268",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Character', one value per line.",
+    "gold": "Night Girl\nChameleon Girl\nKarate Kid II\nGreen Lantern\nXS\nGates\nEarth-Man\nComet Queen\nChemical Kid\nGlorith II\nDragonwing\nHarmonia",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3268",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Powers', one value per line.",
+    "gold": "Super-strength when not in direct sunlight.\nShapeshifting.\nMastery of all known martial arts.\nPossesses a Green Lantern power ring.\nSuperspeed.\nCreation of teleportation \"gates\".\nSuper-power absorption and duplication.\nSpace flight, comet gas extrusion.\nCatalyze chemical reactions.\nManipulation of mystical energies.\nFire breath and acid absorption.\nElemental.",
+    "n_rows": 12,
+    "n_cols": 5
+  }
+]

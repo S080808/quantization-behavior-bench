@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-748",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 10 columns",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-748",
+    "task": "cell_lookup",
+    "question": "What value is in row 17, column 'Legs Lost'?",
+    "gold": "10",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-748",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'High Checkout'?",
+    "gold": "151",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-748",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column '140+'?",
+    "gold": "77",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-748",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '92.02' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 16, column '3-dart Average'",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-748",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '96.71' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column '3-dart Average'",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-748",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '16' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Legs Lost'",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-748",
+    "task": "row_retrieval",
+    "question": "List all values in row 8, one value per line.",
+    "gold": "Andy Smith\n1\n5\n10\n1\n19\n15\n1\n112\n95.29",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-748",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "Mervyn King\n4\n45\n38\n16\n112\n66\n18\n147\n96.30",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-748",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Played', one value per line.",
+    "gold": "5\n3\n2\n2\n4\n1\n3\n1\n5\n3\n4\n2\n2\n3\n1\n2\n1\n1\n1\n2\n1\n1\n1\n1\n1",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-748",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'High Checkout', one value per line.",
+    "gold": "144\n126\n151\n130\n147\n127\n153\n112\n131\n156\n132\n157\n110\n131\n71\n121\n96\n126\n120\n125\n121\n96\n116\n84\n56",
+    "n_rows": 25,
+    "n_cols": 10
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-1051",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 5 columns",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1051",
+    "task": "cell_lookup",
+    "question": "What value is in row 17, column 'Reigns:'?",
+    "gold": "3",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1051",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Notes:'?",
+    "gold": "",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1051",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Place:'?",
+    "gold": "Ponce, Puerto Rico",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1051",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Fidel Sierra' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 20, column 'Wrestler:'",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1051",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '3' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Reigns:'",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1051",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'October 24, 1987' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Date:'",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1051",
+    "task": "row_retrieval",
+    "question": "List all values in row 8, one value per line.",
+    "gold": "Invader I\n4\nApril 2, 1988\nBayamon, Puerto Rico\n",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1051",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "Grizzly Boone\n1\nOctober 24, 1987\nBayamon, Puerto Rico\n",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1051",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Wrestler:', one value per line.",
+    "gold": "Ron Starr\nInvader I\nJason The Terrible\nInvader I\nGrizzly Boone\nInvader I\nSuper Black Ninja\nInvader I\nRon Starr\nCarlos Colon\nJason The Terrible\nCarlos Colon\nTNT\nLeo Burke\nTNT\nAction Jackson (Original TNT)\nTNT\nKing Kong\nTNT\nFidel Sierra\nTNT\nDick Murdoch\nInvader I\nDick Murdoch\nCarlos Colon",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1051",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Notes:', one value per line.",
+    "gold": "Defeated Invader I in a Tournament Final\n\n\n\n\nHeld up after a match against Super Black Ninja on January 8, 1988 in San Juan, PR\n\n\n\n\n\nVacant on May 22, 1989 after Colon was injured by Steve Strong on May 20, 1989\nDefeats Abudda Dein; vacant on February 9, 1990 when TNT wins the WWC Universal Heavyweight Title\nDefeats Carlos Colon in a tournament final.\nWon the vacant title\nWins tournament; loses a name match on March 2, 1991 in Bayamon, PR\n\n\n\n\n\n\n\nVacant on January 6, 1993 when Murdoch leaves the promotion.\nDefeated Mighty Koadiak in a tournament final.",
+    "n_rows": 25,
+    "n_cols": 5
+  }
+]

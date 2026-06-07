@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-2404",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 6 columns",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2404",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Transmission'?",
+    "gold": "FM, DAB, DVB-T, DVB-S",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2404",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Name'?",
+    "gold": "R101",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2404",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Transmission'?",
+    "gold": "FM",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2404",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Commercial; It is also called RDS' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Notes'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2404",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'http://www.deejay.it' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Website'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2404",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Radio 24' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Name'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2404",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "Rai DMB\nRAI\n\n\nT-DMB\n",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2404",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "Radio 24\nIl Sole 24 Ore\nMilan\nCommercial; News/Talk\nFM, DAB, DVB-S\nhttp://www.radio24.it",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2404",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Website', one value per line.",
+    "gold": "http://www.m2o.it\nhttp://www.r101.it\nhttp://www.105.net\nhttp://www.radio24.it\nhttp://www.capital.it\nhttp://www.deejay.it\nhttp://www.rds.it\nhttp://www.radioitalia.it\nhttp://www.kisskiss.it\nhttp://www.radiomaria.it\nhttp://www.radiomontecarlo.net\nhttp://www.radiopopolare.it\nhttp://www.radioradicale.it\nhttp://www.grparlamento.rai.it\nhttp://www.isoradio.rai.it\nhttp://www.radio1.rai.it\nhttp://www.radio2.rai.it\nhttp://www.radio3.rai.it\nhttp://www.rtl.it\nhttp://www.virginradioitaly.it\nhttp://www.radio.rai.it/radiofd4\nhttp://www.radio.rai.it/radiofd5\n\n\nhttp://www.radiopadania.info",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2404",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Transmission', one value per line.",
+    "gold": "FM, DAB, DAB+, DVB-T, DVB-S\nFM, DAB, DAB+, DVB-S\nFM, DVB-S\nFM, DAB, DVB-S\nFM, DAB, DVB-T, DVB-S\nFM, DAB, DAB+, DVB-T, DVB-S\nFM, DAB, DAB+, DVB-S\nFM, DAB, DVB-S\nFM, DVB-S\nFM, DAB, DVB-S\nFM, DVB-S\nFM\nFM, DAB, DVB-S\nFM, DVB-S\nFM, DAB, DVB-S\nFM, MW, DAB, DVB-T, DVB-S\nFM, DAB, DVB-T, DVB-S\nFM, DAB, DVB-T, DVB-S\nFM, DAB, DVB-S\nFM, DAB, DAB+, DVB-S\nDAB, Cable, DVB-T, DVB-S\nDAB, Cable, DVB-T, DVB-S\nDAB, DVB-S\nT-DMB\nDAB, DVB-S",
+    "n_rows": 25,
+    "n_cols": 6
+  }
+]

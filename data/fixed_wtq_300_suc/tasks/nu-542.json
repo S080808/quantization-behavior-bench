@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-542",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "9 rows, 6 columns",
+    "n_rows": 9,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-542",
+    "task": "cell_lookup",
+    "question": "What value is in row 7, column 'Event'?",
+    "gold": "400 m",
+    "n_rows": 9,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-542",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Competition'?",
+    "gold": "Asian Games",
+    "n_rows": 9,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-542",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Competition'?",
+    "gold": "World Youth Championships",
+    "n_rows": 9,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-542",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2007' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Year'",
+    "n_rows": 9,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-542",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Busan, South Korea' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Venue'",
+    "n_rows": 9,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-542",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Asian Games' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Competition'",
+    "n_rows": 9,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-542",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "2005\nUniversiade\nIzmir, Turkey\n6th\n4x400 m relay\n",
+    "n_rows": 9,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-542",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "2005\nAsian Championships\nIncheon, South Korea\n2nd\n4x400 m relay\n",
+    "n_rows": 9,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-542",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Notes', one value per line.",
+    "gold": "\n\n\n\n\n\n\n\nDQ",
+    "n_rows": 9,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-542",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Year', one value per line.",
+    "gold": "2001\n2002\n2005\n2005\n2006\n2006\n2006\n2007\n2011",
+    "n_rows": 9,
+    "n_cols": 6
+  }
+]

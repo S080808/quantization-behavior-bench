@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-3976",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "17 rows, 5 columns",
+    "n_rows": 17,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3976",
+    "task": "cell_lookup",
+    "question": "What value is in row 17, column 'Date'?",
+    "gold": "2014",
+    "n_rows": 17,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3976",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Notes'?",
+    "gold": "Honduran Navy 2 patrol vessels 4207 (FNH 1401 Lempira and FNH 1402 Morazan) and 6 Damen Interceptor 1102 in service 2013",
+    "n_rows": 17,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3976",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Type'?",
+    "gold": "4207",
+    "n_rows": 17,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3976",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'The Bolivarian Armada of Venezuela ordered 6 vessels together with 6 Damen Ocean Patrol 5007 in March 2014. They are being built in UCOCAR shipyard with the assistance of DAMEX Shipbuilding & Engineering, Cuba.' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 14, column 'Notes'",
+    "n_rows": 17,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3976",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Built for the Barbados Coast Guard. HMBS Leonard C Banfield and HMBS Rudyard Lewis were scheduled to be delivered in 2008. HMBS Trident was scheduled for delivery in 2009.' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Notes'",
+    "n_rows": 17,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3976",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Barbados' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Nation'",
+    "n_rows": 17,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3976",
+    "task": "row_retrieval",
+    "question": "List all values in row 8, one value per line.",
+    "gold": "Netherlands Antilles & Aruba\n1998\n3\n4100\nJaguar, Panter and Poema employed by the Netherlands Antilles & Aruba Coast Guard.",
+    "n_rows": 17,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3976",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "Barbados\n2007\n3\n4207\nBuilt for the Barbados Coast Guard. HMBS Leonard C Banfield and HMBS Rudyard Lewis were scheduled to be delivered in 2008. HMBS Trident was scheduled for delivery in 2009.",
+    "n_rows": 17,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3976",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Nation', one value per line.",
+    "gold": "Netherlands\nUnited Kingdom\nHonduras\nJamaica\nBarbados\nAlbania\nSouth Africa\nNetherlands Antilles & Aruba\nVietnam\nCanada\nMexico\nUnited States\nBulgaria\nVenezuela\nVenezuela\nBahama's\nQatar",
+    "n_rows": 17,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3976",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Notes', one value per line.",
+    "gold": "In 2001 the Netherlands ordered two vessels to serve in the Dutch customs' service. Visarend commissioned in 2001, Zeearend in 2002. now operated by the Dutch Coast Guard\nthe UKBA 42m Customs Cutters Seeker, Searcher, Vigilant and Valiant are operated by the United Kingdom Border Agency.\nHonduran Navy 2 patrol vessels 4207 (FNH 1401 Lempira and FNH 1402 Morazan) and 6 Damen Interceptor 1102 in service 2013\nThe three vessels which form the County-class are HMJS Surrey, HMJS Cornwall and HMJS Middlesex. They were built in the Netherlands, and the last vessel was delivered in December 2006.\nBuilt for the Barbados Coast Guard. HMBS Leonard C Banfield and HMBS Rudyard Lewis were scheduled to be delivered in 2008. HMBS Trident was scheduled for delivery in 2009.\nThe Iliria and three other vessels: Oriku, Lisus and Butrindi operated by the Albanian Naval Defense Forces\nLillian Ngoyi-class environmental inshore patrol vessels: Lillian Ngoyi, Ruth First and Victoria Mxenge are employed by the Department of Agriculture, Forestry and Fisheries.\nJaguar, Panter and Poema employed by the Netherlands Antilles & Aruba Coast Guard.\nSAR-411, SAR-412 and SAR-413 employed by Vietnam Coast Guard search and rescue service.\nIn 2009 the Department of Fisheries and Oceans announced it would be purchasing 9 patrol vessels for the Canadian Coast Guard. The Hero-class patrol vessels began entering service in 2011.\nThe Mexican Navy – Armada de México – inducted the first two of what could be several Tenochtitlan-class coastal patrol boats.[citation needed] The two StanPatrol 4207 patrol boats – ARM Tenochtitlan (PC-331) and ARM Teotihuacan (PC-332) were built at a cost of $9 million USD each at ASTIMAR 1 in Tampico, Tamaulipas and completed in April and May 2012.\nThe United States Coast Guard is proposing the purchase of 24-34 cutters as the Sentinel class.\nThe Bulgarian Border Police accepted delivery of the Obzor on July 16, 2010.\nThe Bolivarian Armada of Venezuela ordered 6 vessels together with 6 Damen Ocean Patrol 5007 in March 2014. They are being built in UCOCAR shipyard with the assistance of DAMEX Shipbuilding & Engineering, Cuba.\nThe Bolivarian Armada of Venezuela ordered 6 vessels together with 6 Damen Stan Patrol 4207 in March 2014. They are being built in UCOCAR shipyard with the assistance of DAMEX Shipbuilding & Engineering, Cuba.\nThe Royal Bahamas Defence Forces ordered 4 vessels together with 4 x Sea Axe 3007 Patrols and 1 x Stan Lander 5612 Logistics Support and Landing Craft in April 2013.\nThe Qatar Armed Forces ordered 6 vessels together with 1 x 52 meter Diving Support Vessel on March 31st 2014. The vessels are to be build by Nakilat Damen Shipyard Qatar",
+    "n_rows": 17,
+    "n_cols": 5
+  }
+]

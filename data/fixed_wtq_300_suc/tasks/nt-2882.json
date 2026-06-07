@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-2882",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "8 rows, 8 columns",
+    "n_rows": 8,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-2882",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Notes'?",
+    "gold": "arr. 1847",
+    "n_rows": 8,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-2882",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Works No.'?",
+    "gold": "?",
+    "n_rows": 8,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-2882",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Works No.'?",
+    "gold": "?",
+    "n_rows": 8,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-2882",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Spider' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Name'",
+    "n_rows": 8,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-2882",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '0-6-0T' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Wheels'",
+    "n_rows": 8,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-2882",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Henry Hughes of Loughborough' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Builder'",
+    "n_rows": 8,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-2882",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "Fairfield\n1847\n?\n?\n0-6-0\nInside\narr. 1847\n?",
+    "n_rows": 8,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-2882",
+    "task": "row_retrieval",
+    "question": "List all values in row 6, one value per line.",
+    "gold": "Gillingham\n?\nAveling and Porter\n?\n0-6-0TG\n?\narr. 1893\n1893",
+    "n_rows": 8,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-2882",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Date built', one value per line.",
+    "gold": "1847\n1847\n?\n?\n?\n?\n1880\n1898",
+    "n_rows": 8,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-2882",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Wheels', one value per line.",
+    "gold": "0-6-0\n0-6-0\n0-4-0ST\n0-6-0T\n0-6-0T\n0-6-0TG\n0-6-0ST\n0-4-0ST",
+    "n_rows": 8,
+    "n_cols": 8
+  }
+]

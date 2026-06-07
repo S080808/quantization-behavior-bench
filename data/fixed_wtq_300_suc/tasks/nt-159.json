@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-159",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "14 rows, 6 columns",
+    "n_rows": 14,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-159",
+    "task": "cell_lookup",
+    "question": "What value is in row 14, column 'Town'?",
+    "gold": "Temagami",
+    "n_rows": 14,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-159",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Coordinates'?",
+    "gold": "47°05′28.53″N 79°46′28.95″W﻿ / ﻿47.0912583°N 79.7747083°W",
+    "n_rows": 14,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-159",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Town'?",
+    "gold": "Temagami",
+    "n_rows": 14,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-159",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '47°06′39.79″N 79°40′58.2″W﻿ / ﻿47.1110528°N 79.682833°W' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 14, column 'Coordinates'",
+    "n_rows": 14,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-159",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Secondary products included cobalt, gold, nickel, palladium, platinum and silver.' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Comments'",
+    "n_rows": 14,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-159",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '46°57′44.41″N 80°02′13.67″W﻿ / ﻿46.9623361°N 80.0371306°W' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Coordinates'",
+    "n_rows": 14,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-159",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "Copperfields Mine*\nOntario\n46°57′44.41″N 80°02′13.67″W﻿ / ﻿46.9623361°N 80.0371306°W\nTemagami\n1954-1972\nSecondary products included cobalt, gold, nickel, palladium, platinum and silver.",
+    "n_rows": 14,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-159",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "Big Dan Mine\nOntario\n47°05′28.53″N 79°46′28.95″W﻿ / ﻿47.0912583°N 79.7747083°W\nTemagami\n1906-1907\nAlso produced silver and arsenic",
+    "n_rows": 14,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-159",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Comments', one value per line.",
+    "gold": "Secondary products included gold, silver, copper and bismuth.\nAlso produced silver\nAlso produced silver and arsenic\nSecondary products included cobalt, gold, nickel, palladium, platinum and silver.\n\n\n\nSecondary products included gold, palladium, silver and platinum.\nAlso produced arsenic, copper and silver\n\nSecondary products included lead, gold, zinc and silver.\nSecondary products included cobalt, copper, zinc, gold and nickel.\n\nAlso produced cobalt, arsenic, silver, nickel and copper",
+    "n_rows": 14,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-159",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Mine', one value per line.",
+    "gold": "Barton Mine*\nBeanland Mine\nBig Dan Mine\nCopperfields Mine*\nDome Mine\nGolden Giant Mine\nHermiston-McCauley Mine\nKanichee Mine*\nLeckie Mine\nMcIntyre Mines\nNorrie Mine*\nNorthland Pyrite Mine*\nRed Lake Mine\nTemagami-Lorrain Mine",
+    "n_rows": 14,
+    "n_cols": 6
+  }
+]

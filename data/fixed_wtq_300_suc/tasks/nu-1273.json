@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-1273",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "16 rows, 8 columns",
+    "n_rows": 16,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1273",
+    "task": "cell_lookup",
+    "question": "What value is in row 4, column 'Score'?",
+    "gold": "W 22–13",
+    "n_rows": 16,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1273",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Attendance'?",
+    "gold": "8,437",
+    "n_rows": 16,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1273",
+    "task": "cell_lookup",
+    "question": "What value is in row 9, column 'Attendance'?",
+    "gold": "14,882",
+    "n_rows": 16,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1273",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'L 10–14' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Score'",
+    "n_rows": 16,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1273",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '5' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Game'",
+    "n_rows": 16,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1273",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'January 13, 2007' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Date'",
+    "n_rows": 16,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1273",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "4\nJanuary 20, 2007\nMinnesota Swarm\nHSBC Arena\nW 22–13\n\n12,883\n2–2",
+    "n_rows": 16,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1273",
+    "task": "row_retrieval",
+    "question": "List all values in row 11, one value per line.",
+    "gold": "11\nMarch 17, 2007\n@ New York Titans\nMadison Square Garden\nW 11–8\n\n7,012\n7–4",
+    "n_rows": 16,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1273",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Date', one value per line.",
+    "gold": "December 30, 2007\nJanuary 12, 2007\nJanuary 13, 2007\nJanuary 20, 2007\nFebruary 2, 2007\nFebruary 3, 2007\nFebruary 11, 2007\nFebruary 17, 2007\nFebruary 24, 2007\nMarch 4, 2007\nMarch 17, 2007\nMarch 24, 2007\nMarch 31, 2007\nApril 7, 2007\nApril 13, 2007\nApril 14, 2007",
+    "n_rows": 16,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-1273",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Score', one value per line.",
+    "gold": "L 10–11\nW 16–14\nL 10–11\nW 22–13\nL 10–14\nL 8–13\nW 12–11\nW 12–8\nW 13–12\nW 16–15\nW 11–8\nW 19–15\nW 15–10\nW 15–5\nL 10–14\nL 8–14",
+    "n_rows": 16,
+    "n_cols": 8
+  }
+]

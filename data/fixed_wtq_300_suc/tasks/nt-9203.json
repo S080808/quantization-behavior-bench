@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-9203",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "22 rows, 6 columns",
+    "n_rows": 22,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-9203",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Brazil scorers'?",
+    "gold": "Natal, Carlos Alberto Torres",
+    "n_rows": 22,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-9203",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Date'?",
+    "gold": "June 12, 1968",
+    "n_rows": 22,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-9203",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Brazil scorers'?",
+    "gold": "Pelé (2), Toninho Guerreiro, Eduardo",
+    "n_rows": 22,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-9203",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Jairzinho (2)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Brazil scorers'",
+    "n_rows": 22,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-9203",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Rivelino, Tostão' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Brazil scorers'",
+    "n_rows": 22,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-9203",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '6-3' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Score'",
+    "n_rows": 22,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-9203",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "June 20, 1968\nPoland\nW\n6-3\nRivelino (2), Jairzinho (2), Tostão, Natal\nInternational Friendly",
+    "n_rows": 22,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-9203",
+    "task": "row_retrieval",
+    "question": "List all values in row 22, one value per line.",
+    "gold": "December 19, 1968\nYugoslavia\nW\n3-2\nVaguinho, Amauri, Ronaldo\nInternational Friendly",
+    "n_rows": 22,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-9203",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Competition', one value per line.",
+    "gold": "Taça Rio Branco\nTaça Rio Branco\nInternational Friendly\nInternational Friendly\nInternational Friendly\nInternational Friendly\nInternational Friendly\nInternational Friendly\nInternational Friendly\nInternational Friendly\nInternational Friendly\nTaça Oswaldo Cruz\nTaça Oswaldo Cruz\nInternational Friendly\nInternational Friendly\nInternational Friendly\nInternational Friendly\nInternational Friendly (unofficial match)\nInternational Friendly (unofficial match)\nInternational Friendly\nInternational Friendly\nInternational Friendly",
+    "n_rows": 22,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-9203",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Brazil scorers', one value per line.",
+    "gold": "Tostão, Sadi\nPaulo Borges, Tostão, Jairzinho, Gérson\nTostão\nRivelino (2), Jairzinho (2), Tostão, Natal\nNatal, Carlos Alberto Torres\nCarlos Alberto Torres, Tostão\nRivelino, Tostão\nJairzinho (2)\nRivelino\nNatal, Jairzinho, Roberto Miranda, Carlos Alberto Torres\nRivelino, Gérson, Tostão, Jairzinho\nPelé (2), Toninho Guerreiro, Eduardo\n-\nWaltencir, Roberto Miranda, Paulo César Caju, Jairzinho\nEvaldo, Rodrigues, Dirceu Lopes\nCarlos Alberto Torres\nPelé, Jairzinho\nRivelino, Tostão\nDirceu Lopes, Zé Carlos\nEduardo (2)\nCarlos Alberto Torres, Pelé, Babá\nVaguinho, Amauri, Ronaldo",
+    "n_rows": 22,
+    "n_cols": 6
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-1338",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "19 rows, 7 columns",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1338",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Time'?",
+    "gold": "20.6",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1338",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Date'?",
+    "gold": "May 26, 1951",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1338",
+    "task": "cell_lookup",
+    "question": "What value is in row 11, column 'Time'?",
+    "gold": "20.5",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1338",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '20.5' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Time'",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1338",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'United Kingdom' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Nationality'",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1338",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Manfred Germar' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Athlete'",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1338",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "20.6\n\n20.75\nBobby Morrow\nUnited States\nMelbourne, Australia\nNovember 27, 1956",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1338",
+    "task": "row_retrieval",
+    "question": "List all values in row 18, one value per line.",
+    "gold": "19.8A\n0.9\n19.86A\nDonald Quarrie\nJamaica\nCali, Colombia\nAugust 3, 1971",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1338",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Time', one value per line.",
+    "gold": "20.6y\n20.6\n20.6\n20.6\n20.6\n20.6y\n20.6\n20.5y\n20.5\n20.5\n20.5\n20.5\n20.5y\n20.3y\n20.2y\n20.0y\n19.8A\n19.8A\n19.8+",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-1338",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Nationality', one value per line.",
+    "gold": "United States\nUnited States\nUnited States\nUnited States\nWest Germany\nUnited States\nUnited States\nUnited Kingdom\nUnited States\nUnited States\nItaly\nItaly\nUnited States\nUnited States\nUnited States\nUnited States\nUnited States\nJamaica\nJamaica",
+    "n_rows": 19,
+    "n_cols": 7
+  }
+]

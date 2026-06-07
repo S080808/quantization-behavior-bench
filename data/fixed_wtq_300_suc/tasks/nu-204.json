@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-204",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "19 rows, 7 columns",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-204",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Model'?",
+    "gold": "735i",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-204",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Produced'?",
+    "gold": "38947",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-204",
+    "task": "cell_lookup",
+    "question": "What value is in row 11, column 'Model'?",
+    "gold": "740i",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-204",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'M60B40 V8' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Engine'",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-204",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '6963' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Produced'",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-204",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '735i' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Model'",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-204",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "730iL\n3.0L\nM60B30 V8\nPetrol\n160 kW (218 PS; 215 hp) / 290 N·m (214 lb·ft)\n1994–1996\n2137",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-204",
+    "task": "row_retrieval",
+    "question": "List all values in row 18, one value per line.",
+    "gold": "730d\n2.9L\nM57D30 turbocharged I6\nDiesel\n142 kW (193 PS; 190 hp) / 410 N·m (302 lb·ft)\n1998–2001\n12336",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-204",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Model', one value per line.",
+    "gold": "728i\n728iL\n730i\n730iL\n735i\n735i\n735iL\n735iL\n740i\n740iL\n740i\n740i\n740iL\n740iL\n750i-iL\n750i-iL\n725tds\n730d\n740d",
+    "n_rows": 19,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-204",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Power/Torque', one value per line.",
+    "gold": "142 kW (193 PS; 190 hp) / 280 N·m (207 lb·ft)\n142 kW (193 PS; 190 hp) / 280 N·m (207 lb·ft)\n160 kW (218 PS; 215 hp) / 290 N·m (214 lb·ft)\n160 kW (218 PS; 215 hp) / 290 N·m (214 lb·ft)\n173 kW (235 PS; 232 hp) / 320 N·m (236 lb·ft)\n174 kW (237 PS; 233 hp) / 345 N·m (254 lb·ft)\n173 kW (235 PS; 232 hp) / 320 N·m (236 lb·ft)\n174 kW (237 PS; 233 hp) / 345 N·m (254 lb·ft)\n210 kW (286 PS; 282 hp) / 400 N·m (295 lb·ft)\n210 kW (286 PS; 282 hp) / 400 N·m (295 lb·ft)\n210 kW (286 PS; 282 hp) / 420 N·m (310 lb·ft)\n210 kW (286 PS; 282 hp) / 440 N·m (325 lb·ft)\n210 kW (286 PS; 282 hp) / 420 N·m (310 lb·ft)\n210 kW (286 PS; 282 hp) / 440 N·m (325 lb·ft)\n240 kW (326 PS; 322 hp) / 490 N·m (361 lb·ft)\n240 kW (326 PS; 322 hp) / 490 N·m (361 lb·ft)\n105 kW (143 PS; 141 hp) / 280 N·m (207 lb·ft)\n142 kW (193 PS; 190 hp) / 410 N·m (302 lb·ft)\n180 kW (245 PS; 241 hp) / 560 N·m (413 lb·ft)",
+    "n_rows": 19,
+    "n_cols": 7
+  }
+]

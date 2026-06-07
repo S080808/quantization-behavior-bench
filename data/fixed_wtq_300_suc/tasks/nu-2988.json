@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-2988",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "14 rows, 9 columns",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2988",
+    "task": "cell_lookup",
+    "question": "What value is in row 10, column 'Year'?",
+    "gold": "2009",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2988",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'International\\n(non-CIS)'?",
+    "gold": "186 861",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2988",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Domestic'?",
+    "gold": "698 957",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2988",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1 219 674' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'International\\n(total)'",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2988",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '18 054' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Cargo\\n(tonnes)'",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2988",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '456 092' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'International\\n(total)'",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2988",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "2003\n1 335 757\n+12,9%\n879 665\n456 092\n297 421\n158 671\n10 092\n18 054",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2988",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "2002\n1 182 815\n+15,0%\n793 295\n389 520\n239 461\n150 059\n10 162\n20 153",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2988",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Total\\npassengers', one value per line.",
+    "gold": "930 251\n1 028 295\n1 182 815\n1 335 757\n1 553 628\n1 566 792\n1 764 948\n2 345 097\n2 529 395\n2 169 136\n2 748 919\n3 355 883\n3 783 069\n4 293 002",
+    "n_rows": 14,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nu-2988",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Cargo\\n(tonnes)', one value per line.",
+    "gold": "18 344\n22 178\n20 153\n18 054\n20 457\n11 545\n15 519\n16 965\n17 142\n13 585\n22 946\n24 890\n25 866\n27 800",
+    "n_rows": 14,
+    "n_cols": 9
+  }
+]

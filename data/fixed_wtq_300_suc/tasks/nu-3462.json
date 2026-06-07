@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-3462",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 5 columns",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3462",
+    "task": "cell_lookup",
+    "question": "What value is in row 17, column 'Class'?",
+    "gold": "B1-2\\ndetails",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3462",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Bronze'?",
+    "gold": "Jacob Rife\\nUnited States (USA)",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3462",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Silver'?",
+    "gold": "Eric Villalon\\nGuide: Pere Comet\\nSpain (ESP)",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3462",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Andrew Parr\\nGuide: David Marchi\\nUnited States (USA)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 18, column 'Bronze'",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3462",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'LW6/8\\ndetails' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Class'",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3462",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'James Lagerstrom\\nUnited States (USA)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Silver'",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3462",
+    "task": "row_retrieval",
+    "question": "List all values in row 8, one value per line.",
+    "gold": "Downhill\nLW12\\ndetails\nKevin Bramble\\nUnited States (USA)\nChristopher Devlin-Young\\nUnited States (USA)\nDaniel Wesley\\nCanada (CAN)",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3462",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "Downhill\nLW6/8\\ndetails\nRolf Heinzmann\\nSwitzerland (SUI)\nLionel Brun\\nFrance (FRA)\nMarkus Pfefferle\\nGermany (GER)",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3462",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Event', one value per line.",
+    "gold": "Downhill\nDownhill\nDownhill\nDownhill\nDownhill\nDownhill\nDownhill\nDownhill\nSuper-G\nSuper-G\nSuper-G\nSuper-G\nSuper-G\nSuper-G\nSuper-G\nSuper-G\nGiant slalom\nGiant slalom\nGiant slalom\nGiant slalom\nGiant slalom\nGiant slalom\nGiant slalom\nGiant slalom\nGiant slalom",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3462",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Bronze', one value per line.",
+    "gold": "Yon Santacana\\nGuide: Raul Capdevila\\nSpain (ESP)\nJason Lalla\\nUnited States (USA)\nJacob Rife\\nUnited States (USA)\nSteven Bayley\\nNew Zealand (NZL)\nMarkus Pfefferle\\nGermany (GER)\nRonny Persson\\nSweden (SWE)\nFabrizio Zardini\\nItaly (ITA)\nDaniel Wesley\\nCanada (CAN)\nYon Santacana\\nGuide: Raul Capdevila\\nSpain (ESP)\nFlorian Planker\\nItaly (ITA)\nArno Hirschbuehl\\nAustria (AUT)\nSteven Bayley\\nNew Zealand (NZL)\nWolfgang Moosbrugger\\nAustria (AUT)\nMichael Kroener\\nGermany (GER)\nDenis Barbet\\nFrance (FRA)\nLudwig Wolf\\nGermany (GER)\nRadomir Dudas\\nGuide: Juraj Mikulas\\nSlovakia (SVK)\nAndrew Parr\\nGuide: David Marchi\\nUnited States (USA)\nAsle Tangvik\\nNorway (NOR)\nArno Hirschbuehl\\nAustria (AUT)\nRobert Meusburger\\nAustria (AUT)\nFrank Pfortmueller\\nGermany (GER)\nChris Waddell\\nUnited States (USA)\nAndreas Schiestl\\nAustria (AUT)\nScott Patterson\\nCanada (CAN)",
+    "n_rows": 25,
+    "n_cols": 5
+  }
+]

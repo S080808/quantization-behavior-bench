@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-3966",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "13 rows, 6 columns",
+    "n_rows": 13,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-3966",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Regions'?",
+    "gold": "JP, NA",
+    "n_rows": 13,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-3966",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Release'?",
+    "gold": "1984",
+    "n_rows": 13,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-3966",
+    "task": "cell_lookup",
+    "question": "What value is in row 6, column 'Genre'?",
+    "gold": "Role-Playing",
+    "n_rows": 13,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-3966",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Super Chinese 3' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Japanese Title'",
+    "n_rows": 13,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-3966",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Role-Playing' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Genre'",
+    "n_rows": 13,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-3966",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'JP, NA' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Regions'",
+    "n_rows": 13,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-3966",
+    "task": "row_retrieval",
+    "question": "List all values in row 12, one value per line.",
+    "gold": "Super Chinese Fighter GB\n-\nJP\n1996\nGB\nFighting",
+    "n_rows": 13,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-3966",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "Super Chinese\nKung-Fu Heroes\nJP, NA\n1986\nFC/NES\nAction",
+    "n_rows": 13,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-3966",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Genre', one value per line.",
+    "gold": "Action\nAction\nRole-Playing\nRole-Playing\nAction\nRole-Playing\nRole-Playing\nRole-Playing\nRole-Playing\nRole-Playing\nFighting\nFighting\nFighting",
+    "n_rows": 13,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-3966",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Platform(s)', one value per line.",
+    "gold": "Arcade\nFC/NES\nFC/NES\nFC\nGB\nGB\nGB\nSFC/SNES\nSFC\nSFC\nSFC\nGB\nGBC",
+    "n_rows": 13,
+    "n_cols": 6
+  }
+]

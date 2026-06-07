@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-6811",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 10 columns",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-6811",
+    "task": "cell_lookup",
+    "question": "What value is in row 17, column 'Nation'?",
+    "gold": "Sweden",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-6811",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Total'?",
+    "gold": "2:21.02",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-6811",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Run 2'?",
+    "gold": "1:13.49",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-6811",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1:09.59' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'Run 1'",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-6811",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '+1.20' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Difference'",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-6811",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Austria' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Nation'",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-6811",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "5\n6\nViktoria Rebensburg\nGermany\n1:08.04\n6\n1:13.38\n13\n2:21.42\n+0.88",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-6811",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "24\n25\nMarie-Pier Prefontaine\nCanada\n1:09.91\n26\n1:13.58\n17\n2:23.49\n+2.95",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-6811",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Bib', one value per line.",
+    "gold": "1\n9\n3\n20\n6\n13\n26\n19\n16\n14\n8\n5\n2\n12\n31\n11\n27\n24\n29\n17\n21\n10\n22\n25\n15",
+    "n_rows": 25,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nt-6811",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Total', one value per line.",
+    "gold": "2:20.54\n2:20.63\n2:21.02\n2:21.28\n2:21.42\n2:21.43\n2:21.55\n2:21.74\n2:21.75\n2:21.79\n2:21.79\n2:21.84\n2:21.88\n2:22.34\n2:22.57\n2:22.59\n2:22.67\n2:22.69\n2:22.73\n2:22.83\n2:22.87\n2:23.02\n2:23.32\n2:23.49\n2:23.53",
+    "n_rows": 25,
+    "n_cols": 10
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-4089",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 6 columns",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4089",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Date of Action'?",
+    "gold": "September 25, 2011",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4089",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Date of Incident'?",
+    "gold": "September 21, 2011",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4089",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Date of Action'?",
+    "gold": "November 1, 2011",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4089",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '9 games† (4 pre-season, 5 regular season)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Length'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4089",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Anaheim Ducks' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Team'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4089",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Brad Staubitz' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Offender'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4089",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "December 18, 2011\nRene Bourque\nCalgary Flames\nChecking Brent Seabrook from behind.\nDecember 19, 2011\n2 games",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4089",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "September 23, 2011\nBrad Staubitz\nMinnesota Wild\nChecking Cody Bass from behind.\nSeptember 26, 2011\n7 games† (4 pre-season, 3 regular season)",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4089",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Length', one value per line.",
+    "gold": "5 games† (4 pre-season, 1 regular season)\n10 games† (5 pre-season, 5 regular season)\n12 games† (4 pre-season, 8 regular season)\n7 games† (4 pre-season, 3 regular season)\n2 games† (2 pre-season)\n9 games† (4 pre-season, 5 regular season)\n4 games† (2 pre-season, 2 regular season)\n8 games† (3 pre-season, 5 regular season)\n3 games† (1 pre-season, 2 regular season)\n2 games\n2 games\n5 games\n2 games\n4 games\n3 games\n3 games\n3 games\n2 games\n3 games\n4 games\n1 game\n8 games\n1 game\n2 games\n3 games",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-4089",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Date of Action', one value per line.",
+    "gold": "September 22, 2011\nSeptember 22, 2011\nSeptember 24, 2011\nSeptember 26, 2011\nSeptember 25, 2011\nSeptember 27, 2011\nSeptember 28, 2011\nSeptember 30, 2011\nOctober 1, 2011\nOctober 9, 2011\nOctober 18, 2011\nNovember 1, 2011\nOctober 29, 2011\nNovember 3, 2011\nNovember 18, 2011\nNovember 23, 2011\nNovember 28, 2011\nDecember 6, 2011\nDecember 7, 2011\nDecember 8, 2011\nDecember 8, 2011\nDecember 8, 2011\nDecember 19, 2011\nDecember 19, 2011\nDecember 22, 2011",
+    "n_rows": 25,
+    "n_cols": 6
+  }
+]

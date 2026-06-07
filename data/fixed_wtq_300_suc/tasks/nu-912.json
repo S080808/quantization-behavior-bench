@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-912",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "11 rows, 5 columns",
+    "n_rows": 11,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-912",
+    "task": "cell_lookup",
+    "question": "What value is in row 9, column 'Season'?",
+    "gold": "2009/10",
+    "n_rows": 11,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-912",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Competition'?",
+    "gold": "Jupiler League",
+    "n_rows": 11,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-912",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Club'?",
+    "gold": "RAEC Mons",
+    "n_rows": 11,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-912",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Soproni Liga' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Competition'",
+    "n_rows": 11,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-912",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'KSV Roeselare' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Club'",
+    "n_rows": 11,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-912",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2004/05' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Season'",
+    "n_rows": 11,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-912",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "2005/06\nKSV Roeselare\nJupiler League\n26\n0",
+    "n_rows": 11,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-912",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "2004/05\nKSV Roeselare\nBelgian Second Division\n29\n1",
+    "n_rows": 11,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-912",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Season', one value per line.",
+    "gold": "2002/03\n2003/04\n2004/05\n2005/06\n2006/07\n2007/08\n2008/09\n2009/10\n2009/10\n2010/11\n",
+    "n_rows": 11,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-912",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Goals', one value per line.",
+    "gold": "0\n0\n1\n0\n1\n0\n1\n1\n0\n0\n4",
+    "n_rows": 11,
+    "n_cols": 5
+  }
+]

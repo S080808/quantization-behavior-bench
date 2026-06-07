@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-2059",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 7 columns",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2059",
+    "task": "cell_lookup",
+    "question": "What value is in row 24, column 'League\\nCompetition'?",
+    "gold": "2004-05 Superliga",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2059",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Season'?",
+    "gold": "1985-86",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2059",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Others'?",
+    "gold": "",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2059",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2004-05' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 24, column 'Season'",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2059",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'EC1 1st round' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Europe'",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2059",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1988-89' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Season'",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2059",
+    "task": "row_retrieval",
+    "question": "List all values in row 8, one value per line.",
+    "gold": "1988-89\n2\n1989 1st Division\nBent Christensen (10)\nWinner\nEC1 1st round\n",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2059",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "1985-86\n2\n1986 1st Division\nClaus Nielsen (16)\nQuarter-final\n\n",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2059",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Europe', one value per line.",
+    "gold": "\n\n\n\n\nEC1 quarter-final\nEC3 2nd round\nEC1 1st round\nEC1 1st round\nEC3 semi-final\nEC1 2nd round\n\nEC3 3rd round\nEC2 2nd round\nEC3 3rd round\nEC1 qualification round\\nEC3 quarter-final\nEC1 qual 2nd round\\nEC3 1st round\nEC1 group stage\nEC1 qual 3rd round\\nEC3 1st round\nEC1 qual 3rd round\\nEC3 1st round\nEC3 3rd round\nEC1 qual 3rd round\\nEC3 1st round\nEC3 3rd round\nEC3 qual 2nd round\nEC1 qual 3rd round\\nEC3 group stage",
+    "n_rows": 25,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nu-2059",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Season', one value per line.",
+    "gold": "1981-82\n1982-83\n1983-84\n1984-85\n1985-86\n1986-87\n1987-88\n1988-89\n1989-90\n1990-91\n1991-92\n1992-93\n1993-94\n1994-95\n1995-96\n1996-97\n1997-98\n1998-99\n1999-00\n2000-01\n2001-02\n2002-03\n2003-04\n2004-05\n2005-06",
+    "n_rows": 25,
+    "n_cols": 7
+  }
+]

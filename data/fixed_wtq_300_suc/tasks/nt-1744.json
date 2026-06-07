@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-1744",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "22 rows, 12 columns",
+    "n_rows": 22,
+    "n_cols": 12
+  },
+  {
+    "table_id": "nt-1744",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column '2008 arms sales (US$ m.)'?",
+    "gold": "23080",
+    "n_rows": 22,
+    "n_cols": 12
+  },
+  {
+    "table_id": "nt-1744",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column '2011 rank'?",
+    "gold": "2",
+    "n_rows": 22,
+    "n_cols": 12
+  },
+  {
+    "table_id": "nt-1744",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column '2009 arms sales (US$ m.)'?",
+    "gold": "8030",
+    "n_rows": 22,
+    "n_cols": 12
+  },
+  {
+    "table_id": "nt-1744",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '13020' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column '2008 arms sales (US$ m.)'",
+    "n_rows": 22,
+    "n_cols": 12
+  },
+  {
+    "table_id": "nt-1744",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '9' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column '2007 rank'",
+    "n_rows": 22,
+    "n_cols": 12
+  },
+  {
+    "table_id": "nt-1744",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '22470' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column '2011 arms sales (US$ m.)'",
+    "n_rows": 22,
+    "n_cols": 12
+  },
+  {
+    "table_id": "nt-1744",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "4\n5\n5\n5\n5\nGeneral Dynamics\n23760\n23940\n25590\n22780\n21520\n73",
+    "n_rows": 22,
+    "n_cols": 12
+  },
+  {
+    "table_id": "nt-1744",
+    "task": "row_retrieval",
+    "question": "List all values in row 22, one value per line.",
+    "gold": "22\n20\n22\n18\n23\nAlmaz-Antey\n3690\n3950\n3260\n4340\n2780\n85",
+    "n_rows": 22,
+    "n_cols": 12
+  },
+  {
+    "table_id": "nt-1744",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Arms sales as share of company’s total sales (%),', one value per line.",
+    "gold": "78\n46\n95\n73\n90\n81\n24\n60\n83\n20\n52\n75\n97\n14\n32\n31\n26\n80\n58\n3\n69\n85",
+    "n_rows": 22,
+    "n_cols": 12
+  },
+  {
+    "table_id": "nt-1744",
+    "task": "col_retrieval",
+    "question": "List all values in the column '2009 arms sales (US$ m.)', one value per line.",
+    "gold": "33430\n32300\n33250\n25590\n21030\n27000\n17900\n13280\n13010\n11110\n10200\n8030\n-\n5380\n4740\n6050\n4140\n-\n2770\n4700\n4730\n3260",
+    "n_rows": 22,
+    "n_cols": 12
+  }
+]

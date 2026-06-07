@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-13891",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "16 rows, 9 columns",
+    "n_rows": 16,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-13891",
+    "task": "cell_lookup",
+    "question": "What value is in row 4, column 'Grand Prix'?",
+    "gold": "Mexican Grand Prix",
+    "n_rows": 16,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-13891",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Winning Driver'?",
+    "gold": "Nigel Mansell",
+    "n_rows": 16,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-13891",
+    "task": "cell_lookup",
+    "question": "What value is in row 8, column 'Constructor'?",
+    "gold": "McLaren-Honda",
+    "n_rows": 16,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-13891",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Jonathan Palmer' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Fastest Lap'",
+    "n_rows": 16,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-13891",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Canadian Grand Prix' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Grand Prix'",
+    "n_rows": 16,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-13891",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '7 May' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Date'",
+    "n_rows": 16,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-13891",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "4\nMexican Grand Prix\n28 May\nHermanos Rodríguez\nAyrton Senna\nNigel Mansell\nAyrton Senna\nMcLaren-Honda\nReport",
+    "n_rows": 16,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-13891",
+    "task": "row_retrieval",
+    "question": "List all values in row 11, one value per line.",
+    "gold": "11\nBelgian Grand Prix\n27 August\nSpa-Francorchamps\nAyrton Senna\nAlain Prost\nAyrton Senna\nMcLaren-Honda\nReport",
+    "n_rows": 16,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-13891",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Report', one value per line.",
+    "gold": "Report\nReport\nReport\nReport\nReport\nReport\nReport\nReport\nReport\nReport\nReport\nReport\nReport\nReport\nReport\nReport",
+    "n_rows": 16,
+    "n_cols": 9
+  },
+  {
+    "table_id": "nt-13891",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Grand Prix', one value per line.",
+    "gold": "Brazilian Grand Prix\nSan Marino Grand Prix\nMonaco Grand Prix\nMexican Grand Prix\nUnited States Grand Prix\nCanadian Grand Prix\nFrench Grand Prix\nBritish Grand Prix\nGerman Grand Prix\nHungarian Grand Prix\nBelgian Grand Prix\nItalian Grand Prix\nPortuguese Grand Prix\nSpanish Grand Prix\nJapanese Grand Prix\nAustralian Grand Prix",
+    "n_rows": 16,
+    "n_cols": 9
+  }
+]

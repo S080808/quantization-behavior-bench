@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-4002",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "15 rows, 5 columns",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4002",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Services'?",
+    "gold": "Drilling, workover",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4002",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Country'?",
+    "gold": "Libya",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4002",
+    "task": "cell_lookup",
+    "question": "What value is in row 8, column 'Client'?",
+    "gold": "Khalda/Repsol",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4002",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Drilling' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Services'",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4002",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Tanzania' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Country'",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4002",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Waha' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Client'",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4002",
+    "task": "row_retrieval",
+    "question": "List all values in row 12, one value per line.",
+    "gold": "SOC\n2000-current\nSOC fields\nLibya\nDrilling",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4002",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "Lasmo\n1993-94\nWadi Borjuj\nLibya\nDrilling, workover",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4002",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Services', one value per line.",
+    "gold": "Drilling, workover\nDrilling, workover\nDrilling, workover\nDrilling\nDrilling, workover\nDrilling, workover\nDrilling\nDrilling\nDrilling\nDrilling\nDrilling\nDrilling\nDrilling, workover\nDrilling\nDrilling, workover",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4002",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Client', one value per line.",
+    "gold": "Agoco\nLasmo\nWaha\nIPC-Dublin\nOMV\nFina\nMarathon\nKhalda/Repsol\nTotal\nAgiba-Agip\nIPLL\nSOC\nVeba\nPerenco Oil Co.\nZueitina",
+    "n_rows": 15,
+    "n_cols": 5
+  }
+]

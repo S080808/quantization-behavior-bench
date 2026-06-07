@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-5023",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "9 rows, 5 columns",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-5023",
+    "task": "cell_lookup",
+    "question": "What value is in row 9, column 'ET'?",
+    "gold": "2pm–3pm",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-5023",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Program'?",
+    "gold": "",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-5023",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Days available'?",
+    "gold": "Monday–Friday",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-5023",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Entertainment Hour' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Program'",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-5023",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2pm–3pm' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'ET'",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-5023",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Jonathan Hunt' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Host(s)'",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-5023",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "11am–11:30am\nMonday–Friday\nFBN Live\nLauren Simonetti\nBusiness news and information.",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-5023",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "10am–10:30am\nMonday–Friday\n\nLauren Green (M), Uma Pemmaraju (T), Gregg Jarrett (W), Arthel Neville (F), Rick Folbaum (F), Heather Childers\nCurrent events.",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-5023",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Description', one value per line.",
+    "gold": "Current events.\nCurrent events.\nBusiness news and information.\nCurrent events.\nEntertainment news, musical performances.\nCrime and legal news.\nMilitary news and information.\nAutomotive news and information.\nDiscussion on religious topics.",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-5023",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'ET', one value per line.",
+    "gold": "9am–10am\n10am–10:30am\n11am–11:30am\n12pm–1pm\n2pm–3pm\n2pm–3pm\n2pm–3pm\n2pm–3pm\n2pm–3pm",
+    "n_rows": 9,
+    "n_cols": 5
+  }
+]

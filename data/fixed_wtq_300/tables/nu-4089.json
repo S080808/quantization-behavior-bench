@@ -1,0 +1,217 @@
+{
+  "id": "nu-4089",
+  "question": "how many offenses occurred after april 21, 2012?",
+  "answers": [
+    "4"
+  ],
+  "header": [
+    "Date of Incident",
+    "Offender",
+    "Team",
+    "Offense",
+    "Date of Action",
+    "Length"
+  ],
+  "rows": [
+    [
+      "September 20, 2011",
+      "Pierre-Luc Letourneau-Leblond",
+      "Calgary Flames",
+      "Boarding Matt Clackson.",
+      "September 22, 2011",
+      "5 games† (4 pre-season, 1 regular season)"
+    ],
+    [
+      "September 21, 2011",
+      "Jody Shelley",
+      "Philadelphia Flyers",
+      "Boarding Darryl Boyce.",
+      "September 22, 2011",
+      "10 games† (5 pre-season, 5 regular season)"
+    ],
+    [
+      "September 23, 2011",
+      "James Wisniewski",
+      "Columbus Blue Jackets",
+      "Illegal hit to the head of Cal Clutterbuck.",
+      "September 24, 2011",
+      "12 games† (4 pre-season, 8 regular season)"
+    ],
+    [
+      "September 23, 2011",
+      "Brad Staubitz",
+      "Minnesota Wild",
+      "Checking Cody Bass from behind.",
+      "September 26, 2011",
+      "7 games† (4 pre-season, 3 regular season)"
+    ],
+    [
+      "September 24, 2011",
+      "Brad Boyes",
+      "Buffalo Sabres",
+      "Illegal hit to the head of Joe Colborne.",
+      "September 25, 2011",
+      "2 games† (2 pre-season)"
+    ],
+    [
+      "September 24, 2011",
+      "Jean-Francois Jacques",
+      "Anaheim Ducks",
+      "Leaving bench to initiate a fight with Mike Duco.",
+      "September 27, 2011",
+      "9 games† (4 pre-season, 5 regular season)"
+    ],
+    [
+      "September 26, 2011",
+      "Tom Sestito",
+      "Philadelphia Flyers",
+      "Checking Andre Deveaux from behind.",
+      "September 28, 2011",
+      "4 games† (2 pre-season, 2 regular season)"
+    ],
+    [
+      "September 28, 2011",
+      "Brendan Smith",
+      "Detroit Red Wings",
+      "Illegal hit to the head of Ben Smith.",
+      "September 30, 2011",
+      "8 games† (3 pre-season, 5 regular season)"
+    ],
+    [
+      "September 30, 2011",
+      "Clarke MacArthur",
+      "Toronto Maple Leafs",
+      "Illegal hit to the head of Justin Abdelkader.",
+      "October 1, 2011",
+      "3 games† (1 pre-season, 2 regular season)"
+    ],
+    [
+      "October 8, 2011",
+      "Pierre-Marc Bouchard",
+      "Minnesota Wild",
+      "High sticking Matt Calvert.",
+      "October 9, 2011",
+      "2 games"
+    ],
+    [
+      "October 17, 2011",
+      "Kris Letang",
+      "Pittsburgh Penguins",
+      "Boarding Alexander Burmistrov.",
+      "October 18, 2011",
+      "2 games"
+    ],
+    [
+      "October 28, 2011",
+      "Andy Sutton",
+      "Edmonton Oilers",
+      "Elbowing Gabriel Landeskog.",
+      "November 1, 2011",
+      "5 games"
+    ],
+    [
+      "October 28, 2011",
+      "Daniel Carcillo",
+      "Chicago Blackhawks",
+      "Hit from behind on Joni Pitkanen.",
+      "October 29, 2011",
+      "2 games"
+    ],
+    [
+      "November 2, 2011",
+      "Patrick Kaleta",
+      "Buffalo Sabres",
+      "Headbutt on Jakub Voracek.",
+      "November 3, 2011",
+      "4 games"
+    ],
+    [
+      "November 17, 2011",
+      "Chris Stewart",
+      "St. Louis Blues",
+      "Checking Niklas Kronwall from behind.",
+      "November 18, 2011",
+      "3 games"
+    ],
+    [
+      "November 23, 2011",
+      "Andre Deveaux",
+      "New York Rangers",
+      "Illegal hit to the head of Tomas Fleischmann.",
+      "November 23, 2011",
+      "3 games"
+    ],
+    [
+      "November 26, 2011",
+      "Max Pacioretty",
+      "Montreal Canadiens",
+      "Illegal hit to the head of Kris Letang.",
+      "November 28, 2011",
+      "3 games"
+    ],
+    [
+      "December 3, 2011",
+      "Jordin Tootoo",
+      "Nashville Predators",
+      "Charging goaltender Ryan Miller.",
+      "December 6, 2011",
+      "2 games"
+    ],
+    [
+      "December 3, 2011",
+      "Mark Fistric",
+      "Dallas Stars",
+      "Charging Nino Niederreiter.",
+      "December 7, 2011",
+      "3 games"
+    ],
+    [
+      "December 6, 2011",
+      "Kevin Porter",
+      "Colorado Avalanche",
+      "Kneeing David Booth.",
+      "December 8, 2011",
+      "4 games"
+    ],
+    [
+      "December 7, 2011",
+      "Ville Leino",
+      "Buffalo Sabres",
+      "Elbowing Matt Read.",
+      "December 8, 2011",
+      "1 game"
+    ],
+    [
+      "December 7, 2011",
+      "Andy Sutton",
+      "Edmonton Oilers",
+      "Charging Alexei Ponikarovsky.",
+      "December 8, 2011",
+      "8 games"
+    ],
+    [
+      "December 17, 2011",
+      "Milan Lucic",
+      "Boston Bruins",
+      "Checking Zac Rinaldo from behind.",
+      "December 19, 2011",
+      "1 game"
+    ],
+    [
+      "December 18, 2011",
+      "Rene Bourque",
+      "Calgary Flames",
+      "Checking Brent Seabrook from behind.",
+      "December 19, 2011",
+      "2 games"
+    ],
+    [
+      "December 20, 2011",
+      "Deryk Engelland",
+      "Pittsburgh Penguins",
+      "Illegal hit to the head of Marcus Kruger.",
+      "December 22, 2011",
+      "3 games"
+    ]
+  ]
+}

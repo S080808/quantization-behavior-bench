@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-1307",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "12 rows, 6 columns",
+    "n_rows": 12,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-1307",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Country'?",
+    "gold": "United States",
+    "n_rows": 12,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-1307",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Score'?",
+    "gold": "72-69-71-68=280",
+    "n_rows": 12,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-1307",
+    "task": "cell_lookup",
+    "question": "What value is in row 6, column 'Money ($)'?",
+    "gold": "66,633",
+    "n_rows": 12,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-1307",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '+3' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'To par'",
+    "n_rows": 12,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-1307",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '70-72-67-74=283' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Score'",
+    "n_rows": 12,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-1307",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Australia' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Country'",
+    "n_rows": 12,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-1307",
+    "task": "row_retrieval",
+    "question": "List all values in row 12, one value per line.",
+    "gold": "T10\nBob Tway\nUnited States\n69-69-72-75=285\n+5\n44,184",
+    "n_rows": 12,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-1307",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "2\nGreg Norman\nAustralia\n68-67-74-73=282\n+2\n207,000",
+    "n_rows": 12,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-1307",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Money ($)', one value per line.",
+    "gold": "350,000\n207,000\n131,974\n66,633\n66,633\n66,633\n66,633\n66,633\n66,633\n44,184\n44,184\n44,184",
+    "n_rows": 12,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-1307",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'To par', one value per line.",
+    "gold": "E\n+2\n+3\n+4\n+4\n+4\n+4\n+4\n+4\n+5\n+5\n+5",
+    "n_rows": 12,
+    "n_cols": 6
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-871",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 5 columns",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-871",
+    "task": "cell_lookup",
+    "question": "What value is in row 17, column 'Keel Laid'?",
+    "gold": "3 August 1918",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-871",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Fate'?",
+    "gold": "Sold 11 June 1930",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-871",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Commissioned'?",
+    "gold": "27 October 1918",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-871",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '20 February 1919' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 23, column 'Launched'",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-871",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '8 November 1918' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Launched'",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-871",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '31 October 1919' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Commissioned'",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-871",
+    "task": "row_retrieval",
+    "question": "List all values in row 8, one value per line.",
+    "gold": "PE-8\n10 June 1918\n11 November 1918\n31 October 1919\nSold 1 April 1931",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-871",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "PE-5\n28 May 1918\n28 September 1918\n19 November 1918\nSold 11 June 1930",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-871",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Designation', one value per line.",
+    "gold": "PE-1\nPE-2\nPE-3\nPE-4\nPE-5\nPE-6\nPE-7\nPE-8\nPE-9\nPE-10\nPE-11\nPE-12\nPE-13\nPE-14\nPE-15\nPE-16\nPE-17\nPE-18\nPE-19\nPE-20\nPE-21\nPE-22\nPE-23\nPE-24\nPE-25",
+    "n_rows": 25,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-871",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Fate', one value per line.",
+    "gold": "Sold 11 June 1930\nSold 11 June 1930\nSold 11 June 1930\nSold 11 June 1930\nSold 11 June 1930\nExpended as target 30 November 1934\nExpended as target 30 November 1934\nSold 1 April 1931\nSold 26 May 1930\nDestroyed 19 August 1937\nSold 16 January 1935\nSold 30 December 1935\nSold 26 May 1930\nExpended as target 22 November 1934\nSold 14 June 1934\nTransferred to USCG late 1919\nWrecked off Long Island, New York 22 May 1922\nSold 11 June 1930\nIn service during WWII\\nDestroyed 6 August 1946\nTransferred to USCG late 1919\nTransferred to USCG late 1919\nTransferred to USCG late 1919\nSold 11 June 1930\nSold 11 June 1930\nCapsized in Delaware Bay squall 11 June 1920",
+    "n_rows": 25,
+    "n_cols": 5
+  }
+]

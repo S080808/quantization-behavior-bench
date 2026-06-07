@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-8198",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 8 columns",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-8198",
+    "task": "cell_lookup",
+    "question": "What value is in row 21, column 'Created'?",
+    "gold": "1668",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-8198",
+    "task": "cell_lookup",
+    "question": "What value is in row 4, column 'Origin'?",
+    "gold": "Bladen County",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-8198",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Population estimate\\n(2011)'?",
+    "gold": "153,291",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-8198",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Brunswick County' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'County'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-8198",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '741 sq mi\\n(1,919 km2)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Area'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-8198",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Windsor' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'County Seat'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-8198",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "Ashe County\n009\nJefferson\n1799\nWilkes County\nSamuel Ashe (1725–1813), a Revolutionary patriot, superior court judge, and governor of North Carolina\n27,143\n427 sq mi\\n(1,106 km2)",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-8198",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "Columbus County\n047\nWhiteville\n1808\nBladen County and Brunswick County\nChristopher Columbus (1451–1507), navigator, explorer, and one of the first Europeans to explore the Americas\n57,712\n954 sq mi\\n(2,471 km2)",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-8198",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'FIPS Code', one value per line.",
+    "gold": "001\n003\n005\n007\n009\n011\n013\n015\n017\n019\n021\n023\n025\n027\n029\n031\n033\n035\n037\n039\n041\n043\n045\n047\n049",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-8198",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Etymology', one value per line.",
+    "gold": "The Battle of Alamance which was derived from the local Native American word meaning \"blue clay\" found in the Great Alamance Creek\nWilliam J. Alexander, member of the legislature and Speaker of the North Carolina House of Commons\nDerived from a corruption of the Delaware Indian name for the Allegheny and Ohio Rivers and is said to have meant \"a fine stream\"\nGeorge, Lord Anson (1697–1762), a celebrated English admiral who circumnavigated the globe\nSamuel Ashe (1725–1813), a Revolutionary patriot, superior court judge, and governor of North Carolina\nWaightstill Avery (1741–1821), a soldier of the Revolution and Attorney General of North Carolina\nHenry Somerset, Duke of Beaufort, who in 1709 became one of the Lords Proprietor\nJames or Henry Bertie, two Lords Proprietor of colonial North Carolina\nMartin Bladen, a member of the Board of Trade\nGeorge I of Great Britain (1660–1727), Duke of Brunswick and Lüneburg\nEdward Buncombe, a Revolutionary soldier, who was wounded and captured at the Battle of Germantown, and died a paroled prisoner in Philadelphia\nThomas Burke (1747–1783), a member of the Continental Congress and governor of North Carolina\nStephen Cabarrus (1754–1808), member of the legislature and Speaker of the North Carolina House of Commons\nJoseph Caldwell (1773–1835), the first president of the University of North Carolina\nCharles Pratt, 1st Earl Camden (1714–1794), who opposed the taxation of the American colonists\nJohn Carteret, 2nd Earl Granville (1690–1763), who inherited one-eighth share in the Province of Carolina through his great-grandfather George Carteret\nRichard Caswell (1729–1789), member of the first Continental Congress and first governor of North Carolina after the Declaration of Independence\nCatawba Nation\nWilliam Pitt, 1st Earl of Chatham (1708–1778), Secretary of State during the French and Indian War and was later Prime Minister of Great Britain\nCherokee Nation\nChowan Native American tribe\nHenry Clay (1777–1852), statesman and orator who represented Kentucky in both the House of Representatives and Senate\nBenjamin Cleveland (1738–1806), a colonel in the American Revolutionary War who took part in the Battle of Kings Mountain\nChristopher Columbus (1451–1507), navigator, explorer, and one of the first Europeans to explore the Americas\nWilliam Craven, 1st Earl of Craven (1608–1697), who was a Lords Proprietor of colonial North Carolina",
+    "n_rows": 25,
+    "n_cols": 8
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-3466",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "12 rows, 5 columns",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3466",
+    "task": "cell_lookup",
+    "question": "What value is in row 9, column 'Year'?",
+    "gold": "2002",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3466",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Venue'?",
+    "gold": "Indianapolis, United States",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3466",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Competition'?",
+    "gold": "World Indoor Championships",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3466",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '6th' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Position'",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3466",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1999' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Year'",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3466",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Venue'",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3466",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "1998\nGrand Prix Final\nMoscow, Russia\n2nd\n100 m hurdles",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3466",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "1997\nUSA Outdoor Championships\nIndianapolis, United States\n1st\n100 m hurdles",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3466",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Event', one value per line.",
+    "gold": "60 m hurdles\n100 m hurdles\n100 m hurdles\n60 m hurdles\n60 m hurdles\n100 m hurdles\n100 m hurdles\n100 m hurdles\n60 m hurdles\n60 m hurdles\n100 m hurdles\n100 m hurdles",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-3466",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Year', one value per line.",
+    "gold": "1997\n1997\n1998\n1998\n1999\n2000\n2000\n2002\n2002\n2003\n2003\n2004",
+    "n_rows": 12,
+    "n_cols": 5
+  }
+]

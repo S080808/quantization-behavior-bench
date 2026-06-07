@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-94",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "24 rows, 8 columns",
+    "n_rows": 24,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-94",
+    "task": "cell_lookup",
+    "question": "What value is in row 21, column 'Round'?",
+    "gold": "Round of 32",
+    "n_rows": 24,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-94",
+    "task": "cell_lookup",
+    "question": "What value is in row 4, column 'Leg'?",
+    "gold": "Leg 2, Away",
+    "n_rows": 24,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-94",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Location'?",
+    "gold": "Jules Ottenstadion, Ghent",
+    "n_rows": 24,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-94",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'August 16' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Date'",
+    "n_rows": 24,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-94",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Leg 1, Away' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Leg'",
+    "n_rows": 24,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-94",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'August 15' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Date'",
+    "n_rows": 24,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-94",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "July 31\nGenk\nChampions League\nQual. Round 2\nLeg 1, Home\nSarajevo\nCristal Arena, Genk\n1-2",
+    "n_rows": 24,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-94",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "March 12\nAnderlecht\nUEFA Cup\nRound of 16\nLeg 2, Away\nBayern Munich\nAllianz Arena, Munich\n2-1",
+    "n_rows": 24,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-94",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Team', one value per line.",
+    "gold": "Gent\nGent\nGent\nGent\nGenk\nGenk\nAnderlecht\nStandard Liège\nAnderlecht\nStandard Liège\nAnderlecht\nClub Brugge\nStandard Liège\nAnderlecht\nClub Brugge\nStandard Liège\nAnderlecht\nAnderlecht\nAnderlecht\nAnderlecht\nAnderlecht\nAnderlecht\nAnderlecht\nAnderlecht",
+    "n_rows": 24,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nu-94",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Opponent', one value per line.",
+    "gold": "Cliftonville\nCliftonville\nAalborg\nAalborg\nSarajevo\nSarajevo\nFenerbahçe\nKäerjeng\nFenerbahçe\nKäerjeng\nRapid Wien\nBrann\nZenit St. Petersburg\nRapid Wien\nBrann\nZenit St. Petersburg\nHapoel Tel Aviv\nAalborg\nTottenham Hotspur\nGetafe\nBordeaux\nBordeaux\nBayern Munich\nBayern Munich",
+    "n_rows": 24,
+    "n_cols": 8
+  }
+]

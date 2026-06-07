@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-1840",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "16 rows, 5 columns",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1840",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Place'?",
+    "gold": "3rd",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1840",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Discipline'?",
+    "gold": "Downhill",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1840",
+    "task": "cell_lookup",
+    "question": "What value is in row 8, column 'Season'?",
+    "gold": "2014",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1840",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '30 Nov 2012' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Date'",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1840",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2013' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Season'",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1840",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '4 Feb 2012' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Date'",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1840",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "2012\n5 Feb 2012\nGarmisch, Germany\nSuper-G\n3rd",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1840",
+    "task": "row_retrieval",
+    "question": "List all values in row 11, one value per line.",
+    "gold": "2014\n8 Dec 2013\nLake Louise, Canada\nSuper-G\n2nd",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1840",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Place', one value per line.",
+    "gold": "2nd\n3rd\n3rd\n3rd\n2nd\n3rd\n1st\n2nd\n3rd\n2nd\n2nd\n1st\n1st\n2nd\n3rd\n2nd",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-1840",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Season', one value per line.",
+    "gold": "2012\n2012\n2012\n2012\n2012\n2013\n2013\n2014\n2014\n2014\n2014\n2014\n2014\n2014\n2014\n2014",
+    "n_rows": 16,
+    "n_cols": 5
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-566",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "24 rows, 5 columns",
+    "n_rows": 24,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-566",
+    "task": "cell_lookup",
+    "question": "What value is in row 17, column 'Diver'?",
+    "gold": "Claire Izacard (FRA)",
+    "n_rows": 24,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-566",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Final\\nPoints'?",
+    "gold": "517.62",
+    "n_rows": 24,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-566",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Preliminary\\nRank'?",
+    "gold": "3",
+    "n_rows": 24,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-566",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '9' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Rank'",
+    "n_rows": 24,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-566",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Debbie Fuller (CAN)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Diver'",
+    "n_rows": 24,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-566",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '438.72' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Preliminary\\nPoints'",
+    "n_rows": 24,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-566",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "5\nLi Qiaoxian (CHN)\n466.83\n6\n487.68",
+    "n_rows": 24,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-566",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "24\nRim Hassan (EGY)\n258.63\n24\n",
+    "n_rows": 24,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-566",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Rank', one value per line.",
+    "gold": "\n\n\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24",
+    "n_rows": 24,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-566",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Final\\nPoints', one value per line.",
+    "gold": "530.70\n527.46\n517.62\n506.52\n487.68\n463.56\n451.89\n450.99\n443.13\n437.40\n424.98\n422.52\n\n\n\n\n\n\n\n\n\n\n\n",
+    "n_rows": 24,
+    "n_cols": 5
+  }
+]

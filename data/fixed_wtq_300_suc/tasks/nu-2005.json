@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-2005",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "24 rows, 6 columns",
+    "n_rows": 24,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2005",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Number of pasurams'?",
+    "gold": "120",
+    "n_rows": 24,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2005",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Sl no'?",
+    "gold": "2",
+    "n_rows": 24,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2005",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Number of pasurams'?",
+    "gold": "30",
+    "n_rows": 24,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2005",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '45' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Number of pasurams'",
+    "n_rows": 24,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2005",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Thirumalai' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Name of the prabandham'",
+    "n_rows": 24,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2005",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '647' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Starting from'",
+    "n_rows": 24,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2005",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "\nTotal number of pasurams\n\n\n3776\n",
+    "n_rows": 24,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2005",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "4\nPerumal Thirumozhi\n647\n751\n105\nKulasekara alvar",
+    "n_rows": 24,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2005",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Sung by', one value per line.",
+    "gold": "Periyalvar\nAandaal\nAandaal\nKulasekara alvar\nThirumalisai alvar\nThondaradippodi alvar\nThondaradippodi alvar\nThiruppaan alvar\nMadhurakavi Alvar\nThirumangai alvar\nThirumangai alvar\nThirumangai alvar\nPoigai Alvar\nBhoothathalvar\nPeyalvar\nThirumalisai alvar\nNammalvar\nNammalvar\nNammalvar\nThirumangai alvar\nThirumangai alvar\nThirumangai alvar\nNammalvar\n",
+    "n_rows": 24,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-2005",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Number of pasurams', one value per line.",
+    "gold": "473\n30\n143\n105\n120\n45\n10\n10\n11\n1084\n20\n30\n100\n100\n100\n96\n100\n7\n87\n1\n1\n1\n1102\n3776",
+    "n_rows": 24,
+    "n_cols": 6
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-2592",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "18 rows, 7 columns",
+    "n_rows": 18,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-2592",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Model e2'?",
+    "gold": "lithium ion polymer",
+    "n_rows": 18,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-2592",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Component'?",
+    "gold": "Hard Drive",
+    "n_rows": 18,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-2592",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Model 02'?",
+    "gold": "Via C7M ULV 1.6 GHz",
+    "n_rows": 18,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-2592",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Yes' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Model 01'",
+    "n_rows": 18,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-2592",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'HSDPA 3G' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'model 03 (China Copy)'",
+    "n_rows": 18,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-2592",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'EVDO from Sprint or Verizon' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Model 02'",
+    "n_rows": 18,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-2592",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "USB\n1.1\n2.0\n2.0\n2.0\n2.0\n2.0",
+    "n_rows": 18,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-2592",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "Display\n5\" Transflective 800x480 LCD\n5\" Transflective 800x480 LCD\n5\" 800x480 LCD\n5\" 800x480 LCD\n5\" active matrix 800x480 OLED\n4.8\" active matrix 1024X600 OLED",
+    "n_rows": 18,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-2592",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Model 2+ (Pre-production)', one value per line.",
+    "gold": "Intel Atom Z540 1.86 GHz\n2GB DDR2\n120GB HDD or 64GB SSD\n5\" active matrix 800x480 OLED\n2.0\n802.11a/b/g\nEV-DO and HSPA\n2.0\nYes\nIntel GMA500\n4,500 mAh or 9,000 mAh\nlithium ion polymer\nreplaced by dongle or dock\nGloss Black w/ optical drive\n100BaseT\nunknown\n58 key\n413g*",
+    "n_rows": 18,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-2592",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'model 03 (China Copy)', one value per line.",
+    "gold": "Intel atom Z550 1.2 GHz dual core\n2GB DDR2\n120GB HDD or 64GB SSD\n4.8\" active matrix 1024X600 OLED\n2.0\n802.11a/b/g/n\nHSDPA 3G\n2.1\nunknown\nIntel GMA500\n4,500 mAh or 9,000 mAh\nunknown\nreplaced by dongle or dock\nGloss Black w/ optical drive\n100BaseT\nunknown\n58 key\n426g*",
+    "n_rows": 18,
+    "n_cols": 7
+  }
+]

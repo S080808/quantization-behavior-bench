@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-938",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "7 rows, 6 columns",
+    "n_rows": 7,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-938",
+    "task": "cell_lookup",
+    "question": "What value is in row 7, column 'Bronze'?",
+    "gold": "26",
+    "n_rows": 7,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-938",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Nation'?",
+    "gold": "Japan",
+    "n_rows": 7,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-938",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Nation'?",
+    "gold": "China",
+    "n_rows": 7,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-938",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '10' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Silver'",
+    "n_rows": 7,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-938",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '7' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Gold'",
+    "n_rows": 7,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-938",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '35' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 1, column 'Total'",
+    "n_rows": 7,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-938",
+    "task": "row_retrieval",
+    "question": "List all values in row 6, one value per line.",
+    "gold": "6\nSouth Korea\n0\n0\n2\n2",
+    "n_rows": 7,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-938",
+    "task": "row_retrieval",
+    "question": "List all values in row 1, one value per line.",
+    "gold": "1\nChina\n13\n9\n13\n35",
+    "n_rows": 7,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-938",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Total', one value per line.",
+    "gold": "35\n24\n6\n4\n2\n2\n73",
+    "n_rows": 7,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-938",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Bronze', one value per line.",
+    "gold": "13\n7\n3\n0\n1\n2\n26",
+    "n_rows": 7,
+    "n_cols": 6
+  }
+]

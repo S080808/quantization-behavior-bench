@@ -1,0 +1,243 @@
+{
+  "id": "nu-1252",
+  "question": "what was the total combined score at the november 12, 1932 game?",
+  "answers": [
+    "20"
+  ],
+  "header": [
+    "#",
+    "Date",
+    "Location",
+    "Winner",
+    "Score\\nJSU",
+    "Score\\nTU",
+    "Series"
+  ],
+  "rows": [
+    [
+      "1",
+      "November 27, 1924",
+      "Jacksonville, AL",
+      "Jacksonville State",
+      "14",
+      "9",
+      "JSU 1–0"
+    ],
+    [
+      "2",
+      "October 28, 1927",
+      "?",
+      "Jacksonville State",
+      "26",
+      "12",
+      "JSU 2–0"
+    ],
+    [
+      "3",
+      "November 16, 1928",
+      "Troy, AL",
+      "Jacksonville State",
+      "20",
+      "0",
+      "JSU 3–0"
+    ],
+    [
+      "4",
+      "October 3, 1931",
+      "Jacksonville, AL",
+      "Troy State",
+      "6",
+      "24",
+      "JSU 3–1"
+    ],
+    [
+      "5",
+      "November 12, 1932",
+      "Montgomery, AL",
+      "Troy State",
+      "0",
+      "20",
+      "JSU 3–2"
+    ],
+    [
+      "6",
+      "November 10, 1933",
+      "Jacksonville, AL",
+      "Troy State",
+      "7",
+      "18",
+      "Tied 3–3"
+    ],
+    [
+      "7",
+      "October 26, 1934",
+      "Troy, AL",
+      "Troy State",
+      "0",
+      "32",
+      "TSU 4–3"
+    ],
+    [
+      "8",
+      "November 11, 1938",
+      "Jacksonville, AL",
+      "Tied",
+      "6",
+      "6",
+      "TSU 4–3–1"
+    ],
+    [
+      "9",
+      "November 11, 1939",
+      "Troy, AL",
+      "Troy State",
+      "0",
+      "27",
+      "TSU 5–3–1"
+    ],
+    [
+      "10",
+      "November 8, 1940",
+      "Troy, AL",
+      "Troy State",
+      "0",
+      "7",
+      "TSU 6–3–1"
+    ],
+    [
+      "11",
+      "October 17, 1946",
+      "Anniston, AL",
+      "Troy State",
+      "0",
+      "12",
+      "TSU 7–3–1"
+    ],
+    [
+      "12",
+      "October 17, 1947",
+      "Troy, AL",
+      "Jacksonville State",
+      "14",
+      "0",
+      "TSU 7–4–1"
+    ],
+    [
+      "13",
+      "October 14, 1948",
+      "Jacksonville, AL",
+      "Jacksonville State",
+      "25",
+      "13",
+      "TSU 7–5–1"
+    ],
+    [
+      "14",
+      "December 18, 1948",
+      "Pensacola, FL",
+      "Jacksonville State",
+      "19",
+      "0",
+      "TSU 7–6–1"
+    ],
+    [
+      "15",
+      "October 15, 1949",
+      "Troy, AL",
+      "Troy State",
+      "6",
+      "27",
+      "TSU 8–6–1"
+    ],
+    [
+      "16",
+      "October 14, 1950",
+      "Montgomery, AL",
+      "Jacksonville State",
+      "9",
+      "0",
+      "TSU 8–7–1"
+    ],
+    [
+      "17",
+      "October 13, 1951",
+      "Troy, AL",
+      "Jacksonville State",
+      "13",
+      "7",
+      "Tied 8–8–1"
+    ],
+    [
+      "18",
+      "October 18, 1952",
+      "Jacksonville, AL",
+      "Troy State",
+      "6",
+      "19",
+      "TSU 9–8–1"
+    ],
+    [
+      "19",
+      "October 17, 1953",
+      "Troy, AL",
+      "Troy State",
+      "7",
+      "13",
+      "TSU 10–8–1"
+    ],
+    [
+      "20",
+      "October 16, 1954",
+      "Jacksonville, AL",
+      "Jacksonville State",
+      "38",
+      "7",
+      "TSU 10–9–1"
+    ],
+    [
+      "21",
+      "October 15, 1955",
+      "Troy, AL",
+      "Jacksonville State",
+      "12",
+      "0",
+      "Tied 10–10–1"
+    ],
+    [
+      "22",
+      "October 13, 1956",
+      "Jacksonville, AL",
+      "Jacksonville State",
+      "27",
+      "14",
+      "JSU 11–10–1"
+    ],
+    [
+      "23",
+      "October 12, 1957",
+      "Troy, AL",
+      "Jacksonville State",
+      "13",
+      "0",
+      "JSU 12–10–1"
+    ],
+    [
+      "24",
+      "October 11, 1958",
+      "Jacksonville, AL",
+      "Jacksonville State",
+      "20",
+      "7",
+      "JSU 13–10–1"
+    ],
+    [
+      "25",
+      "October 10, 1959",
+      "Troy, AL",
+      "Jacksonville State",
+      "35",
+      "12",
+      "JSU 14–10–1"
+    ]
+  ]
+}

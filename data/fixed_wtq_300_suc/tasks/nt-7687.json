@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-7687",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 6 columns",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-7687",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Laetare Medalist'?",
+    "gold": "I.A. O'Shaughnessy",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-7687",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Year'?",
+    "gold": "1884",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-7687",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Laetare Medalist'?",
+    "gold": "George N. Shuster",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-7687",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1894' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 12, column 'Year'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-7687",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1893' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Year'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-7687",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1889' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Year'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-7687",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "1906\nFrancis J. Quinlan\nPhysician\n1972\nDorothy Day\nFounder of the Catholic Worker Movement",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-7687",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "1886\nGeneral John Newton\nEngineer\n1952\nThomas E. Murray\nMember of the U.S. Atomic Energy Commission",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-7687",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Position', one value per line.",
+    "gold": "Actress\nSoldier\nPhilanthropist\nMember of the U.S. Atomic Energy Commission\nPhilanthropist\nDiplomat\nLabor Leader\nSoldier\nDiplomat\nIndustrialist\nDiplomat\nEducator\nPresident of the United States\nPsychiatrist\nChief of Naval Operations\nPoet\nScientist\nFounders of The Christian Movement\nIndustrialist\nDiplomat\nAssociate Justice of the Supreme Court\nPhysician\nDrama Critic and Author\nFounder of the Catholic Worker Movement\nAuthor",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-7687",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Laetare Medalist', one value per line.",
+    "gold": "Irene Dunne Griffin\nGeneral Joseph L. Collins\nJohn Henry Phelan\nThomas E. Murray\nI.A. O'Shaughnessy\nJefferson Caffery\nGeorge Meany\nGeneral Alfred M. Gruenther\nClare Boothe Luce\nFrank M. Folsom\nRobert Daniel Murphy\nGeorge N. Shuster\nJohn F. Kennedy\nFrancis J. Braceland\nAdmiral George Whelan Anderson, Jr.\nPhyllis McGinley\nFrederick D. Rossini\nPatrick F. & Patricia Caron Crowley\nJ. Peter Grace\nRobert Sargent Shriver\nWilliam J. Brennan Jr.\nDr. William B. Walsh\nWalter Kerr & Jean Kerr\nDorothy Day\nRev. John A. O'Brien",
+    "n_rows": 25,
+    "n_cols": 6
+  }
+]
