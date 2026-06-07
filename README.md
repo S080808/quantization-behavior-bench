@@ -246,9 +246,3 @@ CUDA_VISIBLE_DEVICES=0 python scripts/run_livecodebench_execution.py \
 ```
 
 RepoQA is invoked through its installed Python module by `run_code_benchmarks_full.sh`. Benchmark datasets and generated outputs are not vendored.
-
-## Tests
-
-```bash
-pytest -q
-```
