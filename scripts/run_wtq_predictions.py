@@ -24,7 +24,7 @@ from src.suc_pipeline import (
     render_chat_prompt,
 )
 from src.table_formats import FORMATTERS
-from src.wtq_snapshot import load_frozen_snapshot
+from src.wtq_data import load_wtq_data
 
 
 def parse_args() -> argparse.Namespace:
@@ -43,8 +43,8 @@ def parse_args() -> argparse.Namespace:
         ],
     )
     parser.add_argument(
-        "--snapshot-dir",
-        default=str(Path(__file__).resolve().parents[1] / "data" / "fixed_wtq_300"),
+        "--wtq-dir",
+        default=str(Path(__file__).resolve().parents[1] / "data" / "wtq_300"),
     )
     parser.add_argument(
         "--output-dir",
@@ -62,8 +62,8 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def build_instances(snapshot_dir: str | Path, formats: list[str], *, n_tables: int | None) -> list[dict]:
-    examples = load_frozen_snapshot(snapshot_dir, n_tables=n_tables)
+def build_instances(wtq_dir: str | Path, formats: list[str], *, n_tables: int | None) -> list[dict]:
+    examples = load_wtq_data(wtq_dir, n_tables=n_tables)
     instances: list[dict] = []
     for example in examples:
         for fmt in formats:
@@ -106,10 +106,10 @@ def main() -> None:
     log_path = output_dir / f"{args.model}_run.log"
     log = _make_logger(log_path)
 
-    instances = build_instances(args.snapshot_dir, args.formats, n_tables=args.n_tables)
+    instances = build_instances(args.wtq_dir, args.formats, n_tables=args.n_tables)
     log("=== run_wtq_predictions start ===")
     log(f"model={args.model}")
-    log(f"snapshot_dir={args.snapshot_dir}")
+    log(f"wtq_dir={args.wtq_dir}")
     log(f"formats={args.formats}")
     log(f"n_tables={args.n_tables}")
     log(f"backend={args.backend}")
@@ -238,9 +238,9 @@ def main() -> None:
     manifest = {
         "model": args.model,
         "formats": args.formats,
-        "snapshot_dir": str(args.snapshot_dir),
+        "wtq_dir": str(args.wtq_dir),
         "task_family": "wtq_plain",
-        "n_tables_from_frozen_snapshot": args.n_tables,
+        "n_tables_from_wtq_data": args.n_tables,
         "backend": args.backend,
         "n_rows": len(rows_out),
         "skipped_long_prompts": skipped,

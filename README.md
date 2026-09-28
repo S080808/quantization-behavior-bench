@@ -1,24 +1,21 @@
-# Quantization Benchmark Reproduction
+# Structured Table Access under Quantization
 
-Minimal generation and evaluation code for studying weight quantization on table and code benchmarks.
+Reproducible generation and evaluation code for studying how weight quantization affects structured-table access.
 
 The repository contains reproducible pipelines for:
 
-- frozen WikiTableQuestions (WTQ) and synthetic table-understanding tasks (SUC);
-- RepoQA repository-level function retrieval;
-- SWE-QA multiple-choice reasoning over code;
-- CRUXEval exact Python output prediction;
-- LiveCodeBench execution output prediction.
+- a reproducible 300-table WikiTableQuestions (WTQ) sample;
+- synthetic structural-understanding tasks (SUC) derived from those tables;
+- inference across multiple table serializations;
+- automatic judging of generated answers.
 
 ## Repository Layout
 
 ```text
-quant_table_repro/
-  configs/             Model manifests
-  data/                Frozen inputs and selected table IDs
+quantization-behavior-bench/
+  data/                Reproducible WTQ and SUC inputs
   scripts/             Generation and evaluation entrypoints
   src/                 Shared pipeline code
-  tests/               Prompt-shape sanity tests
 ```
 
 ## Environment
@@ -36,74 +33,89 @@ export HF_TOKEN=...
 
 Table pipelines support Hugging Face and vLLM backends. `llama-quip` is supported only through the Hugging Face backend.
 
-The main requirements are pinned from the tested Python 3.13.12 environment. RepoQA is the exception: its `tree-sitter-languages` dependency does not support Python 3.13, so run RepoQA in a separate Python 3.12 environment:
-
-```bash
-python3.12 -m venv .venv-codebench
-source .venv-codebench/bin/activate
-bash scripts/setup_code_benchmarks.sh
-```
-
 ## Table Benchmarks
 
-### Prepare Frozen WTQ and SUC Inputs
+### Prepare WTQ and SUC Inputs
 
-Create the canonical 300-table WTQ snapshot:
+Create the canonical 300-table WTQ dataset:
 
 ```bash
-python scripts/create_fixed_wtq_300.py
+python scripts/prepare_wtq_data.py
 ```
 
-Generate frozen SUC tasks:
+Generate SUC tasks:
 
 ```bash
-python scripts/generate_gold_suc.py
+python scripts/prepare_suc_tasks.py
 ```
 
 Select 150 prompt-safe tables:
 
 ```bash
-python scripts/select_complete_tables.py \
+python scripts/select_wtq_tables.py \
   --model llama \
   --formats html json col_sep prose row_obj \
   --n-tables 150 \
-  --output-json data/selected_tables_150.json \
-  --diagnostics-json data/selected_tables_150_diagnostics.json
+  --output-json data/wtq_selected_150.json \
+  --diagnostics-json data/wtq_selected_150_diagnostics.json
 ```
 
 ### SUC Baseline
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python scripts/run_baseline_predictions.py \
+CUDA_VISIBLE_DEVICES=0 python scripts/run_suc_predictions.py \
   --model llama-gptq \
-  --snapshot-dir data/fixed_wtq_300 \
-  --tasks-dir data/fixed_wtq_300_suc \
-  --selected-table-ids-json data/selected_tables_150.json \
+  --wtq-dir data/wtq_300 \
+  --suc-dir data/suc_300 \
+  --selected-table-ids-json data/wtq_selected_150.json \
   --formats html json col_sep prose row_obj \
-  --output-dir results/baseline_150_selected \
+  --output-dir results/suc_baseline_150 \
   --backend vllm
 ```
 
 ### SUC One-Shot
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python scripts/run_baseline_predictions.py \
+CUDA_VISIBLE_DEVICES=0 python scripts/run_suc_predictions.py \
   --model llama-gptq \
-  --snapshot-dir data/fixed_wtq_300 \
-  --tasks-dir data/fixed_wtq_300_suc \
-  --selected-table-ids-json data/selected_tables_150.json \
+  --wtq-dir data/wtq_300 \
+  --suc-dir data/suc_300 \
+  --selected-table-ids-json data/wtq_selected_150.json \
   --formats html json col_sep prose row_obj \
-  --output-dir results/oneshot_150_selected \
+  --output-dir results/suc_oneshot_150 \
   --backend vllm \
   --one-shot
 ```
+
+### Activation Patching
+
+Patch FP16 residual states into the AWQ or GPTQ model at format-token positions
+in layers 24--31 during prefill. The random control uses 20 deterministic,
+budget-matched token masks and writes one prediction file per mask.
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python scripts/run_activation_patching.py \
+  --quant-model llama-awq \
+  --wtq-dir data/wtq_300 \
+  --suc-dir data/suc_300 \
+  --selected-table-ids-json data/wtq_selected_150.json \
+  --formats col_sep html json \
+  --layers 24 25 26 27 28 29 30 31 \
+  --patch-groups format_late random10pct \
+  --random-masks 20 \
+  --output-dir results/activation_patching
+```
+
+Run the command once with `--quant-model llama-awq` and once with
+`--quant-model llama-gptq`. Existing rows are reused, so interrupted runs can
+be resumed with the same command.
 
 ### WTQ Across All Formats
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python scripts/run_wtq_predictions.py \
   --model llama-gptq \
-  --snapshot-dir data/fixed_wtq_300 \
+  --wtq-dir data/wtq_300 \
   --output-dir results/wtq_300_all_formats \
   --n-tables 300 \
   --formats tsv md prose csv csv_q row_obj col_sep sec_sep json html yaml xml \
@@ -112,137 +124,17 @@ CUDA_VISIBLE_DEVICES=0 python scripts/run_wtq_predictions.py \
 
 ### Judge Table Predictions
 
-`run_judge_many.py` loads the judge once and evaluates one or more prediction files:
+`judge_predictions.py` loads the judge once and evaluates one or more prediction files:
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python scripts/run_judge_many.py \
+CUDA_VISIBLE_DEVICES=0 python scripts/judge_predictions.py \
   --predictions-csvs \
-    results/baseline_150_selected/llama/llama_predictions.csv \
-    results/baseline_150_selected/llama-awq/llama-awq_predictions.csv \
+    results/suc_baseline_150/llama/llama_predictions.csv \
+    results/suc_baseline_150/llama-awq/llama-awq_predictions.csv \
   --output-csvs \
-    results/baseline_150_selected/llama/judge_raw.csv \
-    results/baseline_150_selected/llama-awq/judge_raw.csv \
+    results/suc_baseline_150/llama/judge_raw.csv \
+    results/suc_baseline_150/llama-awq/judge_raw.csv \
   --judge-model-id google/gemma-2-9b-it \
   --backend vllm \
   --target-field raw
 ```
-
-## Code Benchmarks
-
-Configured models are listed in [`configs/code_bench_models.json`](configs/code_bench_models.json):
-
-- Qwen2.5-Coder-7B-Instruct: fp16, AWQ, GPTQ;
-- Meta-Llama-3.1-8B-Instruct: fp16, AWQ, GPTQ.
-
-Optionally prefetch all configured models:
-
-```bash
-bash scripts/prefetch_code_models.sh
-```
-
-### Smoke Test
-
-Run small subsets before starting the full experiment:
-
-```bash
-GPU=0 \
-MODELS="qwen2.5-coder-7b-instruct" \
-BENCHMARKS="sweqa cruxeval livecodebench" \
-SWEQA_MAX_EXAMPLES=16 \
-CRUXEVAL_MAX_EXAMPLES=16 \
-LIVECODEBENCH_MAX_EXAMPLES=16 \
-RESULTS_ROOT=results/code_benchmarks_smoke \
-bash scripts/run_code_benchmarks_full.sh
-```
-
-### Full Reproduction
-
-The default command evaluates all six configured models on RepoQA, SWE-QA, CRUXEval, and LiveCodeBench execution:
-
-```bash
-GPU=0 \
-RESULTS_ROOT=results/code_benchmarks_full \
-bash scripts/run_code_benchmarks_full.sh
-```
-
-Completed outputs are resumed or skipped. To replace existing outputs:
-
-```bash
-GPU=0 OVERWRITE=1 bash scripts/run_code_benchmarks_full.sh
-```
-
-Generated layout:
-
-```text
-results/code_benchmarks_full/
-  repoqa/<model>/
-  sweqa/<model>/
-  cruxeval/<model>/
-  livecodebench/<model>/
-```
-
-Run only selected models or benchmarks:
-
-```bash
-GPU=0 \
-MODELS="llama-3.1-8b-instruct llama-3.1-8b-instruct-awq llama-3.1-8b-instruct-gptq" \
-BENCHMARKS="sweqa cruxeval livecodebench" \
-GEN_BACKEND=vllm \
-GEN_BATCH_SIZE=32 \
-GEN_GPU_MEMORY_UTILIZATION=0.85 \
-bash scripts/run_code_benchmarks_full.sh
-```
-
-### RepoQA With a vLLM Server
-
-Start the server:
-
-```bash
-vllm serve Qwen/Qwen2.5-Coder-7B-Instruct \
-  --port 8000 \
-  --max-model-len 20480
-```
-
-Run RepoQA in another shell:
-
-```bash
-MODELS="qwen2.5-coder-7b-instruct" \
-BENCHMARKS="repoqa" \
-REPOQA_BACKEND=openai \
-REPOQA_BASE_URL=http://127.0.0.1:8000/v1 \
-bash scripts/run_code_benchmarks_full.sh
-```
-
-### Individual Code Benchmark Entrypoints
-
-SWE-QA:
-
-```bash
-CUDA_VISIBLE_DEVICES=0 python scripts/run_swe_qa_benchmark.py \
-  --model-key qwen2.5-coder-7b-instruct \
-  --output-dir results/code_benchmarks_full/sweqa/qwen2.5-coder-7b-instruct \
-  --split oracle \
-  --backend vllm
-```
-
-CRUXEval:
-
-```bash
-CUDA_VISIBLE_DEVICES=0 python scripts/run_cruxeval_benchmark.py \
-  --model-key qwen2.5-coder-7b-instruct \
-  --output-dir results/code_benchmarks_full/cruxeval/qwen2.5-coder-7b-instruct \
-  --split test \
-  --backend vllm
-```
-
-LiveCodeBench execution:
-
-```bash
-CUDA_VISIBLE_DEVICES=0 python scripts/run_livecodebench_execution.py \
-  --model-key qwen2.5-coder-7b-instruct \
-  --output-dir results/code_benchmarks_full/livecodebench/qwen2.5-coder-7b-instruct \
-  --split test \
-  --backend vllm
-```
-
-RepoQA is invoked through its installed Python module by `run_code_benchmarks_full.sh`. Benchmark datasets and generated outputs are not vendored.

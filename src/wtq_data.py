@@ -59,7 +59,7 @@ def load_wtq_examples(
         dataset = load_dataset("TableQAKit/WTQ", split=split)
     except Exception:
         fallback = "train" if split != "train" else "test"
-        print(f"[wtq_snapshot] Split '{split}' not found, trying '{fallback}'")
+        print(f"[wtq_data] Split '{split}' not found, trying '{fallback}'")
         dataset = load_dataset("TableQAKit/WTQ", split=fallback)
 
     examples: list[WTQExample] = []
@@ -105,14 +105,14 @@ def load_wtq_examples(
     return examples
 
 
-def load_frozen_snapshot(
-    snapshot_dir: str | Path,
+def load_wtq_data(
+    wtq_dir: str | Path,
     *,
     n_tables: int | None = None,
 ) -> list[WTQExample]:
-    snapshot_path = Path(snapshot_dir)
+    wtq_path = Path(wtq_dir)
     examples: list[WTQExample] = []
-    with (snapshot_path / "tables.jsonl").open("r", encoding="utf-8") as handle:
+    with (wtq_path / "tables.jsonl").open("r", encoding="utf-8") as handle:
         for line in handle:
             record = json.loads(line)
             examples.append(WTQExample(**record))
@@ -121,7 +121,7 @@ def load_frozen_snapshot(
     return examples
 
 
-def write_snapshot(
+def write_wtq_data(
     output_dir: str | Path,
     examples: list[WTQExample],
     *,

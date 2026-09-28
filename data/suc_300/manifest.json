@@ -1,5 +1,5 @@
 {
-  "source_snapshot_dir": "/home/kazariansa/quantization/quant_table_repro/data/fixed_wtq_300",
+  "source_wtq_dir": "data/wtq_300",
   "seed": 42,
   "n_task_rows": 3300,
   "tasks_per_table": {

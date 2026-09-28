@@ -12,7 +12,7 @@ from transformers import StoppingCriteria, StoppingCriteriaList
 from tqdm import tqdm
 
 from src.model_registry import load_model, load_tokenizer, load_vllm_model, unload_model
-from src.suc_tasks import LIST_TASKS, load_snapshot_tables, load_tasks_jsonl
+from src.suc_tasks import LIST_TASKS, load_tasks_jsonl, load_wtq_tables
 from src.table_formats import FORMATTERS
 
 
@@ -123,12 +123,12 @@ def load_selected_table_ids(path: str | Path) -> list[str]:
 
 
 def load_table_index(
-    snapshot_dir: str | Path,
+    wtq_dir: str | Path,
     *,
     n_tables: int | None = None,
     selected_table_ids: list[str] | None = None,
 ) -> dict[str, dict]:
-    tables = load_snapshot_tables(snapshot_dir)
+    tables = load_wtq_tables(wtq_dir)
     if selected_table_ids is not None:
         selected = set(selected_table_ids)
         tables = [table for table in tables if table.id in selected]
@@ -287,20 +287,20 @@ def generate_raw_batch_vllm(model, batch_inputs: list[dict]) -> list[str]:
 
 
 def build_instances(
-    snapshot_dir: str | Path,
-    tasks_dir: str | Path,
+    wtq_dir: str | Path,
+    suc_dir: str | Path,
     formats: list[str],
     *,
     n_tables: int | None = None,
     selected_table_ids: list[str] | None = None,
 ) -> list[dict]:
     table_index = load_table_index(
-        snapshot_dir,
+        wtq_dir,
         n_tables=n_tables,
         selected_table_ids=selected_table_ids,
     )
     table_ids = set(table_index.keys())
-    tasks = load_tasks_jsonl(tasks_dir, table_ids=table_ids)
+    tasks = load_tasks_jsonl(suc_dir, table_ids=table_ids)
     instances: list[dict] = []
     for task in tasks:
         table = table_index[task["table_id"]]
@@ -319,8 +319,8 @@ def build_instances(
 def run_predictions(
     *,
     model_key: str,
-    snapshot_dir: str | Path,
-    tasks_dir: str | Path,
+    wtq_dir: str | Path,
+    suc_dir: str | Path,
     output_dir: str | Path,
     formats: list[str],
     hf_token: str | None,
@@ -336,8 +336,8 @@ def run_predictions(
     max_model_len: int | None = None,
 ) -> Path:
     instances = build_instances(
-        snapshot_dir,
-        tasks_dir,
+        wtq_dir,
+        suc_dir,
         formats,
         n_tables=n_tables,
         selected_table_ids=selected_table_ids,
@@ -349,8 +349,8 @@ def run_predictions(
     log = _make_logger(log_path)
     log("=== run_predictions start ===")
     log(f"model={model_key}")
-    log(f"snapshot_dir={snapshot_dir}")
-    log(f"tasks_dir={tasks_dir}")
+    log(f"wtq_dir={wtq_dir}")
+    log(f"suc_dir={suc_dir}")
     log(f"formats={formats}")
     log(f"n_tables={n_tables}")
     log(f"selected_table_ids_count={len(selected_table_ids) if selected_table_ids is not None else 0}")
@@ -529,9 +529,9 @@ def run_predictions(
     manifest = {
         "model": model_key,
         "formats": formats,
-        "snapshot_dir": str(snapshot_dir),
-        "tasks_dir": str(tasks_dir),
-        "n_tables_from_frozen_snapshot": n_tables,
+        "wtq_dir": str(wtq_dir),
+        "suc_dir": str(suc_dir),
+        "n_tables_from_wtq_data": n_tables,
         "selected_table_ids_count": len(selected_table_ids) if selected_table_ids is not None else 0,
         "one_shot": one_shot,
         "backend": backend,
@@ -551,22 +551,22 @@ def run_predictions(
 
 def select_complete_table_ids(
     *,
-    snapshot_dir: str | Path,
-    tasks_dir: str | Path,
+    wtq_dir: str | Path,
+    suc_dir: str | Path,
     formats: list[str],
     model_key: str,
     hf_token: str | None,
     max_prompt_tokens: int,
     n_tables_target: int,
 ) -> tuple[list[str], list[dict]]:
-    table_index = load_table_index(snapshot_dir)
+    table_index = load_table_index(wtq_dir)
     ordered_table_ids = list(table_index.keys())
     tokenizer = load_tokenizer(model_key, hf_token)
 
     selected: list[str] = []
     diagnostics: list[dict] = []
 
-    tasks = load_tasks_jsonl(tasks_dir)
+    tasks = load_tasks_jsonl(suc_dir)
     tasks_by_table: dict[str, list[dict]] = {}
     for task in tasks:
         tasks_by_table.setdefault(task["table_id"], []).append(task)

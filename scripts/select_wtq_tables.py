@@ -11,12 +11,12 @@ from src.suc_pipeline import select_complete_table_ids
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--snapshot-dir",
-        default=str(Path(__file__).resolve().parents[1] / "data" / "fixed_wtq_300"),
+        "--wtq-dir",
+        default=str(Path(__file__).resolve().parents[1] / "data" / "wtq_300"),
     )
     parser.add_argument(
-        "--tasks-dir",
-        default=str(Path(__file__).resolve().parents[1] / "data" / "fixed_wtq_300_suc"),
+        "--suc-dir",
+        default=str(Path(__file__).resolve().parents[1] / "data" / "suc_300"),
     )
     parser.add_argument(
         "--model",
@@ -36,11 +36,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--n-tables", type=int, default=50)
     parser.add_argument(
         "--output-json",
-        default=str(Path(__file__).resolve().parents[1] / "data" / "selected_tables_50.json"),
+        default=str(Path(__file__).resolve().parents[1] / "data" / "wtq_selected_50.json"),
     )
     parser.add_argument(
         "--diagnostics-json",
-        default=str(Path(__file__).resolve().parents[1] / "data" / "selected_tables_50_diagnostics.json"),
+        default=str(Path(__file__).resolve().parents[1] / "data" / "wtq_selected_50_diagnostics.json"),
     )
     parser.add_argument("--hf-token", default=os.environ.get("HF_TOKEN"))
     return parser.parse_args()
@@ -49,8 +49,8 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     selected_ids, diagnostics = select_complete_table_ids(
-        snapshot_dir=args.snapshot_dir,
-        tasks_dir=args.tasks_dir,
+        wtq_dir=args.wtq_dir,
+        suc_dir=args.suc_dir,
         formats=args.formats,
         model_key=args.model,
         hf_token=args.hf_token,

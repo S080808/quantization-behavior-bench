@@ -23,16 +23,16 @@ def parse_args() -> argparse.Namespace:
         ],
     )
     parser.add_argument(
-        "--snapshot-dir",
-        default=str(Path(__file__).resolve().parents[1] / "data" / "fixed_wtq_300"),
+        "--wtq-dir",
+        default=str(Path(__file__).resolve().parents[1] / "data" / "wtq_300"),
     )
     parser.add_argument(
-        "--tasks-dir",
-        default=str(Path(__file__).resolve().parents[1] / "data" / "fixed_wtq_300_suc"),
+        "--suc-dir",
+        default=str(Path(__file__).resolve().parents[1] / "data" / "suc_300"),
     )
     parser.add_argument(
         "--output-dir",
-        default=str(Path(__file__).resolve().parents[1] / "results" / "baseline_50"),
+        default=str(Path(__file__).resolve().parents[1] / "results" / "suc_baseline_50"),
     )
     parser.add_argument("--n-tables", type=int, default=50)
     parser.add_argument("--selected-table-ids-json", default=None)
@@ -57,8 +57,8 @@ def main() -> None:
         selected_table_ids = load_selected_table_ids(args.selected_table_ids_json)
     pred_path = run_predictions(
         model_key=args.model,
-        snapshot_dir=args.snapshot_dir,
-        tasks_dir=args.tasks_dir,
+        wtq_dir=args.wtq_dir,
+        suc_dir=args.suc_dir,
         output_dir=output_dir,
         formats=args.formats,
         hf_token=args.hf_token,

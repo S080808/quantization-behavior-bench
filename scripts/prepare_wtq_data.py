@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from src.wtq_snapshot import load_wtq_examples, write_snapshot
+from src.wtq_data import load_wtq_examples, write_wtq_data
 
 
 def parse_args() -> argparse.Namespace:
@@ -16,7 +16,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--sort-by-size", action="store_true")
     parser.add_argument(
         "--output-dir",
-        default=str(Path(__file__).resolve().parents[1] / "data" / "fixed_wtq_300"),
+        default=str(Path(__file__).resolve().parents[1] / "data" / "wtq_300"),
     )
     return parser.parse_args()
 
@@ -36,7 +36,7 @@ def main() -> None:
         sort_by_size=args.sort_by_size,
     )
 
-    write_snapshot(
+    write_wtq_data(
         args.output_dir,
         examples,
         split=args.split,

@@ -3,18 +3,18 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from src.suc_tasks import generate_tasks_for_table, load_snapshot_tables, write_tasks
+from src.suc_tasks import generate_tasks_for_table, load_wtq_tables, write_tasks
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--snapshot-dir",
-        default=str(Path(__file__).resolve().parents[1] / "data" / "fixed_wtq_300"),
+        "--wtq-dir",
+        default=str(Path(__file__).resolve().parents[1] / "data" / "wtq_300"),
     )
     parser.add_argument(
         "--output-dir",
-        default=str(Path(__file__).resolve().parents[1] / "data" / "fixed_wtq_300_suc"),
+        default=str(Path(__file__).resolve().parents[1] / "data" / "suc_300"),
     )
     parser.add_argument("--seed", type=int, default=42)
     return parser.parse_args()
@@ -22,7 +22,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    examples = load_snapshot_tables(args.snapshot_dir)
+    examples = load_wtq_tables(args.wtq_dir)
 
     all_tasks = []
     for example in examples:
@@ -31,7 +31,7 @@ def main() -> None:
     write_tasks(
         args.output_dir,
         all_tasks,
-        source_snapshot_dir=args.snapshot_dir,
+        source_wtq_dir=args.wtq_dir,
         seed=args.seed,
     )
 

@@ -5,7 +5,7 @@ import random
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
-from src.wtq_snapshot import WTQExample, load_frozen_snapshot
+from src.wtq_data import WTQExample, load_wtq_data
 
 
 TASKS_PER_TABLE: dict[str, int] = {
@@ -117,16 +117,16 @@ def generate_tasks_for_table(example: WTQExample, seed: int) -> list[SUCTask]:
     return tasks
 
 
-def load_snapshot_tables(snapshot_dir: str | Path, *, n_tables: int | None = None) -> list[WTQExample]:
-    return load_frozen_snapshot(snapshot_dir, n_tables=n_tables)
+def load_wtq_tables(wtq_dir: str | Path, *, n_tables: int | None = None) -> list[WTQExample]:
+    return load_wtq_data(wtq_dir, n_tables=n_tables)
 
 
 def load_tasks_jsonl(
-    tasks_dir: str | Path,
+    suc_dir: str | Path,
     *,
     table_ids: set[str] | None = None,
 ) -> list[dict]:
-    tasks_path = Path(tasks_dir) / "tasks.jsonl"
+    tasks_path = Path(suc_dir) / "tasks.jsonl"
     rows: list[dict] = []
     with tasks_path.open("r", encoding="utf-8") as handle:
         for line in handle:
@@ -141,7 +141,7 @@ def write_tasks(
     output_dir: str | Path,
     all_tasks: list[SUCTask],
     *,
-    source_snapshot_dir: str,
+    source_wtq_dir: str,
     seed: int,
 ) -> None:
     output_path = Path(output_dir)
@@ -150,7 +150,7 @@ def write_tasks(
     tasks_dir.mkdir(parents=True, exist_ok=True)
 
     manifest = {
-        "source_snapshot_dir": source_snapshot_dir,
+        "source_wtq_dir": source_wtq_dir,
         "seed": seed,
         "n_task_rows": len(all_tasks),
         "tasks_per_table": TASKS_PER_TABLE,
