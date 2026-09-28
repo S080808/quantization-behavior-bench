@@ -34,24 +34,16 @@
   {
     "table_id": "nu-4",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'GBR' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 1, column 'Nationality'",
+    "question": "In which row and column does the value '5th International Keirin Event' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Competition'",
     "n_rows": 20,
     "n_cols": 8
   },
   {
     "table_id": "nu-4",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Sprint' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 1, column 'Event'",
-    "n_rows": 20,
-    "n_cols": 8
-  },
-  {
-    "table_id": "nu-4",
-    "task": "reverse_lookup",
-    "question": "In which row and column does the value '30 October 2009' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 14, column 'Date'",
+    "question": "In which row and column does the value 'International keirin' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Event'",
     "n_rows": 20,
     "n_cols": 8
   },

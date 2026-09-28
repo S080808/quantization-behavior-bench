@@ -34,8 +34,8 @@
   {
     "table_id": "nt-2592",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Yes' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 9, column 'Model 01'",
+    "question": "In which row and column does the value 'Lithium Polymer' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 12, column 'Model 01+'",
     "n_rows": 18,
     "n_cols": 7
   },

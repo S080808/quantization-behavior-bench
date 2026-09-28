@@ -50,8 +50,8 @@
   {
     "table_id": "nt-4297",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'D' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Result'",
+    "question": "In which row and column does the value 'March 3, 1982' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Date'",
     "n_rows": 11,
     "n_cols": 6
   },

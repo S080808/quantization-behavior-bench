@@ -34,8 +34,8 @@
   {
     "table_id": "nu-2276",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Jordan Budde' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 6, column 'Written by'",
+    "question": "In which row and column does the value '2190019' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 20, column 'Production\\ncode'",
     "n_rows": 22,
     "n_cols": 7
   },

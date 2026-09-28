@@ -42,8 +42,8 @@
   {
     "table_id": "nt-9203",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Rivelino, Tostão' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 7, column 'Brazil scorers'",
+    "question": "In which row and column does the value 'June 16, 1968' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Date'",
     "n_rows": 22,
     "n_cols": 6
   },

@@ -65,15 +65,36 @@ def generate_tasks_for_table(example: WTQExample, seed: int) -> list[SUCTask]:
             )
         )
 
-    seen: dict[str, tuple[int, int]] = {}
+    value_positions: dict[str, list[tuple[int, int]]] = {}
     for r_idx, row in enumerate(rows):
         for c_idx, value in enumerate(row):
-            if value not in seen:
-                seen[value] = (r_idx, c_idx)
-    unique_pool = list(seen.items())
-    for value, (r_idx, c_idx) in rng.sample(
-        unique_pool, min(TASKS_PER_TABLE["reverse_lookup"], len(unique_pool))
-    ):
+            value_positions.setdefault(value, []).append((r_idx, c_idx))
+
+    # Draw from the legacy pool first so correcting ambiguous reverse lookups
+    # does not change the RNG state used by row/column retrieval tasks.
+    legacy_pool = [(value, positions[0]) for value, positions in value_positions.items()]
+    sample_size = min(TASKS_PER_TABLE["reverse_lookup"], len(legacy_pool))
+    reverse_sample = rng.sample(legacy_pool, sample_size)
+
+    selected_values = {
+        value for value, _ in reverse_sample if len(value_positions[value]) == 1
+    }
+    replacements = [
+        (value, positions[0])
+        for value, positions in value_positions.items()
+        if len(positions) == 1 and value not in selected_values
+    ]
+    replacement_rng = random.Random(f"{seed}:{example.id}:reverse_lookup")
+    replacement_rng.shuffle(replacements)
+    replacement_iter = iter(replacements)
+
+    for value, position in reverse_sample:
+        if len(value_positions[value]) != 1:
+            try:
+                value, position = next(replacement_iter)
+            except StopIteration:
+                continue
+        r_idx, c_idx = position
         tasks.append(
             SUCTask(
                 table_id=example.id,

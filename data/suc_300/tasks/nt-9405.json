@@ -42,8 +42,8 @@
   {
     "table_id": "nt-9405",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'T5' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'Place'",
+    "question": "In which row and column does the value '74-76-73-78=301' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Score'",
     "n_rows": 10,
     "n_cols": 6
   },

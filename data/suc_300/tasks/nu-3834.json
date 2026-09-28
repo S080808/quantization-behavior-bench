@@ -34,8 +34,8 @@
   {
     "table_id": "nu-3834",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '1' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'In service'",
+    "question": "In which row and column does the value 'Italy' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Origin'",
     "n_rows": 7,
     "n_cols": 5
   },

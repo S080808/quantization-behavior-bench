@@ -42,8 +42,8 @@
   {
     "table_id": "nu-94",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Leg 1, Away' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 7, column 'Leg'",
+    "question": "In which row and column does the value 'Brann Stadion, Bergen' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 12, column 'Location'",
     "n_rows": 24,
     "n_cols": 8
   },

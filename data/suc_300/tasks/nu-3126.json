@@ -42,8 +42,8 @@
   {
     "table_id": "nu-3126",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '0' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 1, column 'Bronze'",
+    "question": "In which row and column does the value 'Germany (EUA)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Nation'",
     "n_rows": 8,
     "n_cols": 6
   },

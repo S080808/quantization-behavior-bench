@@ -42,8 +42,8 @@
   {
     "table_id": "nt-270",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '22' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'The Open'",
+    "question": "In which row and column does the value '80' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 1, column 'U.S. Open'",
     "n_rows": 18,
     "n_cols": 6
   },

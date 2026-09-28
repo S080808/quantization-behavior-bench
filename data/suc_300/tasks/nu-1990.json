@@ -42,16 +42,16 @@
   {
     "table_id": "nu-1990",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Ligier-Renault' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 7, column 'Constructor'",
+    "question": "In which row and column does the value 'Christian Danner' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 17, column 'Driver'",
     "n_rows": 25,
     "n_cols": 8
   },
   {
     "table_id": "nu-1990",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '14' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 6, column 'Grid'",
+    "question": "In which row and column does the value '61' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 15, column 'Laps'",
     "n_rows": 25,
     "n_cols": 8
   },

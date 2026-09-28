@@ -42,8 +42,8 @@
   {
     "table_id": "nu-2656",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '3' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'League'",
+    "question": "In which row and column does the value 'Total' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 13, column 'Name'",
     "n_rows": 13,
     "n_cols": 6
   },

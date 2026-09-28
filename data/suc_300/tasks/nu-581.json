@@ -34,8 +34,8 @@
   {
     "table_id": "nu-581",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '179 cm (5 ft 10.5 in)' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 4, column 'Height'",
+    "question": "In which row and column does the value 'Liefering (originally from Serbia)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Home City'",
     "n_rows": 16,
     "n_cols": 5
   },

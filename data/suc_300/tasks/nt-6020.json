@@ -42,8 +42,8 @@
   {
     "table_id": "nt-6020",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Kerry' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'County'",
+    "question": "In which row and column does the value '3-7' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Tally'",
     "n_rows": 11,
     "n_cols": 6
   },

@@ -42,16 +42,16 @@
   {
     "table_id": "nt-13027",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '50' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 6, column 'Tackles'",
+    "question": "In which row and column does the value '837' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 14, column 'Combined Tackles'",
     "n_rows": 14,
     "n_cols": 12
   },
   {
     "table_id": "nt-13027",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '6.0' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'Sacks'",
+    "question": "In which row and column does the value '23' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Assisted Tackles'",
     "n_rows": 14,
     "n_cols": 12
   },

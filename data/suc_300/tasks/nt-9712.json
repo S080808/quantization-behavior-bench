@@ -34,16 +34,16 @@
   {
     "table_id": "nt-9712",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '9 July 2012' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'Date'",
+    "question": "In which row and column does the value 'GK' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Position'",
     "n_rows": 12,
     "n_cols": 6
   },
   {
     "table_id": "nt-9712",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'Fee'",
+    "question": "In which row and column does the value '16' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Squad #'",
     "n_rows": 12,
     "n_cols": 6
   },

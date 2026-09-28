@@ -34,8 +34,8 @@
   {
     "table_id": "nt-4126",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '7 days' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 4, column 'Length of use'",
+    "question": "In which row and column does the value '2011' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 13, column 'Introduced'",
     "n_rows": 13,
     "n_cols": 5
   },

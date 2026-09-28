@@ -42,8 +42,8 @@
   {
     "table_id": "nt-1744",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '9' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 8, column '2007 rank'",
+    "question": "In which row and column does the value 'Rolls-Royce' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 17, column 'Company (country)'",
     "n_rows": 22,
     "n_cols": 12
   },

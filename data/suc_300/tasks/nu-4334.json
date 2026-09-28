@@ -42,8 +42,8 @@
   {
     "table_id": "nu-4334",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Bryan Field' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Color commentator'",
+    "question": "In which row and column does the value 'Bill Corum' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Trophy Presentation'",
     "n_rows": 8,
     "n_cols": 6
   },

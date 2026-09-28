@@ -50,8 +50,8 @@
   {
     "table_id": "nu-3698",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Enchanted' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Film'",
+    "question": "In which row and column does the value '9' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column '#'",
     "n_rows": 14,
     "n_cols": 5
   },

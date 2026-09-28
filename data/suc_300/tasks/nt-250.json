@@ -34,8 +34,8 @@
   {
     "table_id": "nt-250",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Huddersfield Town' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 14, column 'Away team'",
+    "question": "In which row and column does the value 'Bolton Wanderers' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Home team'",
     "n_rows": 22,
     "n_cols": 5
   },
@@ -50,8 +50,8 @@
   {
     "table_id": "nt-250",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '1 February 1922' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 4, column 'Date'",
+    "question": "In which row and column does the value 'Bradford Park Avenue' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 22, column 'Home team'",
     "n_rows": 22,
     "n_cols": 5
   },

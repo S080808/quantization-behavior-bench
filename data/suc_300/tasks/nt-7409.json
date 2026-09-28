@@ -42,16 +42,16 @@
   {
     "table_id": "nt-7409",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Red Bull-Cosworth' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 6, column 'Constructor'",
+    "question": "In which row and column does the value 'Felipe Massa' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'Driver'",
     "n_rows": 20,
     "n_cols": 8
   },
   {
     "table_id": "nt-7409",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '6' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'Points'",
+    "question": "In which row and column does the value 'Mark Webber' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 16, column 'Driver'",
     "n_rows": 20,
     "n_cols": 8
   },

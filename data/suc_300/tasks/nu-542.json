@@ -50,8 +50,8 @@
   {
     "table_id": "nu-542",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Asian Games' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Competition'",
+    "question": "In which row and column does the value 'DQ' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Notes'",
     "n_rows": 9,
     "n_cols": 6
   },

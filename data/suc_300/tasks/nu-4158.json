@@ -34,8 +34,8 @@
   {
     "table_id": "nu-4158",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Lusophony Games' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 4, column 'Competition'",
+    "question": "In which row and column does the value '12th (h)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Position'",
     "n_rows": 11,
     "n_cols": 6
   },

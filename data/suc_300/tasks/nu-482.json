@@ -42,16 +42,16 @@
   {
     "table_id": "nu-482",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'A.C. Milan' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'Pole Position'",
+    "question": "In which row and column does the value 'R.S.C. Anderlecht' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Fastest Lap'",
     "n_rows": 12,
     "n_cols": 9
   },
   {
     "table_id": "nu-482",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'September 21' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'Date'",
+    "question": "In which row and column does the value 'GTA Motor Competición' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Winning Team'",
     "n_rows": 12,
     "n_cols": 9
   },

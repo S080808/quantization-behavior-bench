@@ -42,8 +42,8 @@
   {
     "table_id": "nt-13378",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '2nd' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Class\\nPos.'",
+    "question": "In which row and column does the value 'LMP675' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Class'",
     "n_rows": 8,
     "n_cols": 8
   },

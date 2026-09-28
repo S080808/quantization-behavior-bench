@@ -34,8 +34,8 @@
   {
     "table_id": "nt-8395",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '26' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'For'",
+    "question": "In which row and column does the value '16' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'For'",
     "n_rows": 10,
     "n_cols": 10
   },

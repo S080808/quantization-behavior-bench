@@ -50,8 +50,8 @@
   {
     "table_id": "nu-871",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '31 October 1919' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 8, column 'Commissioned'",
+    "question": "In which row and column does the value 'Sold 30 December 1935' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 12, column 'Fate'",
     "n_rows": 25,
     "n_cols": 5
   },

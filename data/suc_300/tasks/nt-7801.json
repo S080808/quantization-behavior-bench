@@ -34,8 +34,8 @@
   {
     "table_id": "nt-7801",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '3rd' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Position'",
+    "question": "In which row and column does the value '1998' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Year'",
     "n_rows": 7,
     "n_cols": 5
   },

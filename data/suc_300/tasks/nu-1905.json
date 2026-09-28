@@ -34,8 +34,8 @@
   {
     "table_id": "nu-1905",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '6th' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'Position'",
+    "question": "In which row and column does the value '5th' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 1, column 'Position'",
     "n_rows": 12,
     "n_cols": 5
   },
@@ -50,8 +50,8 @@
   {
     "table_id": "nu-1905",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 4, column 'Venue'",
+    "question": "In which row and column does the value 'World Athletics Final' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Competition'",
     "n_rows": 12,
     "n_cols": 5
   },

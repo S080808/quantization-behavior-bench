@@ -42,16 +42,16 @@
   {
     "table_id": "nu-653",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '2.' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'No.'",
+    "question": "In which row and column does the value 'Julie Coin\\n Eva Hrdinová' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Opponents'",
     "n_rows": 10,
     "n_cols": 8
   },
   {
     "table_id": "nu-653",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Winner' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Outcome'",
+    "question": "In which row and column does the value 'Naomi Broady' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'Partner'",
     "n_rows": 10,
     "n_cols": 8
   },

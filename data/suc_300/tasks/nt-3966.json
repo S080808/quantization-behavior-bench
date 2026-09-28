@@ -42,16 +42,16 @@
   {
     "table_id": "nt-3966",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Role-Playing' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'Genre'",
+    "question": "In which row and column does the value 'SFC/SNES' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Platform(s)'",
     "n_rows": 13,
     "n_cols": 6
   },
   {
     "table_id": "nt-3966",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'JP, NA' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Regions'",
+    "question": "In which row and column does the value 'Super Chinese' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Japanese Title'",
     "n_rows": 13,
     "n_cols": 6
   },

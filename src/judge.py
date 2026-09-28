@@ -496,7 +496,16 @@ def _load_pending_judge_rows(
     done_keys: set[tuple] = set()
     if output_path.exists():
         previous = pd.read_csv(output_path)
-        rows_out = previous.to_dict("records")
+        target_keys = {
+            (row["table_id"], row["task"], row["fmt"], row["question"])
+            for row in df.to_dict("records")
+        }
+        rows_out = [
+            row
+            for row in previous.to_dict("records")
+            if (row["table_id"], row["task"], row["fmt"], row["question"])
+            in target_keys
+        ]
         done_keys = {
             (row["table_id"], row["task"], row["fmt"], row["question"])
             for row in rows_out

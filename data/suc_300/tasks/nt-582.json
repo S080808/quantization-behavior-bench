@@ -34,24 +34,24 @@
   {
     "table_id": "nt-582",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '1962' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 7, column 'Year built'",
+    "question": "In which row and column does the value 'Torre Sant Sebastia' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 12, column 'Name'",
     "n_rows": 17,
     "n_cols": 6
   },
   {
     "table_id": "nt-582",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '1972' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 6, column 'Year built'",
+    "question": "In which row and column does the value '194?' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Year built'",
     "n_rows": 17,
     "n_cols": 6
   },
   {
     "table_id": "nt-582",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '88 m' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'Height'",
+    "question": "In which row and column does the value 'Bayerischzell-Osterhofen' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 14, column 'Town'",
     "n_rows": 17,
     "n_cols": 6
   },

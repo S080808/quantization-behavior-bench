@@ -42,8 +42,8 @@
   {
     "table_id": "nt-2882",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '0-6-0T' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 4, column 'Wheels'",
+    "question": "In which row and column does the value '0-6-0ST' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Wheels'",
     "n_rows": 8,
     "n_cols": 8
   },

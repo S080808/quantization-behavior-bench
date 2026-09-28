@@ -42,16 +42,16 @@
   {
     "table_id": "nu-159",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '5th, Heartland' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Regular Season'",
+    "question": "In which row and column does the value '4th, Central' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 1, column 'Regular Season'",
     "n_rows": 16,
     "n_cols": 6
   },
   {
     "table_id": "nu-159",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'USL PDL' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'League'",
+    "question": "In which row and column does the value 'USISL PDSL' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 1, column 'League'",
     "n_rows": 16,
     "n_cols": 6
   },

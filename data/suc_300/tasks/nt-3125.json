@@ -34,8 +34,8 @@
   {
     "table_id": "nt-3125",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '11' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 21, column 'Constituency'",
+    "question": "In which row and column does the value 'Ignacio Walker' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Name'",
     "n_rows": 25,
     "n_cols": 5
   },
@@ -50,8 +50,8 @@
   {
     "table_id": "nt-3125",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Atacama' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'Region'",
+    "question": "In which row and column does the value 'MAS' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 23, column 'Party'",
     "n_rows": 25,
     "n_cols": 5
   },

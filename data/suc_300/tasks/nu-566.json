@@ -34,8 +34,8 @@
   {
     "table_id": "nu-566",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '9' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 9, column 'Rank'",
+    "question": "In which row and column does the value 'Jennifer Donnet (AUS)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Diver'",
     "n_rows": 24,
     "n_cols": 5
   },

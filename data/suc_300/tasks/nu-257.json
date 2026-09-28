@@ -42,16 +42,16 @@
   {
     "table_id": "nu-257",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '15' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'Downhill'",
+    "question": "In which row and column does the value '2010' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Season'",
     "n_rows": 10,
     "n_cols": 8
   },
   {
     "table_id": "nu-257",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '37' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Overall'",
+    "question": "In which row and column does the value '2' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Super G'",
     "n_rows": 10,
     "n_cols": 8
   },

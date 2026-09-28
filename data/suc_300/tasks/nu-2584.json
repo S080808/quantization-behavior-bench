@@ -34,8 +34,8 @@
   {
     "table_id": "nu-2584",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Allen Bestwick\\nRusty Wallace\\nBrad Daugherty\\nRay Evernham' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'NASCAR\\nCountdown'",
+    "question": "In which row and column does the value 'Dave Burns\\nJamie Little\\nShannon Spake\\nVince Welch' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Pit reporters'",
     "n_rows": 8,
     "n_cols": 8
   },

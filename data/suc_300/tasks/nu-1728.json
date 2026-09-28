@@ -50,8 +50,8 @@
   {
     "table_id": "nu-1728",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '-' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 1, column 'Score'",
+    "question": "In which row and column does the value 'Quarterfinals-1' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Match'",
     "n_rows": 10,
     "n_cols": 5
   },

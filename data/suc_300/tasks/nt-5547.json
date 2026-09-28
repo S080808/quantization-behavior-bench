@@ -42,8 +42,8 @@
   {
     "table_id": "nt-5547",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 6, column 'Original name'",
+    "question": "In which row and column does the value '3 April 1946' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'Launched'",
     "n_rows": 20,
     "n_cols": 6
   },

@@ -34,16 +34,16 @@
   {
     "table_id": "nt-13784",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Apostolo Zeno' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 11, column 'Libretto'",
+    "question": "In which row and column does the value 'Il tiranno eroe' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 22, column 'Title'",
     "n_rows": 25,
     "n_cols": 7
   },
   {
     "table_id": "nt-13784",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'music lost, except some arias' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 9, column 'Notes'",
+    "question": "In which row and column does the value 'melodramma' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 16, column 'Genre'",
     "n_rows": 25,
     "n_cols": 7
   },

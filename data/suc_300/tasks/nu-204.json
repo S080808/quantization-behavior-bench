@@ -34,8 +34,8 @@
   {
     "table_id": "nu-204",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'M60B40 V8' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 9, column 'Engine'",
+    "question": "In which row and column does the value '105 kW (143 PS; 141 hp) / 280 N·m (207 lb·ft)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 17, column 'Power/Torque'",
     "n_rows": 19,
     "n_cols": 7
   },
@@ -50,8 +50,8 @@
   {
     "table_id": "nu-204",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '735i' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'Model'",
+    "question": "In which row and column does the value '740d' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 19, column 'Model'",
     "n_rows": 19,
     "n_cols": 7
   },

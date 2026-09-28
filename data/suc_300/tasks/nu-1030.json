@@ -34,8 +34,8 @@
   {
     "table_id": "nu-1030",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '2006\\n2012' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 9, column 'Most recent election results'",
+    "question": "In which row and column does the value 'Kirsten Gillibrand (D) 71.6%\\nWendy E. Long (R) 26.0%' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 20, column 'Incumbent\\nElectoral\\nhistory'",
     "n_rows": 25,
     "n_cols": 7
   },

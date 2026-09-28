@@ -34,16 +34,16 @@
   {
     "table_id": "nt-2733",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Bronze' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 16, column 'Medal'",
+    "question": "In which row and column does the value 'Charles Rampelberg' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 17, column 'Name'",
     "n_rows": 19,
     "n_cols": 5
   },
   {
     "table_id": "nt-2733",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'August 1' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'Date'",
+    "question": "In which row and column does the value 'August 13' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 18, column 'Date'",
     "n_rows": 19,
     "n_cols": 5
   },

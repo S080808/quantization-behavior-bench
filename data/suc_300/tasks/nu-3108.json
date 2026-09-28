@@ -34,16 +34,16 @@
   {
     "table_id": "nu-3108",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'SAG Award Outstanding Performance by a Male Actor in a Comedy Series' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 8, column 'Award'",
+    "question": "In which row and column does the value 'Teen Choice Award Choice TV Actor: Comedy' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 14, column 'Award'",
     "n_rows": 21,
     "n_cols": 4
   },
   {
     "table_id": "nu-3108",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Two and a Half Men' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 7, column 'Film'",
+    "question": "In which row and column does the value 'Golden Globe Award Best Performance by an Actor in a Television Series - Musical or Comedy' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Award'",
     "n_rows": 21,
     "n_cols": 4
   },

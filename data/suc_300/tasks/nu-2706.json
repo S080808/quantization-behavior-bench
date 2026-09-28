@@ -34,8 +34,8 @@
   {
     "table_id": "nu-2706",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '16 December 1955' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 9, column 'Date'",
+    "question": "In which row and column does the value '23' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 23, column 'No.'",
     "n_rows": 25,
     "n_cols": 9
   },

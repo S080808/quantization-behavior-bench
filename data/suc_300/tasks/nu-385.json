@@ -34,16 +34,16 @@
   {
     "table_id": "nu-385",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Gary Kirby' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 4, column 'Player'",
+    "question": "In which row and column does the value 'Seán McLoughlin' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Player'",
     "n_rows": 14,
     "n_cols": 6
   },
   {
     "table_id": "nu-385",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '10' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'Total'",
+    "question": "In which row and column does the value 'John Leahy' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Player'",
     "n_rows": 14,
     "n_cols": 6
   },

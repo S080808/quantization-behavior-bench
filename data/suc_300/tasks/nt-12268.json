@@ -50,8 +50,8 @@
   {
     "table_id": "nt-12268",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '4' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Affiliates'",
+    "question": "In which row and column does the value 'news, soap operas, and sports' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Programming type'",
     "n_rows": 8,
     "n_cols": 5
   },

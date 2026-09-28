@@ -50,8 +50,8 @@
   {
     "table_id": "nu-2553",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'all hands' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 4, column 'Lives lost'",
+    "question": "In which row and column does the value 'Lightship' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 12, column 'Type of Vessel'",
     "n_rows": 12,
     "n_cols": 5
   },

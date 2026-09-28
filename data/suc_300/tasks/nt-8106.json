@@ -42,16 +42,16 @@
   {
     "table_id": "nt-8106",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '7' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 3, column 'Silver'",
+    "question": "In which row and column does the value '8' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Rank'",
     "n_rows": 24,
     "n_cols": 6
   },
   {
     "table_id": "nt-8106",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '13' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Gold'",
+    "question": "In which row and column does the value 'Brunei (BRU)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 19, column 'Nation'",
     "n_rows": 24,
     "n_cols": 6
   },

@@ -34,8 +34,8 @@
   {
     "table_id": "nu-2965",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Arsenal' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'From'",
+    "question": "In which row and column does the value 'Jordi Alba' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Player'",
     "n_rows": 7,
     "n_cols": 5
   },

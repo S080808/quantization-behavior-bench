@@ -34,24 +34,24 @@
   {
     "table_id": "nu-839",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '#38 Mandeville Auto Tech' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 9, column 'GTO Winning Team\\nGTO Winning Drivers'",
+    "question": "In which row and column does the value 'Don Whittington\\n Randy Lanier' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'GTP Winning Team\\nGTP Winning Drivers'",
     "n_rows": 25,
     "n_cols": 6
   },
   {
     "table_id": "nu-839",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '5' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 9, column 'Rnd'",
+    "question": "In which row and column does the value 'Sarel van der Merwe\\n Graham Duxbury\\n Tony Martin' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'GTP Winning Team\\nGTP Winning Drivers'",
     "n_rows": 25,
     "n_cols": 6
   },
   {
     "table_id": "nu-839",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '3' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'Rnd'",
+    "question": "In which row and column does the value 'Chris Cord' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'GTU Winning Team\\nGTU Winning Drivers'",
     "n_rows": 25,
     "n_cols": 6
   },

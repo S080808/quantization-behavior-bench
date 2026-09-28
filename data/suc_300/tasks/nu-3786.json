@@ -50,8 +50,8 @@
   {
     "table_id": "nu-3786",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'John Higgins' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 7, column 'Runner-up'",
+    "question": "In which row and column does the value 'Kill' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 15, column 'City'",
     "n_rows": 19,
     "n_cols": 10
   },

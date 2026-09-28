@@ -34,24 +34,24 @@
   {
     "table_id": "nt-350",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '1962' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 7, column 'Year built'",
+    "question": "In which row and column does the value 'The tallest pylon is on the third section' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 1, column 'Remarks'",
     "n_rows": 17,
     "n_cols": 6
   },
   {
     "table_id": "nt-350",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '1972' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 6, column 'Year built'",
+    "question": "In which row and column does the value 'Zermatt' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Town'",
     "n_rows": 17,
     "n_cols": 6
   },
   {
     "table_id": "nt-350",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '88 m' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'Height'",
+    "question": "In which row and column does the value '70.7 m' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 16, column 'Height'",
     "n_rows": 17,
     "n_cols": 6
   },

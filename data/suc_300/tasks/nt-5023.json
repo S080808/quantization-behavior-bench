@@ -42,8 +42,8 @@
   {
     "table_id": "nt-5023",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '2pm–3pm' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'ET'",
+    "question": "In which row and column does the value 'Lauren Simonetti' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Host(s)'",
     "n_rows": 9,
     "n_cols": 5
   },

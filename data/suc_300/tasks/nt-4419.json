@@ -34,8 +34,8 @@
   {
     "table_id": "nt-4419",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '4' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Appearances\\nStart'",
+    "question": "In which row and column does the value 'U-18' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Category'",
     "n_rows": 6,
     "n_cols": 7
   },
@@ -50,8 +50,8 @@
   {
     "table_id": "nt-4419",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '0' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 1, column 'Appearances\\nSub'",
+    "question": "In which row and column does the value '2013 EAFF East Asian Cup' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Competition'",
     "n_rows": 6,
     "n_cols": 7
   },

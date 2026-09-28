@@ -42,16 +42,16 @@
   {
     "table_id": "nu-3113",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'Dutchie' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 7, column 'Single / EP'",
+    "question": "In which row and column does the value '2012 – Remix Contest EP' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 18, column 'Single / EP'",
     "n_rows": 23,
     "n_cols": 5
   },
   {
     "table_id": "nu-3113",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'The Agenda' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 6, column 'Album'",
+    "question": "In which row and column does the value 'Rave To The Grave' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Single / EP'",
     "n_rows": 23,
     "n_cols": 5
   },

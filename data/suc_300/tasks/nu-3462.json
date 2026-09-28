@@ -42,8 +42,8 @@
   {
     "table_id": "nu-3462",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'LW6/8\\ndetails' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 5, column 'Class'",
+    "question": "In which row and column does the value 'Radomir Dudas\\nGuide: Juraj Mikulas\\nSlovakia (SVK)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 17, column 'Bronze'",
     "n_rows": 25,
     "n_cols": 5
   },

@@ -50,8 +50,8 @@
   {
     "table_id": "nu-1143",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value 'The Greatest Story Never Told Chapter 2: Bread and Circuses' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 10, column 'Album'",
+    "question": "In which row and column does the value 'Warning Shots 2' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Album'",
     "n_rows": 12,
     "n_cols": 6
   },

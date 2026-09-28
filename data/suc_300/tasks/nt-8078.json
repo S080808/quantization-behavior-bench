@@ -42,8 +42,8 @@
   {
     "table_id": "nt-8078",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 2, column 'Notes'",
+    "question": "In which row and column does the value '274 m' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Height of cable over ground'",
     "n_rows": 8,
     "n_cols": 9
   },

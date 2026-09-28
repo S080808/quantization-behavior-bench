@@ -42,8 +42,8 @@
   {
     "table_id": "nu-1051",
     "task": "reverse_lookup",
-    "question": "In which row and column does the value '3' appear? Answer exactly as: row N, column 'ColName'.",
-    "gold": "row 6, column 'Reigns:'",
+    "question": "In which row and column does the value 'Defeated Invader I in a Tournament Final' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 1, column 'Notes:'",
     "n_rows": 25,
     "n_cols": 5
   },
