@@ -10,7 +10,6 @@ import torch
 
 
 def decoder_layers(model) -> tuple[torch.nn.Module, list[torch.nn.Module]]:
-    """Return the decoder backbone and its ordered transformer blocks."""
     queue = [model]
     seen: set[int] = set()
     while queue:
@@ -34,7 +33,6 @@ def _mark(mask: list[bool], start: int, end: int) -> None:
 
 
 def format_character_mask(prompt: str, table_text: str, fmt: str) -> list[bool]:
-    """Label serializer-owned characters for the supported patching formats."""
     table_start = prompt.find(table_text)
     if table_start < 0:
         raise ValueError("Serialized table was not found in the rendered prompt")
@@ -50,7 +48,6 @@ def format_character_mask(prompt: str, table_text: str, fmt: str) -> list[bool]:
             _mark(local, match.start(), match.end())
     elif fmt == "json":
         local[:] = [True] * len(local)
-        # Quotation marks remain format; string contents are table content.
         for match in re.finditer(r'"((?:[^"\\]|\\.)*)"', table_text):
             for index in range(match.start(1), match.end(1)):
                 local[index] = False
@@ -117,7 +114,6 @@ def patch_residual_stream(
     clean_states: dict[int, torch.Tensor],
     token_positions: list[int],
 ) -> Iterator[None]:
-    """Patch block outputs on prefill; leave one-token decode steps untouched."""
     _, layers = decoder_layers(model)
     handles = []
     for layer_index, clean in clean_states.items():

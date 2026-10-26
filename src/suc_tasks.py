@@ -70,8 +70,6 @@ def generate_tasks_for_table(example: WTQExample, seed: int) -> list[SUCTask]:
         for c_idx, value in enumerate(row):
             value_positions.setdefault(value, []).append((r_idx, c_idx))
 
-    # Draw from the legacy pool first so correcting ambiguous reverse lookups
-    # does not change the RNG state used by row/column retrieval tasks.
     legacy_pool = [(value, positions[0]) for value, positions in value_positions.items()]
     sample_size = min(TASKS_PER_TABLE["reverse_lookup"], len(legacy_pool))
     reverse_sample = rng.sample(legacy_pool, sample_size)
