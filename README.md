@@ -138,3 +138,48 @@ CUDA_VISIBLE_DEVICES=0 python scripts/judge_predictions.py \
   --backend vllm \
   --target-field raw
 ```
+
+## Gemma 3 12B and TableEval
+
+The paper additionally evaluates `google/gemma-3-12b-it` and locally quantized
+AWQ/GPTQ W4A16 variants. Their weights and private paths are not included.
+To create checkpoints with the paper's 30-example MMLU philosophy calibration
+and 2,048-token limit, install `llmcompressor` and run:
+
+```bash
+python scripts/quantize_gemma3.py --method awq --output checkpoints/gemma-awq
+python scripts/quantize_gemma3.py --method gptq --output checkpoints/gemma-gptq
+export GEMMA_AWQ_CHECKPOINT="$PWD/checkpoints/gemma-awq"
+export GEMMA_GPTQ_CHECKPOINT="$PWD/checkpoints/gemma-gptq"
+```
+
+The existing WTQ and SUC prediction scripts accept `gemma`, `gemma-awq`, and
+`gemma-gptq`; use `--backend vllm`. Exact checkpoint identity additionally
+depends on the model, dataset, and quantizer revisions.
+
+TableEval data and its SEAT evaluator live in the
+[upstream repository](https://github.com/wenge-research/TableEval). Clone it
+separately. This adapter reads `TableEval-test.jsonl`, selects all 637
+Information Retrieval examples, and writes official-schema prediction JSON
+for the native HTML, LaTeX, and Markdown contexts:
+
+```bash
+git clone https://github.com/wenge-research/TableEval.git ../TableEval
+CUDA_VISIBLE_DEVICES=0 python scripts/run_tableeval_predictions.py \
+  --model gemma-gptq \
+  --test-data ../TableEval/data/TableEval-test.jsonl \
+  --formats html latex markdown
+```
+
+Run TableEval's `run_evaluation.py` on each resulting file with the same
+configured judge for all variants and representations. For example, from the
+TableEval directory:
+
+```bash
+python run_evaluation.py \
+  --llm_judge_name YOUR_JUDGE_ALIAS \
+  --prediction_file_path ../quantization-behavior-bench/results/tableeval/gemma-gptq/gemma-gptq_cot_html_信息查询.json
+```
+
+The adapter uses TableEval's original instruction, contexts, and chain-of-thought
+system message; scoring remains in the upstream evaluator.

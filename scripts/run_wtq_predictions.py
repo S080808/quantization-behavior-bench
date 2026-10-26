@@ -40,6 +40,9 @@ def parse_args() -> argparse.Namespace:
             "qwen",
             "qwen-awq",
             "qwen-gptq",
+            "gemma",
+            "gemma-awq",
+            "gemma-gptq",
         ],
     )
     parser.add_argument(

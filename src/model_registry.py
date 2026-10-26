@@ -45,7 +45,34 @@ MODELS: dict[str, dict] = {
         "kind": "gptq",
         "torch_dtype": torch.float16,
     },
+    "gemma": {
+        "model_id": "google/gemma-3-12b-it",
+        "kind": "gemma",
+        "torch_dtype": torch.bfloat16,
+    },
+    "gemma-awq": {
+        "model_env": "GEMMA_AWQ_CHECKPOINT",
+        "tokenizer_id": "google/gemma-3-12b-it",
+        "kind": "gemma",
+        "torch_dtype": torch.bfloat16,
+    },
+    "gemma-gptq": {
+        "model_env": "GEMMA_GPTQ_CHECKPOINT",
+        "tokenizer_id": "google/gemma-3-12b-it",
+        "kind": "gemma",
+        "torch_dtype": torch.bfloat16,
+    },
 }
+
+
+def model_id_for(model_key: str) -> str:
+    cfg = MODELS[model_key]
+    if "model_env" in cfg:
+        model_id = os.environ.get(cfg["model_env"])
+        if not model_id:
+            raise ValueError(f"Set {cfg['model_env']} to the local Gemma checkpoint path")
+        return model_id
+    return cfg["model_id"]
 
 
 LLAMA2_CHAT_TEMPLATE = (
@@ -72,7 +99,7 @@ LLAMA2_CHAT_TEMPLATE = (
 
 
 def load_tokenizer(model_key: str, hf_token: str | None, *, local_files_only: bool = False):
-    model_id = MODELS[model_key]["model_id"]
+    model_id = MODELS[model_key].get("tokenizer_id") or model_id_for(model_key)
     tokenizer = AutoTokenizer.from_pretrained(
         model_id,
         token=hf_token,
@@ -88,10 +115,20 @@ def load_tokenizer(model_key: str, hf_token: str | None, *, local_files_only: bo
 
 def load_model(model_key: str, hf_token: str | None, *, local_files_only: bool = False):
     cfg = MODELS[model_key]
-    model_id = cfg["model_id"]
+    model_id = model_id_for(model_key)
     tokenizer = load_tokenizer(model_key, hf_token, local_files_only=local_files_only)
 
-    if cfg["kind"] == "awq":
+    if cfg["kind"] == "gemma":
+        from transformers import Gemma3ForConditionalGeneration
+
+        model = Gemma3ForConditionalGeneration.from_pretrained(
+            model_id,
+            device_map="auto" if torch.cuda.is_available() else None,
+            torch_dtype=cfg["torch_dtype"],
+            token=hf_token,
+            local_files_only=local_files_only,
+        )
+    elif cfg["kind"] == "awq":
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             device_map="auto" if torch.cuda.is_available() else None,
@@ -140,7 +177,7 @@ def load_vllm_model(
             "llama-quip is not supported with vLLM in this repro branch. "
             "Use --backend hf and a quip-sharp installation."
         )
-    model_id = cfg["model_id"]
+    model_id = model_id_for(model_key)
     tokenizer = load_tokenizer(model_key, hf_token)
 
     llm_kwargs = {
