@@ -1,8 +1,3 @@
-"""Generate TableEval Information Retrieval predictions in the official JSON schema.
-
-The benchmark data and SEAT evaluator remain in the upstream TableEval repo:
-https://github.com/wenge-research/TableEval
-"""
 from __future__ import annotations
 
 import argparse
@@ -60,7 +55,7 @@ def save(path: Path, records: dict[str, dict]) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description="Generate TableEval Information Retrieval predictions")
     parser.add_argument("--model", required=True, choices=sorted(MODELS))
     parser.add_argument("--test-data", type=Path, required=True,
                         help="Upstream TableEval data/TableEval-test.jsonl")

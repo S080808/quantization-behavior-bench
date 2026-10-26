@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-"""Create comparable Gemma 3 12B W4A16 AWQ or GPTQ checkpoints for vLLM.
-
-Both methods use the same 30 MMLU-philosophy calibration examples, group size
-128, and the same ignored multimodal/output modules.  The output is saved in
-compressed-tensors format, which vLLM loads directly.
-"""
 from __future__ import annotations
 
 import argparse
@@ -26,10 +20,6 @@ MAX_SEQ_LENGTH = 2048
 
 
 def calibration_dataset() -> Dataset:
-    # The current cais/mmlu release exposes test/validation/dev (the former
-    # auxiliary_train name is no longer present).  The public Gemma AWQ
-    # metadata describes a 30-example mmlu_philosophy calibration set; use a
-    # deterministic slice of the philosophy test split when reproducing it.
     ds = load_dataset("cais/mmlu", "philosophy", split="test")
     rows = []
     for item in ds.select(range(min(CALIBRATION_SAMPLES, len(ds)))):
@@ -45,8 +35,6 @@ def main() -> None:
     args = ap.parse_args()
     ds = calibration_dataset()
 
-    # Gemma 3 is multimodal; load_context makes LLM Compressor use its
-    # conditional-generation class while calibration remains text-only.
     with load_context(Gemma3ForConditionalGeneration):
         model = Gemma3ForConditionalGeneration.from_pretrained(
             MODEL_ID, torch_dtype="auto", device_map="auto"
@@ -54,8 +42,6 @@ def main() -> None:
         processor = AutoProcessor.from_pretrained(MODEL_ID)
 
         if args.method == "awq":
-            # This is the vLLM/LLM- Compressor AWQ recipe: AWQ scaling followed
-            # by asymmetric W4A16 compressed-tensors quantization.
             recipe = [
                 AWQModifier(
                     mappings=[
