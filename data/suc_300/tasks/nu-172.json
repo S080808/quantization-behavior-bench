@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-172",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "9 rows, 10 columns",
+    "n_rows": 9,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nu-172",
+    "task": "cell_lookup",
+    "question": "What value is in row 9, column 'Class'?",
+    "gold": "GT1",
+    "n_rows": 9,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nu-172",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Car'?",
+    "gold": "Ligier JS2\\nMaserati 3.0L V6",
+    "n_rows": 9,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nu-172",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Tyres'?",
+    "gold": "",
+    "n_rows": 9,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nu-172",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'C1' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Class'",
+    "n_rows": 9,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nu-172",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Vern Schuppan\\n Sam Posey' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Co-Drivers'",
+    "n_rows": 9,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nu-172",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '10' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'No'",
+    "n_rows": 9,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nu-172",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "1974\nS\\n3.0\n15\n\nLigier JS2\\nMaserati 3.0L V6\nAutomobiles Ligier\nAlain Serpaggi\n310\n8th\n5th",
+    "n_rows": 9,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nu-172",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "1973\nS\\n3.0\n62\n\nLigier JS2\\nMaserati 3.0L V6\nAutomobiles Ligier\nGuy Ligier\n24\nDSQ\nDSQ",
+    "n_rows": 9,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nu-172",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Pos.', one value per line.",
+    "gold": "DNF\nDSQ\n8th\nDNF\n10th\n14th\nDNF\nDNF\n11th",
+    "n_rows": 9,
+    "n_cols": 10
+  },
+  {
+    "table_id": "nu-172",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Class', one value per line.",
+    "gold": "S\\n3.0\nS\\n3.0\nS\\n3.0\nS\\n+2.0\nS\\n+2.0\nC1\nGT\nGT2\nGT1",
+    "n_rows": 9,
+    "n_cols": 10
+  }
+]

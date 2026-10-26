@@ -1,0 +1,269 @@
+{
+  "id": "nt-3236",
+  "question": "what is the only county whose name comes from a battle?",
+  "answers": [
+    "Alamance County"
+  ],
+  "header": [
+    "County",
+    "FIPS Code",
+    "County Seat",
+    "Created",
+    "Origin",
+    "Etymology",
+    "Population estimate\\n(2011)",
+    "Area"
+  ],
+  "rows": [
+    [
+      "Alamance County",
+      "001",
+      "Graham",
+      "1849",
+      "Orange County",
+      "The Battle of Alamance which was derived from the local Native American word meaning \"blue clay\" found in the Great Alamance Creek",
+      "153,291",
+      "435 sq mi\\n(1,127 km2)"
+    ],
+    [
+      "Alexander County",
+      "003",
+      "Taylorsville",
+      "1847",
+      "Caldwell County, Iredell County, and Wilkes County",
+      "William J. Alexander, member of the legislature and Speaker of the North Carolina House of Commons",
+      "37,087",
+      "263 sq mi\\n(681 km2)"
+    ],
+    [
+      "Alleghany County",
+      "005",
+      "Sparta",
+      "1859",
+      "Ashe County",
+      "Derived from a corruption of the Delaware Indian name for the Allegheny and Ohio Rivers and is said to have meant \"a fine stream\"",
+      "11,052",
+      "236 sq mi\\n(611 km2)"
+    ],
+    [
+      "Anson County",
+      "007",
+      "Wadesboro",
+      "1750",
+      "Bladen County",
+      "George, Lord Anson (1697–1762), a celebrated English admiral who circumnavigated the globe",
+      "26,143",
+      "537 sq mi\\n(1,391 km2)"
+    ],
+    [
+      "Ashe County",
+      "009",
+      "Jefferson",
+      "1799",
+      "Wilkes County",
+      "Samuel Ashe (1725–1813), a Revolutionary patriot, superior court judge, and governor of North Carolina",
+      "27,143",
+      "427 sq mi\\n(1,106 km2)"
+    ],
+    [
+      "Avery County",
+      "011",
+      "Newland",
+      "1911",
+      "Caldwell County, Mitchell County, and Watauga County",
+      "Waightstill Avery (1741–1821), a soldier of the Revolution and Attorney General of North Carolina",
+      "17,572",
+      "247 sq mi\\n(640 km2)"
+    ],
+    [
+      "Beaufort County",
+      "013",
+      "Washington",
+      "1712",
+      "Original county",
+      "Henry Somerset, Duke of Beaufort, who in 1709 became one of the Lords Proprietor",
+      "47,691",
+      "959 sq mi\\n(2,484 km2)"
+    ],
+    [
+      "Bertie County",
+      "015",
+      "Windsor",
+      "1722",
+      "Chowan County",
+      "James or Henry Bertie, two Lords Proprietor of colonial North Carolina",
+      "20,874",
+      "741 sq mi\\n(1,919 km2)"
+    ],
+    [
+      "Bladen County",
+      "017",
+      "Elizabethtown",
+      "1734",
+      "New Hanover County",
+      "Martin Bladen, a member of the Board of Trade",
+      "35,190",
+      "887 sq mi\\n(2,297 km2)"
+    ],
+    [
+      "Brunswick County",
+      "019",
+      "Bolivia",
+      "1764",
+      "Bladen County and New Hanover County",
+      "George I of Great Britain (1660–1727), Duke of Brunswick and Lüneburg",
+      "110,097",
+      "1,050 sq mi\\n(2,719 km2)"
+    ],
+    [
+      "Buncombe County",
+      "021",
+      "Asheville",
+      "1791",
+      "Burke County and Rutherford County",
+      "Edward Buncombe, a Revolutionary soldier, who was wounded and captured at the Battle of Germantown, and died a paroled prisoner in Philadelphia",
+      "241,419",
+      "660 sq mi\\n(1,709 km2)"
+    ],
+    [
+      "Burke County",
+      "023",
+      "Morganton",
+      "1777",
+      "Rowan County",
+      "Thomas Burke (1747–1783), a member of the Continental Congress and governor of North Carolina",
+      "90,904",
+      "515 sq mi\\n(1,334 km2)"
+    ],
+    [
+      "Cabarrus County",
+      "025",
+      "Concord",
+      "1792",
+      "Mecklenburg County",
+      "Stephen Cabarrus (1754–1808), member of the legislature and Speaker of the North Carolina House of Commons",
+      "181,468",
+      "365 sq mi\\n(945 km2)"
+    ],
+    [
+      "Caldwell County",
+      "027",
+      "Lenoir",
+      "1841",
+      "Burke County and Wilkes County",
+      "Joseph Caldwell (1773–1835), the first president of the University of North Carolina",
+      "82,395",
+      "474 sq mi\\n(1,228 km2)"
+    ],
+    [
+      "Camden County",
+      "029",
+      "Camden",
+      "1777",
+      "Pasquotank County",
+      "Charles Pratt, 1st Earl Camden (1714–1794), who opposed the taxation of the American colonists",
+      "10,014",
+      "306 sq mi\\n(793 km2)"
+    ],
+    [
+      "Carteret County",
+      "031",
+      "Beaufort",
+      "1722",
+      "Craven County",
+      "John Carteret, 2nd Earl Granville (1690–1763), who inherited one-eighth share in the Province of Carolina through his great-grandfather George Carteret",
+      "67,373",
+      "1,341 sq mi\\n(3,473 km2)"
+    ],
+    [
+      "Caswell County",
+      "033",
+      "Yanceyville",
+      "1777",
+      "Orange County",
+      "Richard Caswell (1729–1789), member of the first Continental Congress and first governor of North Carolina after the Declaration of Independence",
+      "23,403",
+      "428 sq mi\\n(1,109 km2)"
+    ],
+    [
+      "Catawba County",
+      "035",
+      "Newton",
+      "1842",
+      "Lincoln County",
+      "Catawba Nation",
+      "154,181",
+      "414 sq mi\\n(1,072 km2)"
+    ],
+    [
+      "Chatham County",
+      "037",
+      "Pittsboro",
+      "1771",
+      "Orange County",
+      "William Pitt, 1st Earl of Chatham (1708–1778), Secretary of State during the French and Indian War and was later Prime Minister of Great Britain",
+      "64,195",
+      "709 sq mi\\n(1,836 km2)"
+    ],
+    [
+      "Cherokee County",
+      "039",
+      "Murphy",
+      "1839",
+      "Macon County",
+      "Cherokee Nation",
+      "27,194",
+      "497 sq mi\\n(1,287 km2)"
+    ],
+    [
+      "Chowan County",
+      "041",
+      "Edenton",
+      "1668",
+      "Albemarle County",
+      "Chowan Native American tribe",
+      "14,831",
+      "233 sq mi\\n(603 km2)"
+    ],
+    [
+      "Clay County",
+      "043",
+      "Hayesville",
+      "1861",
+      "Cherokee County",
+      "Henry Clay (1777–1852), statesman and orator who represented Kentucky in both the House of Representatives and Senate",
+      "10,563",
+      "221 sq mi\\n(572 km2)"
+    ],
+    [
+      "Cleveland County",
+      "045",
+      "Shelby",
+      "1841",
+      "Lincoln County and Rutherford County",
+      "Benjamin Cleveland (1738–1806), a colonel in the American Revolutionary War who took part in the Battle of Kings Mountain",
+      "97,489",
+      "469 sq mi\\n(1,215 km2)"
+    ],
+    [
+      "Columbus County",
+      "047",
+      "Whiteville",
+      "1808",
+      "Bladen County and Brunswick County",
+      "Christopher Columbus (1451–1507), navigator, explorer, and one of the first Europeans to explore the Americas",
+      "57,712",
+      "954 sq mi\\n(2,471 km2)"
+    ],
+    [
+      "Craven County",
+      "049",
+      "New Bern",
+      "1705",
+      "Bath County",
+      "William Craven, 1st Earl of Craven (1608–1697), who was a Lords Proprietor of colonial North Carolina",
+      "104,786",
+      "774 sq mi\\n(2,005 km2)"
+    ]
+  ]
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-7225",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "15 rows, 5 columns",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-7225",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Polydioxanone (PDS)'?",
+    "gold": "80% at 2 weeks, 44% at 8 weeks. Complete absorption within 200 days",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-7225",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Polyglycolide\\n(P.G.A.)'?",
+    "gold": "It is a synthetic absorbable suture material. Braided synthetic absorbable multifilament made of polyglycolic acid and coated with N-laurin and L-lysine, which render the thread extremely smooth, soft and knot safe.",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-7225",
+    "task": "cell_lookup",
+    "question": "What value is in row 8, column ''?",
+    "gold": "Tissue reaction",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-7225",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Wound support can remain up to 42 days, however tensile strength decreases to about 70% at 14 days and 25% at 42 days' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Polydioxanone (PDS)'",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-7225",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Proteolytic enzymatic digestion complete by 90 days.' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Plain catgut'",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-7225",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Braided' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Polyglycolide\\n(P.G.A.)'",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-7225",
+    "task": "row_retrieval",
+    "question": "List all values in row 12, one value per line.",
+    "gold": "Advantages\nVery high knot-pull tensile strength, good knot security due to special excellent handling features\nVery high knot-pull tensile strength, good knot security due to special surface finish, improved smoothness due to the dry presentation of the thread, excellent handling features\nHigh initial tensile strength, guaranteed holding power through the critical wound healing period. Smooth passage through tissue, easy handling, excellent knotting ability, secure knot tying\nTensile strength retention, guaranteed holding power",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-7225",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "Composition\n?\nNatural purified collagen\nPolyglycolic acid\nPolyester and poly (p-dioxanone)",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-7225",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Polydioxanone (PDS)', one value per line.",
+    "gold": "It is a synthetic absorbable suture material. Monofilament synthetic absorbable suture, prepared from the polyester, poly (p-dioxanone).\nPolyester and poly (p-dioxanone)\n80% at 2 weeks, 44% at 8 weeks. Complete absorption within 200 days\nMonofilament\nSynthetic through the critical wound\nUncoated\nWound support can remain up to 42 days, however tensile strength decreases to about 70% at 14 days and 25% at 42 days\n?\nViolet and clear\nUSP 6-0 (1 metric) to USP 2 (5 metric)\nE.O. gas\nTensile strength retention, guaranteed holding power\nPDS is particularly useful where the combination of an absorbable suture and extended wound support is desirable, pediatric cardiovascular surgery, ophthalmic surgery\nThis type of suture being absorbable is not to be used where prolonged approximation of tissues under stress is required and/ or in conjunction with prosthetic devices\nThe PDS suture knots must be properly placed to be secure. Conjunctival and vaginal mucosal sutures remaining in place for extended periods may be associated with localized irritation. Subcuticular sutures should be placed as deeply as possible in order to minimize the erythema and induration normally associated with absorption.",
+    "n_rows": 15,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-7225",
+    "task": "col_retrieval",
+    "question": "List all values in the column '', one value per line.",
+    "gold": "Description\nComposition\nTensile strength\nStructure\nOrigin\nTreatment\nType of absorption\nTissue reaction\nThread color\nSize available\nSterilization\nAdvantages\nIndications\nContraindications\nPrecautions",
+    "n_rows": 15,
+    "n_cols": 5
+  }
+]

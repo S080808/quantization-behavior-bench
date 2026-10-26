@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-8976",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "12 rows, 5 columns",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-8976",
+    "task": "cell_lookup",
+    "question": "What value is in row 9, column 'Tie no'?",
+    "gold": "6",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-8976",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Score'?",
+    "gold": "3–3",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-8976",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Home team'?",
+    "gold": "Leicester City",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-8976",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '4' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Tie no'",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-8976",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '3–0' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Score'",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-8976",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Wolverhampton Wanderers' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Home team'",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-8976",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "Replay\nNewcastle United\n0–0\nBolton Wanderers\n18 February 1976",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-8976",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "2\nBolton Wanderers\n3–3\nNewcastle United\n14 February 1976",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-8976",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Date', one value per line.",
+    "gold": "14 February 1976\n14 February 1976\n18 February 1976\n23 February 1976\n14 February 1976\n14 February 1976\n17 February 1976\n14 February 1976\n23 February 1976\n14 February 1976\n14 February 1976\n17 February 1976",
+    "n_rows": 12,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-8976",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Tie no', one value per line.",
+    "gold": "1\n2\nReplay\nReplay\n3\n4\nReplay\n5\n6\n7\n8\nReplay",
+    "n_rows": 12,
+    "n_cols": 5
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-3561",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 6 columns",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3561",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Location'?",
+    "gold": "Some parts of North India",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3561",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Common name'?",
+    "gold": "Arjun",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3561",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Location'?",
+    "gold": "Himalayas, Punjab, Uttar Pradesh",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3561",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '560 kg/m³' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 12, column 'Density ¹'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3561",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Cocos nucifera' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Binomial nomenclature'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3561",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Ficus benghalensis' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Binomial nomenclature'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3561",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "Mulberry\nMorus spp.\nBrown\n650 kg/m³\nPunjab\nIt is strong, tough and elastic. It takes up a clean finish. It can be well seasoned. It is turned and carved easily. Mulberry is typically used for baskets and sports goods like hockey sticks, tennis rackets and cricket bats.",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3561",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "Babul\nAcacia nilotica subsp. indica\nWhitish red\n835 kg/m³\nRajasthan, Andhra Pradesh, Maharashtra, Madhya Pradesh, Tamil Nadu, Karnataka, Bengal, Gujarat, Uttar Pradesh\nIt is strong, hard and tough and it takes up a good polish. It is used for such products as bodies and wheels of bullock cart, agricultural instruments, tool handles, and well curbs.",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3561",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Characteristics, Usage and Status', one value per line.",
+    "gold": "Elastic, close-grained, and strong. It takes polish. It can be used underwater. It is used for ordinary building construction, structural work, paving, furniture and so forth.\nIt is heavy and strong. It has such uses as beams, rafters, and posts.\nIt is very strong, hard and tough. It takes a smooth finish. It is subject to cracking.\nIt is strong, hard and tough and it takes up a good polish. It is used for such products as bodies and wheels of bullock cart, agricultural instruments, tool handles, and well curbs.\nIt is close-grained and tough. It is used for making cabinets.\nNot actually a tree, but a woody grass, it is flexible, very strong and durable. It is used for scaffoldings, thatched roofs, rafters, temporary bridges, and so forth.\nIt is strong and durable only under water. The aerial roots are utilized for such items as tent poles and well curbs.\nIt is strong and takes up a smooth surface. It may be used for building constructions, boat building and furniture.\nIt is coarse-grained, durable and strong but difficult to work. Termites (also known as white ant) do not easily attack it. It is used for ordinary building construction and for cart wheels. Vulnerable\nIt grows straight. It is strong and fibrous. It is, however, badly twisted. It is often used for scaffolding and posts for temporary structures.\nTakes polish. Requires preservative treatment. Used as poles, piles, furniture and as formwork in concrete construction.\nDeodar is the most important timber tree providing soft wood. It can be easily worked and it is moderately strong. It possesses distinct annual rings. It is used for making cheap furniture, railway carriages, railway sleepers, packing boxes, structural work and so forth.\nIt can be easily worked and is strong and durable especially when used under water. It is used for such products as furniture, carriage, well curbs, yokes, and door panels.\nHopea is extremely strong and tough. It is difficult to work. However, it can be seasoned easily and it is durable and not likely to be damaged by white ants. It has been variously used for ordinary house construction, railway sleepers, piles, and boat building. Endangered\nIt is moderately hard and strong. It is used for door and window frames, carts, and so forth.\nIronwood is durable though it is very hard and is not easily worked. It even resists penetration of nails. It is used for ordinary house construction, bridges, piles, agricultural instruments, railway wagons, and railway sleepers.\nIt is very hard, heavy and durable. Difficult to work, it also requires slow and careful seasoning. It is used for railway sleepers, agricultural instruments, paving blocks, and heavy construction. Least concern\nIt is compact and even grained. It is moderately strong and easy to work. It takes a good finish and maintains its shape well. It has many uses including plain furniture, boat construction, well curbs, door panels, cabinet making and musical instruments.\nHard and durable, it can be easily worked. It takes a good finish and is used for house construction, boat building, railway carriages, cart making and scaffolding.\nIt is heavy and hard. It is durable under water and in damp conditions, however, it cracks if exposed to direct sun. White ants do not attack it. It is used for piles, platforms of wooden bridges, door and window panels.\nIt is strong, hard and tough. It is subject to cracking and attack by dry rot. White ants do not attack it. It takes a smooth finish. It is used for such purposes as house construction, boat construction, railway sleepers and structural work.\nIt takes a good polish and is easily worked. It is durable under water. It is most commonly used for furniture, pattern making and cabinet work.\nThe mango tree is well known for its fruits. It is easy to work and it maintains its shape well. It is moderately strong. It is most often used for cheap furniture, toys, packing boxes, cabinet work, panels for doors and for windows.\nIt is strong, tough and elastic. It takes up a clean finish. It can be well seasoned. It is turned and carved easily. Mulberry is typically used for baskets and sports goods like hockey sticks, tennis rackets and cricket bats.\nOak is strong and durable, with straight silvery grain. It is used for preparing sporting goods.",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3561",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Location', one value per line.",
+    "gold": "Maharashtra, Andhra Pradesh, Tamil Nadu, Karnataka, Kerala\nCentral India\nAndhra Pradesh, Tamil Nadu, Maharashtra, Madhya Pradesh, Bihar, Uttar Pradesh\nRajasthan, Andhra Pradesh, Maharashtra, Madhya Pradesh, Tamil Nadu, Karnataka, Bengal, Gujarat, Uttar Pradesh\nSome parts of North India\nThroughout India, especially Assam and Bengal\nThroughout India\nKerala, Madras, Maharashtra, Karnataka\nKarnataka, Andhra Pradesh, Madhya Pradesh, Maharashtra, Kerala, Uttar Pradesh, Tamil Nadu, Orissa\nAndhra Pradesh, Tamil Nadu\nThroughout coastal India\nHimalayas, Punjab, Uttar Pradesh\nCentral India, South India\nMadras, Kerala\nThroughout India\n\nKarnataka, Kerala, Andhra Pradesh, Maharashtra, Orissa, Tamil Nadu\nKarnataka, Maharashtra, Tamil Nadu, Kerala\nAssam, Bengal, Maharashtra\nKarnataka, Andhra Pradesh, Kerala, Maharashtra, Tamil Nadu\nKarnataka, Andhra Pradesh, Bihar, Orissa, Madhya Pradesh, Kerala, Tamil Nadu\n\nThroughout India\nPunjab\n",
+    "n_rows": 25,
+    "n_cols": 6
+  }
+]

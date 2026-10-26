@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-7750",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "13 rows, 8 columns",
+    "n_rows": 13,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-7750",
+    "task": "cell_lookup",
+    "question": "What value is in row 11, column 'Time'?",
+    "gold": "1:30 PM",
+    "n_rows": 13,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-7750",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Result'?",
+    "gold": "W 39–12",
+    "n_rows": 13,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-7750",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Rank#'?",
+    "gold": "#22",
+    "n_rows": 13,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-7750",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '25,337' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Attendance'",
+    "n_rows": 13,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-7750",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '#25' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Rank#'",
+    "n_rows": 13,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-7750",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'October 6' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Date'",
+    "n_rows": 13,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-7750",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "September 20\n7:00 PM\nBYU*\n\nBronco Stadium • Boise, ID\nESPN\nW 7–6\n36,864",
+    "n_rows": 13,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-7750",
+    "task": "row_retrieval",
+    "question": "List all values in row 12, one value per line.",
+    "gold": "December 1\n1:30 PM\nat Nevada\n#15\nMackay Stadium • Reno, NV (Rivalry)\nABC\nW 27–21\n30,017",
+    "n_rows": 13,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-7750",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Time', one value per line.",
+    "gold": "6:00 PM\n2:00 PM\n7:00 PM\n4:00 PM\n10:00 AM\n1:30 PM\n1:30 PM\n1:30 PM\n8:30 PM\n5:00 PM\n1:30 PM\n1:30 PM\n1:30 PM",
+    "n_rows": 13,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-7750",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'TV', one value per line.",
+    "gold": "ESPN\nNBCSN\nESPN\nKTVB\nFSN\nNBCSN\nNBCSN\nCBSSN\nCBSSN\nNBCSN\nNBCSN\nABC\nESPN",
+    "n_rows": 13,
+    "n_cols": 8
+  }
+]

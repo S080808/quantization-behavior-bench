@@ -1,0 +1,65 @@
+{
+  "id": "nt-7801",
+  "question": "in what year between 1997 and 2000 did julian golding, the sprinter representing the united kingdom and england finish first in both the 4 x 100 m relay and the 200 metres race?",
+  "answers": [
+    "1998"
+  ],
+  "header": [
+    "Year",
+    "Competition",
+    "Venue",
+    "Position",
+    "Notes"
+  ],
+  "rows": [
+    [
+      "1997",
+      "European U23 Championships",
+      "Turku, Finland",
+      "1st",
+      "200 m"
+    ],
+    [
+      "1997",
+      "World Championships",
+      "Athens, Greece",
+      "3rd",
+      "4x100m relay"
+    ],
+    [
+      "1998",
+      "European Championships",
+      "Budapest, Hungary",
+      "3rd",
+      "200 metres"
+    ],
+    [
+      "",
+      "European Championships",
+      "Budapest, Hungary",
+      "1st",
+      "4x100m relay"
+    ],
+    [
+      "",
+      "Commonwealth Games",
+      "Kuala Lumpur, Malaysia",
+      "1st",
+      "200 metres"
+    ],
+    [
+      "",
+      "Commonwealth Games",
+      "Kuala Lumpur, Malaysia",
+      "1st",
+      "4x100m relay"
+    ],
+    [
+      "2000",
+      "European Indoor Championships",
+      "Ghent, Belgium",
+      "3rd",
+      "200 metres"
+    ]
+  ]
+}

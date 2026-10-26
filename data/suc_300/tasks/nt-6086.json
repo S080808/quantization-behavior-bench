@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-6086",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "10 rows, 11 columns",
+    "n_rows": 10,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-6086",
+    "task": "cell_lookup",
+    "question": "What value is in row 8, column 'Tourist\\narrivals\\nper\\n1000 inhab\\n(estimated) \\n2007'?",
+    "gold": "330",
+    "n_rows": 10,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-6086",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Average\\nreceipt\\nper visitor\\n2009\\n(USD/turista)'?",
+    "gold": "1,147",
+    "n_rows": 10,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-6086",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Average\\nreceipt\\nper visitor\\n2009\\n(USD/turista)'?",
+    "gold": "932",
+    "n_rows": 10,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-6086",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '525' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'Tourist\\narrivals\\nper\\n1000 inhab\\n(estimated) \\n2007'",
+    "n_rows": 10,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-6086",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1,005' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Average\\nreceipt\\nper visitor\\n2009\\n(USD/turista)'",
+    "n_rows": 10,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-6086",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '4.27' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column '2011\\nTTCI\\nIndex'",
+    "n_rows": 10,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-6086",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "Costa Rica\n2,100\n2,111\n1,005\n442\n343\n17,5\n8,1\n13,3\n44\n4.43",
+    "n_rows": 10,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-6086",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "Chile\n2,766\n1,636\n591\n151\n73\n5,3\n1,9\n6,8\n57\n4.27",
+    "n_rows": 10,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-6086",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Internl.\\ntourism\\narrivals\\n2010\\n(x 1000)', one value per line.",
+    "gold": "5,288\n5,161\n2,766\n2,100\n2,507\n4,125\n22,395\n1,317\n2,299\n2,352",
+    "n_rows": 10,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nt-6086",
+    "task": "col_retrieval",
+    "question": "List all values in the column '% Direct and\\nindirect\\nemployment\\nin tourism\\n2005', one value per line.",
+    "gold": "9,1\n7,0\n6,8\n13,3\nn/d\n19,8\n14,2\n12,9\n7,6\n10,7",
+    "n_rows": 10,
+    "n_cols": 11
+  }
+]

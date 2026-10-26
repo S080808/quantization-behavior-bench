@@ -1,0 +1,217 @@
+{
+  "id": "nu-3152",
+  "question": "how many games are above 2 october 1920?",
+  "answers": [
+    "7"
+  ],
+  "header": [
+    "Date",
+    "Opponents",
+    "Venue",
+    "Result",
+    "Scorers",
+    "Attendance"
+  ],
+  "rows": [
+    [
+      "28 Aug 1920",
+      "Reading",
+      "H",
+      "0–1",
+      "",
+      "14,500"
+    ],
+    [
+      "1 Sep 1920",
+      "Bristol Rovers",
+      "A",
+      "2–3",
+      "Walker, Wolstenholme",
+      "10,000"
+    ],
+    [
+      "4 Sep 1920",
+      "Reading",
+      "A",
+      "0–4",
+      "",
+      "10,000"
+    ],
+    [
+      "9 Sep 1920",
+      "Bristol Rovers",
+      "H",
+      "0–2",
+      "",
+      "8,000"
+    ],
+    [
+      "11 Sep 1920",
+      "Plymouth Argyle",
+      "A",
+      "1–5",
+      "Wolstenholme",
+      "12,000"
+    ],
+    [
+      "18 Sep 1920",
+      "Plymouth Argyle",
+      "H",
+      "0–0",
+      "",
+      "8,000"
+    ],
+    [
+      "25 Sep 1920",
+      "Exeter City",
+      "A",
+      "1–0",
+      "Wolstenholme",
+      "8,000"
+    ],
+    [
+      "2 Oct 1920",
+      "Exeter City",
+      "H",
+      "2–0",
+      "Wolstenholme 2",
+      "8,000"
+    ],
+    [
+      "9 Oct 1920",
+      "Millwall",
+      "H",
+      "3–1",
+      "Devlin 2, Walker",
+      "14,000"
+    ],
+    [
+      "16 Oct 1920",
+      "Millwall",
+      "A",
+      "0–1",
+      "",
+      "20,000"
+    ],
+    [
+      "21 Oct 1920",
+      "Swindon Town",
+      "H",
+      "0–1",
+      "",
+      "10,000"
+    ],
+    [
+      "23 Oct 1920",
+      "Portsmouth",
+      "H",
+      "1–0",
+      "Devlin",
+      "9,000"
+    ],
+    [
+      "30 Oct 1920",
+      "Portsmouth",
+      "A",
+      "2–0",
+      "Devlin, Dobson",
+      "13,679"
+    ],
+    [
+      "6 Nov 1920",
+      "Gillingham",
+      "H",
+      "1–0",
+      "Wolstenholme",
+      "7,000"
+    ],
+    [
+      "13 Nov 1920",
+      "Gillingham",
+      "A",
+      "4–1",
+      "Dobson, Wolstenholme, Blott, Devlin",
+      "8,000"
+    ],
+    [
+      "27 Nov 1920",
+      "Swindon Town",
+      "A",
+      "0–5",
+      "",
+      "7,000"
+    ],
+    [
+      "4 Dec 1920",
+      "Watford",
+      "H",
+      "0–2",
+      "",
+      "6,000"
+    ],
+    [
+      "11 Dec 1920",
+      "Watford",
+      "A",
+      "1–5",
+      "Wright",
+      "7,000"
+    ],
+    [
+      "18 Dec 1920",
+      "Brentford",
+      "A",
+      "2–2",
+      "Wright, Thompson",
+      "6,000"
+    ],
+    [
+      "25 Dec 1920",
+      "Southend United",
+      "H",
+      "1–1",
+      "Dobson",
+      "9,000"
+    ],
+    [
+      "27 Dec 1920",
+      "Southend United",
+      "A",
+      "1–2",
+      "Walker",
+      "10,000"
+    ],
+    [
+      "1 Jan 1921",
+      "Brentford",
+      "H",
+      "3–1",
+      "Dobson, Walker, Cox",
+      "7,500"
+    ],
+    [
+      "13 Jan 1921",
+      "Norwich City",
+      "H",
+      "2–0",
+      "Wright, Cox",
+      "4,000"
+    ],
+    [
+      "22 Jan 1921",
+      "Norwich City",
+      "A",
+      "0–3",
+      "",
+      "5,000"
+    ],
+    [
+      "29 Jan 1921",
+      "Northampton Town",
+      "H",
+      "1–1",
+      "Dobson",
+      "8,000"
+    ]
+  ]
+}

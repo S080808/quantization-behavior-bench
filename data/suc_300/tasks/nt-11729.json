@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-11729",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "15 rows, 6 columns",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-11729",
+    "task": "cell_lookup",
+    "question": "What value is in row 14, column 'Present location'?",
+    "gold": "Shanghai, China",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-11729",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Location'?",
+    "gold": "Krauss-Maffei's plant in Munich - Allach, West Germany",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-11729",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Present location'?",
+    "gold": "Deutsches Museum, Munich",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-11729",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Komponentenmeßträger (KOMET)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Train'",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-11729",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Technik Museum Speyer' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Present location'",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-11729",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '20 December 1973' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Date'",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-11729",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "6 October 1971\nTransrapid 02\nKrauss-Maffei's plant in Munich - Allach, West Germany\nKrauss-Maffei, Munich\nBy Krauss-Maffei. 930 m test track which included one curve. Displayed at Paris Expo from 4 June to 9 June 1973.\n164 (October 1971)",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-11729",
+    "task": "row_retrieval",
+    "question": "List all values in row 12, one value per line.",
+    "gold": "1988\nTransrapid 07\nTransrapid Versuchsanlage Emsland (TVE), West Germany\nMunich International Airport and Infozentrum Lathen (TVE Emsland)\nPresented to public at the International Transportation Exhibition (IVA 88) in Hamburg.\n436 (1989), 450 (17 June 1993)",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-11729",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Date', one value per line.",
+    "gold": "1969 / 1970 ?\n6 May 1971\n6 October 1971\n16 August 1972\n1972 / 1974 ?\n20 December 1973\n1974 / January 1975 ?\n1975\n1976\n17 May 1979\nJune 1983\n1988\nAugust 1999\n2002\n2007",
+    "n_rows": 15,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-11729",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Comments', one value per line.",
+    "gold": "By Krauss-Maffei. Indoor benchtop model. Only 600 mm long track.\nBy MBB. First passenger-carrying principle vehicle. 660 m test track. Prinzipfahrzeug=principle [demonstrator] vehicle.\nBy Krauss-Maffei. 930 m test track which included one curve. Displayed at Paris Expo from 4 June to 9 June 1973.\nBy Krauss-Maffei. Air-cushion vehicle (ACV or hovercraft) propelled by a linear motor. The system was abandoned in 1973 due to the too high noise generation and the too large consumption. Attempts in France (Aérotrain) and in the USA ([1]) led in the following years to similar decisions. 930 m test track.\nBy Siemens and others. Electrodynamic suspension (EDS) (like JR-Maglev). Unmanned. 880 m circular track. Erlangener Erprobungsträger=Erlangen test carrier.\nBy Krauss-Maffei.\nBy MBB. Unmanned. 1300 m track.\nBy Thyssen Henschel. First functional longstator vehicle. 100 m guideway. Unmanned.\nBy Thyssen Henschel. World's first passenger-carrying, longstator vehicle. 100 m guideway.\n908 m track.\nPresented to public in Munich on 13 March 1983. 31.5 km track.\nPresented to public at the International Transportation Exhibition (IVA 88) in Hamburg.\n\n\n",
+    "n_rows": 15,
+    "n_cols": 6
+  }
+]

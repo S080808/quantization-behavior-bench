@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-353",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 8 columns",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-353",
+    "task": "cell_lookup",
+    "question": "What value is in row 21, column 'Nationality'?",
+    "gold": "Germany",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-353",
+    "task": "cell_lookup",
+    "question": "What value is in row 4, column 'Start'?",
+    "gold": "0:23",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-353",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Time'?",
+    "gold": "32:35.5",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-353",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '33:28.8' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 11, column 'Time'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-353",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '33:27.0' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'Time'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-353",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '+48.1' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Deficit'",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-353",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "5\n15\nDominik Landertinger\nAustria\n0:58\n0 (0+0+0+0)\n32:55.9\n+20.4",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-353",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "24\n21\nKlemen Bauer\nSlovenia\n1:16\n4 (1+0+3+0)\n34:55.4\n+2:19.9",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-353",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Bib', one value per line.",
+    "gold": "1\n2\n7\n5\n15\n3\n8\n6\n13\n4\n14\n10\n32\n12\n36\n9\n18\n29\n11\n37\n16\n23\n34\n21\n26",
+    "n_rows": 25,
+    "n_cols": 8
+  },
+  {
+    "table_id": "nt-353",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Penalties (P+P+S+S)', one value per line.",
+    "gold": "1 (0+0+0+1)\n2 (0+1+1+0)\n1 (0+0+1+0)\n0 (0+0+0+0)\n0 (0+0+0+0)\n1 (0+0+0+1)\n1 (0+0+1+0)\n2 (0+0+2+0)\n0 (0+0+0+0)\n4 (2+0+1+1)\n2 (0+2+0+0)\n3 (0+0+2+1)\n0 (0+0+0+0)\n4 (1+0+2+1)\n1 (0+0+0+1)\n3 (0+1+2+0)\n3 (2+0+1+0)\n1 (0+0+0+1)\n2 (0+1+0+1)\n1 (0+0+0+1)\n3 (0+0+2+1)\n3 (0+1+1+1)\n3 (0+3+0+0)\n4 (1+0+3+0)\n1 (0+0+0+1)",
+    "n_rows": 25,
+    "n_cols": 8
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-10160",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "9 rows, 5 columns",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-10160",
+    "task": "cell_lookup",
+    "question": "What value is in row 9, column 'Title'?",
+    "gold": "Death in Paradise",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-10160",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Broadcaster'?",
+    "gold": "Channel 4",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-10160",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Character'?",
+    "gold": "Pip",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-10160",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Holby City' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Title'",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-10160",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'PhoneShop' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Title'",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-10160",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Caz' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Character'",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-10160",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "EastEnders: E20\nAva\nBBC One\n15\n2011",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-10160",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "The I.T. Crowd\nNikki\nChannel 4\n1\n2010",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-10160",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Date', one value per line.",
+    "gold": "2010\n2010\n2011\n2011\n2011\n2012\n2013\n2014\n2014",
+    "n_rows": 9,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-10160",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Title', one value per line.",
+    "gold": "Rev.\nThe I.T. Crowd\nEastEnders: E20\nFresh Meat\nPhoneShop\nHolby City\nPlebs\nBlandings\nDeath in Paradise",
+    "n_rows": 9,
+    "n_cols": 5
+  }
+]

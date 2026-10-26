@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-567",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "13 rows, 5 columns",
+    "n_rows": 13,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-567",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Bronze'?",
+    "gold": "United States of America\\nSally Carroll\\nKimberly Dyer\\nRuby Fox",
+    "n_rows": 13,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-567",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Silver'?",
+    "gold": "Soviet Union\\nNadezda Ibragimova\\nNina Rasskazova\\nNina Stoliarova",
+    "n_rows": 13,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-567",
+    "task": "cell_lookup",
+    "question": "What value is in row 8, column 'Year'?",
+    "gold": "1998",
+    "n_rows": 13,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-567",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1982' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Year'",
+    "n_rows": 13,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-567",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'United States of America\\nSally Carroll\\nKimberly Dyer\\nRuby Fox' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Bronze'",
+    "n_rows": 13,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-567",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Czechoslovakia\\nTereza Bohinska\\nBedriska Hykova\\nKatarina Pastorova' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 2, column 'Silver'",
+    "n_rows": 13,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-567",
+    "task": "row_retrieval",
+    "question": "List all values in row 12, one value per line.",
+    "gold": "2014\nGranada\nTBD\nTBD\nTBD",
+    "n_rows": 13,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-567",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "1974\nThun\nSoviet Union\\nGalina Zarikova\\nZinaida Simonian\\nNina Stoliarova\nCzechoslovakia\\nTereza Bohinska\\nBedriska Hykova\\nKatarina Pastorova\nAustralia\\nJudith Harrison\\nEnid Newton\\nGloria Vause",
+    "n_rows": 13,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-567",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Bronze', one value per line.",
+    "gold": "Federal Republic of Germany\\nOrtrud Feickert\\nKarin Fitzner\\nRuth Kasten\nAustralia\\nJudith Harrison\\nEnid Newton\\nGloria Vause\nUnited States of America\\nSally Carroll\\nKimberly Dyer\\nRuby Fox\nPeople's Republic of China\\nJianmin Gao\\nZhifang Wen\\nCui Qing Yang\nAlbania\\nDiana Mata\\nEmanuela Delilaj\\nEdlira Shyti\nPeople's Republic of China\\nHaiying Liu\\nDuihong Li\\nMeifang Qian\nBelarus\\nZhanna Shitik\\nYauheniya Haluza\\nYuliya Siniak\nMongolia\\nMunkhbayar Dorjsuren\\nOyun Davaajantsan\\nGundegmaa Otryad\nUnited States of America\\nElizabeth Callahan\\nRebecca Snyder\\nSandra Uptagrafft\nGermany\\nMunkhbayar Dorjsuren\\nStefanie Thurmann\\nClaudia Verdicchio\nCzech Republic\\nLenka Maruskova\\nMichaela Musilova\\nPetra Hykova\nTBD\nTBD",
+    "n_rows": 13,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nt-567",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Year', one value per line.",
+    "gold": "1970\n1974\n1978\n1982\n1986\n1990\n1994\n1998\n2002\n2006\n2010\n2014\n2018",
+    "n_rows": 13,
+    "n_cols": 5
+  }
+]

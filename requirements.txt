@@ -1,0 +1,14 @@
+# Runtime dependencies verified in the Python 3.13 environment.
+accelerate==1.13.0
+autoawq==0.2.9
+datasets==4.8.5
+GPTQModel==7.0.0
+huggingface_hub==1.13.0
+numpy==2.2.6
+pandas==3.0.2
+safetensors==0.7.0
+sentencepiece==0.2.1
+torch==2.11.0
+tqdm==4.67.3
+transformers==5.7.0
+vllm==0.22.0

@@ -1,0 +1,10 @@
+{
+  "dataset": "TableQAKit/WTQ",
+  "split": "test",
+  "seed": 42,
+  "n_tables": 300,
+  "max_rows": 25,
+  "max_cols": 12,
+  "sort_by_size": false,
+  "selection_mode": "random_after_truncation"
+}

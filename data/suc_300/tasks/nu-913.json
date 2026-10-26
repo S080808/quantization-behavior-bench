@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-913",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "11 rows, 11 columns",
+    "n_rows": 11,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nu-913",
+    "task": "cell_lookup",
+    "question": "What value is in row 8, column 'HO : Population Ratio'?",
+    "gold": "1:25,585",
+    "n_rows": 11,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nu-913",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Health Officer'?",
+    "gold": "29",
+    "n_rows": 11,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nu-913",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Health Officer'?",
+    "gold": "188",
+    "n_rows": 11,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nu-913",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1:16,791' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 10, column 'HO : Population Ratio'",
+    "n_rows": 11,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nu-913",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1:64,189' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'HO : Population Ratio'",
+    "n_rows": 11,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nu-913",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Oromia' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Region'",
+    "n_rows": 11,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nu-913",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "Oromia\n378\n1:76,075\n448\n1:64,189\n5,040\n1:5,706\n287\n1:100,197\n13856\n1:2,075",
+    "n_rows": 11,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nu-913",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "Amhara\n304\n1:58,567\n434\n1:41,024\n3,790\n1:4,698\n212\n1:83,983\n7,471\n1:2,383",
+    "n_rows": 11,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nu-913",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Physician (GP & specialist)', one value per line.",
+    "gold": "101\n15\n304\n378\n71\n12\n242\n13\n29\n934\n53",
+    "n_rows": 11,
+    "n_cols": 11
+  },
+  {
+    "table_id": "nu-913",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Mid Wife: Population Ratio', one value per line.",
+    "gold": "1:24,502\n−\n1:83,983\n1:100,197\n1:103,844\n1:19,235\n1:50,404\n1:83,150\n1:6,655\n1:11,699\n1:18,009",
+    "n_rows": 11,
+    "n_cols": 11
+  }
+]

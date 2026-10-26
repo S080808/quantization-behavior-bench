@@ -1,0 +1,217 @@
+{
+  "id": "nt-5199",
+  "question": "what movie was made immediately before the pledge?",
+  "answers": [
+    "The In Crowd"
+  ],
+  "header": [
+    "Title",
+    "Year",
+    "Director",
+    "Budget",
+    "Gross (worldwide)",
+    "Notes"
+  ],
+  "rows": [
+    [
+      "Young Guns",
+      "1988",
+      "Christopher Cain",
+      "$11 million",
+      "$45,661,556",
+      ""
+    ],
+    [
+      "Dead Ringers",
+      "1988",
+      "David Cronenberg",
+      "N/A",
+      "$8,038,508",
+      ""
+    ],
+    [
+      "Skin Deep",
+      "1989",
+      "Blake Edwards",
+      "N/A",
+      "$19,674,852",
+      ""
+    ],
+    [
+      "Major League",
+      "1989",
+      "David S. Ward",
+      "$11 million",
+      "$49,797,148",
+      ""
+    ],
+    [
+      "Renegades",
+      "1989",
+      "Jack Sholder",
+      "N/A",
+      "$9,015,164",
+      ""
+    ],
+    [
+      "Enemies, a Love Story",
+      "1989",
+      "Paul Mazursky",
+      "N/A",
+      "$7,754,571",
+      ""
+    ],
+    [
+      "Coupe de Ville",
+      "1990",
+      "Joe Roth",
+      "N/A",
+      "$715,983",
+      ""
+    ],
+    [
+      "The Exorcist III",
+      "1990",
+      "William Peter Blatty",
+      "$11 million",
+      "$26,098,824",
+      ""
+    ],
+    [
+      "Nightbreed",
+      "1990",
+      "Clive Barker",
+      "$11 million",
+      "$8,862,354",
+      ""
+    ],
+    [
+      "Young Guns II",
+      "1990",
+      "Geoff Murphy",
+      "N/A",
+      "$44,143,410",
+      ""
+    ],
+    [
+      "Pacific Heights",
+      "1990",
+      "John Schlesinger",
+      "$18 million",
+      "$44,926,706",
+      ""
+    ],
+    [
+      "Robin Hood: Prince of Thieves",
+      "1991",
+      "Kevin Reynolds",
+      "$48 million",
+      "$390,493,908",
+      "The score would become the music for Morgan Creek's animated logo."
+    ],
+    [
+      "Freejack",
+      "1992",
+      "Geoff Murphy",
+      "$30 million",
+      "$17,129,000",
+      ""
+    ],
+    [
+      "White Sands",
+      "1992",
+      "Roger Donaldson",
+      "$25 million",
+      "$9,011,574",
+      ""
+    ],
+    [
+      "Stay Tuned",
+      "1992",
+      "Peter Hyams",
+      "N/A",
+      "$10,736,401",
+      ""
+    ],
+    [
+      "The Last of the Mohicans",
+      "1992",
+      "Michael Mann",
+      "$40 million",
+      "$75,505,856",
+      ""
+    ],
+    [
+      "The Crush",
+      "1993",
+      "Alan Shapiro",
+      "N/A",
+      "$13,609,396",
+      ""
+    ],
+    [
+      "True Romance",
+      "1993",
+      "Tony Scott",
+      "$13 million",
+      "$12,281,551",
+      ""
+    ],
+    [
+      "Ace Ventura: Pet Detective",
+      "1994",
+      "Tom Shadyac",
+      "$12 million",
+      "$107,217,396",
+      ""
+    ],
+    [
+      "Major League II",
+      "1994",
+      "David S. Ward",
+      "$25 million",
+      "$30,626,182",
+      ""
+    ],
+    [
+      "Chasers",
+      "1994",
+      "Dennis Hopper",
+      "$15 million",
+      "$1,596,687",
+      ""
+    ],
+    [
+      "Trial by Jury",
+      "1994",
+      "Heywood Gould",
+      "N/A",
+      "$6,971,777",
+      ""
+    ],
+    [
+      "Imaginary Crimes",
+      "1994",
+      "Anthony Drazan",
+      "N/A",
+      "$89,611",
+      ""
+    ],
+    [
+      "Silent Fall",
+      "1994",
+      "Bruce Beresford",
+      "$30 million",
+      "$3,180,674",
+      ""
+    ],
+    [
+      "Ace Ventura: When Nature Calls",
+      "1995",
+      "Steve Oedekerk",
+      "$30 million",
+      "$212,385,533",
+      ""
+    ]
+  ]
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-4426",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "8 rows, 7 columns",
+    "n_rows": 8,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-4426",
+    "task": "cell_lookup",
+    "question": "What value is in row 6, column 'Result'?",
+    "gold": "Loss",
+    "n_rows": 8,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-4426",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column '#'?",
+    "gold": "2",
+    "n_rows": 8,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-4426",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Date'?",
+    "gold": "22 June 2008",
+    "n_rows": 8,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-4426",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '2012 CAF qualification' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Competition'",
+    "n_rows": 8,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-4426",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Madagascar' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Opponent'",
+    "n_rows": 8,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-4426",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '8 October 2011' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 3, column 'Date'",
+    "n_rows": 8,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-4426",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "3\n8 October 2011\nAddis Abeba\nMadagascar\n4–2\nWin\n2012 CAF qualification",
+    "n_rows": 8,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-4426",
+    "task": "row_retrieval",
+    "question": "List all values in row 6, one value per line.",
+    "gold": "6\n8 September 2012\nKhartoum\nSudan\n3–5\nLoss\n2013 Africa Cup of Nations qualifier",
+    "n_rows": 8,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-4426",
+    "task": "col_retrieval",
+    "question": "List all values in the column '#', one value per line.",
+    "gold": "1\n2\n3\n4\n5\n6\n7\n8",
+    "n_rows": 8,
+    "n_cols": 7
+  },
+  {
+    "table_id": "nt-4426",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Result', one value per line.",
+    "gold": "Win\nWin\nWin\nDraw\nDraw\nLoss\nWin\nDraw",
+    "n_rows": 8,
+    "n_cols": 7
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-3032",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "10 rows, 6 columns",
+    "n_rows": 10,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3032",
+    "task": "cell_lookup",
+    "question": "What value is in row 7, column 'Scoreline'?",
+    "gold": "2-0",
+    "n_rows": 10,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3032",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Venue'?",
+    "gold": "Zhongshan",
+    "n_rows": 10,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3032",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Venue'?",
+    "gold": "Dubai",
+    "n_rows": 10,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3032",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '3-3' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Scoreline'",
+    "n_rows": 10,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3032",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Kunming' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Venue'",
+    "n_rows": 10,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3032",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'March 15' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Date'",
+    "n_rows": 10,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3032",
+    "task": "row_retrieval",
+    "question": "List all values in row 3, one value per line.",
+    "gold": "January 27\nZhongshan\nSyria\nWon\n2-1\nQu Bo 64'\\nZhu Ting 90'",
+    "n_rows": 10,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3032",
+    "task": "row_retrieval",
+    "question": "List all values in row 2, one value per line.",
+    "gold": "January 20\nZhongshan\nLebanon\nDrawn\n0-0\n—",
+    "n_rows": 10,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3032",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'China scorers', one value per line.",
+    "gold": "—\n—\nQu Bo 64'\\nZhu Ting 90'\nQu Bo 34'\\nHan Peng 67'\\nZhu Ting 90'\n—\nXiao Zhanbo 62' pen\\nQu Bo 63'\nHao Junmin 23' pen\\nLi Weifeng 48'\nQu Bo 58'\n\nCao Yang 77'",
+    "n_rows": 10,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nu-3032",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Scoreline', one value per line.",
+    "gold": "0-0\n0-0\n2-1\n3-3\n0-1\n2-2\n2-0\n1-3\n0-2\n1-0",
+    "n_rows": 10,
+    "n_cols": 6
+  }
+]

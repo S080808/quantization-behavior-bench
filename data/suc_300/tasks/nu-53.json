@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-53",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 3 columns",
+    "n_rows": 25,
+    "n_cols": 3
+  },
+  {
+    "table_id": "nu-53",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Date'?",
+    "gold": "1955–1962",
+    "n_rows": 25,
+    "n_cols": 3
+  },
+  {
+    "table_id": "nu-53",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Film'?",
+    "gold": "Kodachrome film",
+    "n_rows": 25,
+    "n_cols": 3
+  },
+  {
+    "table_id": "nu-53",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Date'?",
+    "gold": "1962–1978",
+    "n_rows": 25,
+    "n_cols": 3
+  },
+  {
+    "table_id": "nu-53",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Type D (slide duping film)' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Film'",
+    "n_rows": 25,
+    "n_cols": 3
+  },
+  {
+    "table_id": "nu-53",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Kodak Color Print Material' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Film'",
+    "n_rows": 25,
+    "n_cols": 3
+  },
+  {
+    "table_id": "nu-53",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value '1938–1951' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Date'",
+    "n_rows": 25,
+    "n_cols": 3
+  },
+  {
+    "table_id": "nu-53",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "Kodachrome 40 film\nMovie film, 8 mm, Type A\n1974–1992",
+    "n_rows": 25,
+    "n_cols": 3
+  },
+  {
+    "table_id": "nu-53",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "Kodachrome Professional film (sheets)\ndaylight (ASA 8) and Type B (ASA 10)\n1938–1951",
+    "n_rows": 25,
+    "n_cols": 3
+  },
+  {
+    "table_id": "nu-53",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Date', one value per line.",
+    "gold": "1935–1962\n1936–1962\n1936–1962\n1938–1951\n1955–1962\n1956–1962\n1955–1957\n1961–1974\n1961–1974\n1965–1974\n1961–1974\n1962–1978\n1962–1974\n1963–1974\n1972–1974\n1974–2001\n1974–2002\n1974–1992\n1983–1999\n1978–1997\n1974–2006\n1974–2005\n1974–1998\n1974–1992\n1974–2009",
+    "n_rows": 25,
+    "n_cols": 3
+  },
+  {
+    "table_id": "nu-53",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Film', one value per line.",
+    "gold": "Kodachrome film\nKodachrome film\nKodachrome film\nKodachrome Professional film (sheets)\nKodachrome film\nKodachrome Professional film\nKodak Color Print Material\nKodachrome II film\nKodachrome II film\nKodachrome II film\nKodachrome II film\nKodachrome II film\nKodachrome-X film\nKodachrome-X film\nKodachrome-X film\nKodachrome 25 film\nKodachrome 25 film\nKodachrome 25 film\nKodachrome 25 film\nKodachrome 40 film\nKodachrome 40 film\nKodachrome 40 film\nKodachrome 40 film\nKodachrome 40 film\nKodachrome 64",
+    "n_rows": 25,
+    "n_cols": 3
+  }
+]

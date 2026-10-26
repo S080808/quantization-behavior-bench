@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-4211",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "16 rows, 5 columns",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4211",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Attendance'?",
+    "gold": "",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4211",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Result'?",
+    "gold": "W 20–13",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4211",
+    "task": "cell_lookup",
+    "question": "What value is in row 8, column 'Week'?",
+    "gold": "7",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4211",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'October 25, 1987' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Date'",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4211",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'L 26–17' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 6, column 'Result'",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4211",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'at Los Angeles Raiders' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 4, column 'Opponent'",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4211",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "3\nOctober 4, 1987\nat Los Angeles Raiders\nL 35–17\n10,708",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4211",
+    "task": "row_retrieval",
+    "question": "List all values in row 11, one value per line.",
+    "gold": "10\nNovember 22, 1987\nGreen Bay Packers\nL 23–3\n34,611",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4211",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Attendance', one value per line.",
+    "gold": "56,940\n61,667\n\n10,708\n25,867\n20,296\n47,972\n63,498\n45,249\n40,718\n34,611\n43,820\n46,489\n63,834\n75,053\n20,370",
+    "n_rows": 16,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-4211",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Week', one value per line.",
+    "gold": "1\n2\n–\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15",
+    "n_rows": 16,
+    "n_cols": 5
+  }
+]

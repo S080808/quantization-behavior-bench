@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nu-898",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "20 rows, 5 columns",
+    "n_rows": 20,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-898",
+    "task": "cell_lookup",
+    "question": "What value is in row 17, column 'Prod #'?",
+    "gold": "17",
+    "n_rows": 20,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-898",
+    "task": "cell_lookup",
+    "question": "What value is in row 3, column 'Air Date'?",
+    "gold": "9/23/1967",
+    "n_rows": 20,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-898",
+    "task": "cell_lookup",
+    "question": "What value is in row 1, column 'Summary'?",
+    "gold": "The Fantastic Four are off to carry out their experiments on a remote island. The Mole Man, however, has been waiting for them and traps them in a radiation field and plans to submerge the world’s largest cities. The Fantastic Four escape but the Mole Man traps them again. They manage to escape their separate ways. They foil Mole Man’s domination and escape the island once and for all.",
+    "n_rows": 20,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-898",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Three Predictions Of Dr. Doom' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Title'",
+    "n_rows": 20,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-898",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'It Started On Yancy Street' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Title'",
+    "n_rows": 20,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-898",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'A UFO has been sighted. The pilot abducts the Fantastic Four from the Science Center and is setting course for Planet X. There, their dictator Kurrgo requests the Fantastic Four save their planet from another planet knocked off its orbit. Reed manages to formulate a working plan to save the population. While the plan is in process, Kurrgo has other ideas. However, Reed tricks Kurrgo and leaves him on the exploding planet while the micro-sized population and the Fantastic Four get away to safety.' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 7, column 'Summary'",
+    "n_rows": 20,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-898",
+    "task": "row_retrieval",
+    "question": "List all values in row 5, one value per line.",
+    "gold": "5a\n1\nKlaws\nKlaw is here to vanquish the Fantastic 4 with his solidifying sonic waves. Johnny is on vacation or so it would seem and arrives in the nick of time to assist Mr. Fantastic in catching The Klaw.\n10/7/1967",
+    "n_rows": 20,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-898",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "4\n5\nInvasion Of The Super-Skrull\nThe Skrulls have immediately failed to destroy the Fantastic Four. They introduce The Super-Skrull who possesses double power effects the Fantastic Four have. The Fantastic Four are overwhelmed by the Super-Skrull’s combined powers. The Fantastic Four lure the Super-Skrull to Crater Island. Susan plants a sonic wave jamming device on the Super-Skrull before he can destroy them with his ultimate power level.\n9/30/1967",
+    "n_rows": 20,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-898",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Air Date', one value per line.",
+    "gold": "9/9/1967\n9/16/1967\n9/23/1967\n9/30/1967\n10/7/1967\n10/7/1967\n10/14/1967\n10/21/1967\n10/28/1967\n11/4/1967\n11/11/1967\n11/18/1967\n11/25/1967\n12/9/1967\n12/16/1967\n12/30/1967\n1/6/1968\n1/13/1968\n9/14/1968\n9/21/1968",
+    "n_rows": 20,
+    "n_cols": 5
+  },
+  {
+    "table_id": "nu-898",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Eps #', one value per line.",
+    "gold": "1\n2\n3\n4\n5a\n5b\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19",
+    "n_rows": 20,
+    "n_cols": 5
+  }
+]

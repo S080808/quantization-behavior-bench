@@ -1,0 +1,191 @@
+{
+  "id": "nu-244",
+  "question": "is the unicode name for alert the same as the unicode name for backspace?",
+  "answers": [
+    "no"
+  ],
+  "header": [
+    "name",
+    "glyph",
+    "C string",
+    "Unicode",
+    "Unicode name"
+  ],
+  "rows": [
+    [
+      "NUL",
+      "",
+      "\\\\0",
+      "U+0000",
+      "NULL (NUL)"
+    ],
+    [
+      "alert",
+      "",
+      "\\\\a",
+      "U+0007",
+      "BELL (BEL)"
+    ],
+    [
+      "backspace",
+      "",
+      "\\\\b",
+      "U+0008",
+      "BACKSPACE (BS)"
+    ],
+    [
+      "tab",
+      "",
+      "\\\\t",
+      "U+0009",
+      "CHARACTER TABULATION (HT)"
+    ],
+    [
+      "carriage-return",
+      "",
+      "\\\\r",
+      "U+000D",
+      "CARRIAGE RETURN (CR)"
+    ],
+    [
+      "newline",
+      "",
+      "\\\\n",
+      "U+000A",
+      "LINE FEED (LF)"
+    ],
+    [
+      "vertical-tab",
+      "",
+      "\\\\v",
+      "U+000B",
+      "LINE TABULATION (VT)"
+    ],
+    [
+      "form-feed",
+      "",
+      "\\\\f",
+      "U+000C",
+      "FORM FEED (FF)"
+    ],
+    [
+      "space",
+      "",
+      "",
+      "U+0020",
+      "SPACE"
+    ],
+    [
+      "exclamation-mark",
+      "!",
+      "!",
+      "U+0021",
+      "EXCLAMATION MARK"
+    ],
+    [
+      "quotation-mark",
+      "\"",
+      "\\\\\"",
+      "U+0022",
+      "QUOTATION MARK"
+    ],
+    [
+      "number-sign",
+      "#",
+      "#",
+      "U+0023",
+      "NUMBER SIGN"
+    ],
+    [
+      "dollar-sign",
+      "$",
+      "$",
+      "U+0024",
+      "DOLLAR SIGN"
+    ],
+    [
+      "percent-sign",
+      "%",
+      "%",
+      "U+0025",
+      "PERCENT SIGN"
+    ],
+    [
+      "ampersand",
+      "&",
+      "&",
+      "U+0026",
+      "AMPERSAND"
+    ],
+    [
+      "apostrophe",
+      "'",
+      "\\\\'",
+      "U+0027",
+      "APOSTROPHE"
+    ],
+    [
+      "left-parenthesis",
+      "(",
+      "(",
+      "U+0028",
+      "LEFT PARENTHESIS"
+    ],
+    [
+      "right-parenthesis",
+      ")",
+      ")",
+      "U+0029",
+      "RIGHT PARENTHESIS"
+    ],
+    [
+      "asterisk",
+      "*",
+      "*",
+      "U+002A",
+      "ASTERISK"
+    ],
+    [
+      "plus-sign",
+      "+",
+      "+",
+      "U+002B",
+      "PLUS SIGN"
+    ],
+    [
+      "comma",
+      ",",
+      ",",
+      "U+002C",
+      "COMMA"
+    ],
+    [
+      "hyphen",
+      "-",
+      "-",
+      "U+002D",
+      "HYPHEN-MINUS"
+    ],
+    [
+      "period",
+      ".",
+      ".",
+      "U+002E",
+      "FULL STOP"
+    ],
+    [
+      "slash",
+      "/",
+      "/",
+      "U+002F",
+      "SOLIDUS"
+    ],
+    [
+      "zero",
+      "0",
+      "0",
+      "U+0030",
+      "DIGIT ZERO"
+    ]
+  ]
+}

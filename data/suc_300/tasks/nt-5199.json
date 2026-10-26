@@ -1,0 +1,90 @@
+[
+  {
+    "table_id": "nt-5199",
+    "task": "size_detection",
+    "question": "Count the rows in the table one by one, then count the columns. How many rows and columns does this table have? Answer exactly as: N rows, M columns.",
+    "gold": "25 rows, 6 columns",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-5199",
+    "task": "cell_lookup",
+    "question": "What value is in row 5, column 'Gross (worldwide)'?",
+    "gold": "$9,015,164",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-5199",
+    "task": "cell_lookup",
+    "question": "What value is in row 2, column 'Title'?",
+    "gold": "Dead Ringers",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-5199",
+    "task": "cell_lookup",
+    "question": "What value is in row 12, column 'Gross (worldwide)'?",
+    "gold": "$390,493,908",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-5199",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Clive Barker' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 9, column 'Director'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-5199",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'William Peter Blatty' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 8, column 'Director'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-5199",
+    "task": "reverse_lookup",
+    "question": "In which row and column does the value 'Renegades' appear? Answer exactly as: row N, column 'ColName'.",
+    "gold": "row 5, column 'Title'",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-5199",
+    "task": "row_retrieval",
+    "question": "List all values in row 24, one value per line.",
+    "gold": "Silent Fall\n1994\nBruce Beresford\n$30 million\n$3,180,674\n",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-5199",
+    "task": "row_retrieval",
+    "question": "List all values in row 4, one value per line.",
+    "gold": "Major League\n1989\nDavid S. Ward\n$11 million\n$49,797,148\n",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-5199",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Notes', one value per line.",
+    "gold": "\n\n\n\n\n\n\n\n\n\n\nThe score would become the music for Morgan Creek's animated logo.\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "n_rows": 25,
+    "n_cols": 6
+  },
+  {
+    "table_id": "nt-5199",
+    "task": "col_retrieval",
+    "question": "List all values in the column 'Gross (worldwide)', one value per line.",
+    "gold": "$45,661,556\n$8,038,508\n$19,674,852\n$49,797,148\n$9,015,164\n$7,754,571\n$715,983\n$26,098,824\n$8,862,354\n$44,143,410\n$44,926,706\n$390,493,908\n$17,129,000\n$9,011,574\n$10,736,401\n$75,505,856\n$13,609,396\n$12,281,551\n$107,217,396\n$30,626,182\n$1,596,687\n$6,971,777\n$89,611\n$3,180,674\n$212,385,533",
+    "n_rows": 25,
+    "n_cols": 6
+  }
+]
